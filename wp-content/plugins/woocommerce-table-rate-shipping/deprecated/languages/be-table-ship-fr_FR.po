@@ -1,0 +1,612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Table Rate Shipping for WooCommerce\n"
+"POT-Creation-Date: 2015-04-23 21:47-0500\n"
+"PO-Revision-Date: 2015-04-24 22:51-0500\n"
+"Last-Translator: Bolder Elements <info@bolderelements.net>\n"
+"Language-Team: Bolder Elements <erica@bolderelements.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: woocommerce-table-rate-shipping\n"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:49
+msgid "Toggle featured"
+msgstr "Basculer en vedette"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:88
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:427
+msgid "Everywhere"
+msgstr "Partout"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:93
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:140
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:175
+msgid "Except for"
+msgstr "À l'exception de"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:179
+msgid "Data Could Not Be Found"
+msgstr "Données est introuvable"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:202
+msgid "Zone Title"
+msgstr "Zone Titre"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:203
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:433
+msgid "Locations"
+msgstr "Emplacements"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:204
+msgid "Status"
+msgstr "Statut"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:226
+msgid "A zone with the ID provided does not exist"
+msgstr "Ne existe pas de zone avec l'ID fourni"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:231
+msgid "The zone titled"
+msgstr "La zone intitulée"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:231
+msgid "has been deleted"
+msgstr "a été supprimé"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:293
+msgid "Shipping Zones"
+msgstr "Zones d'expédition"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:293
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:298
+msgid "Your zones have been updated"
+msgstr "Vos zones ont été mis à jour"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:298
+msgid "Please test your forms to ensure that everything is in working order"
+msgstr "Se il vous plaît tester vos formulaires pour se assurer que tout est en ordre de marche"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:305
+msgid "The selected zones have been deleted"
+msgstr "Les zones sélectionnées ont été supprimées"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:309
+msgid "An error has occurred and the selected zones were not deleted"
+msgstr "Une erreur se est produite et les zones sélectionnées ne ont pas été supprimé"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:382
+msgid "A valid zone ID must be supplied"
+msgstr "Un ID de zone valide doit être fourni"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:384
+msgid "Sorry, a zone with the given ID could not be found"
+msgstr "Désolé, une zone avec l'ID donnée n'a pu être trouvée"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:410
+msgid "Zone Details"
+msgstr "Zone Détails"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:413
+msgid "Enabled"
+msgstr "Activé"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:414
+msgid "Enable &#47; Disable the use of this zone"
+msgstr "Activer & # 47; Désactiver l'utilisation de cette zone"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:417
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1322
+msgid "Title"
+msgstr "Titre"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:421
+msgid "Description"
+msgstr "Description"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:422
+msgid "This is an optional field to provide admins a brief description of this zone"
+msgstr "Ce est un champ facultatif pour fournir admins une brève description de cette zone"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:422
+msgid "This will NOT appear on any shop page"
+msgstr "Ce ne apparaîtra pas sur ne importe quelle page de la boutique"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:425
+msgid "Type"
+msgstr "Type"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:428
+msgid "Countries &#47; States"
+msgstr "Pays & # 47; Unis"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:429
+msgid "Postal Code"
+msgstr "Code Postal"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:436
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:463
+msgid "Countries"
+msgstr "Pays"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:440
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:541
+msgid "Except"
+msgstr "Sauf"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:442
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:465
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:486
+msgid "Choose countries &#47; states&hellip;"
+msgstr "Choisissez pays & # 47; États & hellip;"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:484
+msgid "Except the States &#47; Provinces"
+msgstr "Sauf les États & # 47; Provinces"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:506
+msgid "Except the Postal Codes"
+msgstr "Sauf les codes postaux"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:508
+msgid "is used to separate all postal code entries"
+msgstr "est utilisé pour séparer toutes les entrées de codes postaux"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:509
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:536
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:543
+msgid "is used to separate two postal codes in a range (numerical codes ONLY)"
+msgstr "est utilisé pour séparer deux codes postaux dans une gamme (codes numériques SEULEMENT)"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:510
+msgid "is a wildcard used to represent multiple characters &#47; numbers"
+msgstr "est un caractère générique utilisé pour représenter plusieurs caractères & # 47; numéros"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:511
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:538
+msgid "is used to denote postal codes or ranges to be excluded"
+msgstr "est utilisé pour désigner les codes postaux ou des fourneaux à exclure"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:516
+msgid "Country"
+msgstr "Pays"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:517
+msgid "Choose a country&hellip;"
+msgstr "Choisissez un pays & hellip;"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:534
+msgid "Postal Codes"
+msgstr "Codes postaux"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:537
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:544
+msgid "is a wildcard used to representent multiple characters/numbers"
+msgstr "est un joker utilisé pour representent multiples caractères / chiffres"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:589
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Vous ne avez pas d'autorisations suffisantes pour accéder à cette page"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:590
+msgid "You have taken too long"
+msgstr "Vous avez pris trop de temps"
+
+#: woocommerce-table-rate-shipping/inc/zone-list-table.php:590
+msgid "Please go back and retry"
+msgstr "Se il vous plaît revenir en arrière et recommencer"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:46
+msgid "Table Rate"
+msgstr "Tableau des taux"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:47
+msgid "Table Rates"
+msgstr "Tableau Tarifs"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:48
+msgid "Table rate shipping allows you to set numerous rates based on location and specified conditions. Click the headlines below to expand or hide additional settings."
+msgstr "Tableau expédition de taux vous permet de régler de nombreux taux basés sur la localisation et les conditions spécifiées. Cliquez sur les titres ci-dessous pour agrandir ou masquer les paramètres supplémentaires."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:177
+msgid "General Settings"
+msgstr "Réglages Généraux"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:182
+msgid "Enable &#47; Disable"
+msgstr "Activer &#47; Désactiver"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:184
+msgid "Enable this shipping method"
+msgstr "Activez cette méthode d'expédition"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:188
+msgid "Method Title"
+msgstr "Méthode Titre"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:191
+msgid "Shipping"
+msgstr "Livraison"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:194
+msgid "Tax Status"
+msgstr "Statut fiscal"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:198
+msgid "Taxable"
+msgstr "Imposable"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:199
+msgid "None"
+msgstr "Aucun"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:203
+msgid "Condition"
+msgstr "État"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:207
+msgid "Per Order"
+msgstr "Par commande"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:208
+msgid "Per Item"
+msgstr "Par Objet"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:209
+msgid "Per Class"
+msgstr "Par catégorie"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:213
+msgid "Free Shipping Override"
+msgstr "Gratuit Override de livraison"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:218
+msgid "Free Shipping at"
+msgstr "Livraison gratuite chez"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:220
+msgid "Minimum cost of ALL cart items to be eligible for free shipping. Leave blank to disable free shipping option"
+msgstr "Coût minimum de TOUS panier produits pour être admissible à la livraison gratuite. Laissez vide pour désactiver l'option de livraison gratuite"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:225
+msgid "Free Shipping Label"
+msgstr "Livraison gratuite Étiquette"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:227
+msgid "Label to appear next to Free Shipping Option in cart/checkout pages"
+msgstr "Étiquette apparaisse à côté de l'option Livraison gratuite dans le panier / pages de paiement"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:231
+msgid "Add Free Shipping as Option"
+msgstr "Ajouter Livraison gratuite à Option"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:233
+msgid "When checked, free shipping will be the only shipping cost, otherwise free shipping will be added as an option in addition to the table below"
+msgstr "Quand elle est cochée, livraison gratuite sera le seul coût d'expédition, sinon la livraison gratuite sera ajouté comme option en plus du tableau ci-dessous"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:237
+msgid "Tax Options"
+msgstr "options fiscales"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:242
+msgid "Include Tax"
+msgstr "Inclure impôt"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:244
+msgid "Calculate shipping based on prices AFTER tax"
+msgstr "Expédition Calculez basée sur les prix après impôts"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:248
+msgid "Volumetric Shipping"
+msgstr "Expédition volumétrique"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:253
+msgid "Enable Volumetric Comparison"
+msgstr "Permettre la comparaison volumétrique"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:255
+msgid "When activated, plugin will determine if volumetric weight is heavier than weight given and charge shipping based on the higher amount"
+msgstr "Lorsqu'il est activé, le plugin permettra de déterminer si le poids volumétrique est plus lourd que le poids donné et expédition de charge sur la base du montant le plus élevé"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:259
+msgid "Volumetric Divisor"
+msgstr "Volumétrique Diviseur"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:261
+msgid "This number can be found through your carrier's website"
+msgstr "Ce numéro se trouve sur le site Web de votre opérateur"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:265
+msgid "Miscellaneous Settings"
+msgstr "Paramètres divers"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:270
+msgid "Include Coupons"
+msgstr "Inclure Coupons"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:272
+msgid "Subtotal is calculated based on cart value after coupons"
+msgstr "Sous-total est calculé en fonction panier valeur après coupons"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:276
+msgid "Single Class Only"
+msgstr "Seulement classe unique"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:278
+msgid "When enabled, only items of the highest priority shipping class will be counted towards the shipping cost"
+msgstr "Lorsqu'elle est activée, seuls les éléments de la plus haute classe de priorité de transport seront pris en compte pour les frais de port"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:278
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:284
+msgid "Per Class Method Only"
+msgstr "Méthode catégorie par Seulement"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:282
+msgid "Highest Costing Class"
+msgstr "La plus haute classe Costing"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:284
+msgid "When enabled, the highest shipping cost from the per class calculations will be charged"
+msgstr "Lorsqu'elle est activée, le coût le plus élevé d'expédition des calculs par classe sera facturé"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:288
+msgid "No Fees on Free Shipping"
+msgstr "Pas de frais sur Livraison gratuite"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:290
+msgid "Do not add fees from Handling Fees table when shipping cost is Free"
+msgstr "Ne pas ajouter les frais de manutention table frais lorsque les frais de port est gratuit"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:294
+msgid "Round Weight"
+msgstr "Rond Poids"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:296
+msgid "Rounds weight value up to the next whole number"
+msgstr "valeur du poids des rounds suivants jusqu'à la prochaine nombre entier"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:300
+msgid "Hide This Method"
+msgstr "Cachez cette méthode"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:302
+msgid "Hide This Shipping Method When the Free Shipping Method is Available"
+msgstr "Cachez ce mode de livraison lorsque la méthode livraison gratuite"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:306
+msgid "Minimum Shipping Cost"
+msgstr "Coût de livraison minimum"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:308
+msgid "The minimum shipping price a customer pays no matter what the table returns"
+msgstr "Le prix minimal d'expédition d'un client paie peu importe ce que les rendements de table"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:312
+msgid "Maximum Shipping Cost"
+msgstr "Coût de livraison maximum"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:314
+msgid "The maximum shipping price a customer pays no matter what the table returns"
+msgstr "Le prix de transport maximale d'un client paie peu importe ce que les rendements de table"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:318
+msgid "Shipping Cost Tables"
+msgstr "Tables port de coûts"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1278
+msgid "Handling / Base Rates"
+msgstr "Manipulation / Taux de base"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1284
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1324
+msgid "Zone"
+msgstr "Zone"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1284
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1324
+msgid "Setup and review zones under the Shipping Zones tab"
+msgstr "zones d'installation et d'examen sous l'onglet Zones expédition"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1285
+msgid "Fee"
+msgstr "Frais"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1285
+msgid "Adds the specified percentage of purchase total followed by the fixed fee"
+msgstr "Ajoute le pourcentage spécifié d'achat total, suivie de la redevance fixe"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1290
+msgid "Add Handling Fee"
+msgstr "Ajouter Frais de manutention"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1291
+msgid "Delete selected fees"
+msgstr "Supprimer frais sélectionnés"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1309
+msgid "Set different handling rates or base fees for different countries. These prices will be added to all qualifying orders."
+msgstr "Définissez différents taux de manutention ou les frais de base pour les différents pays. Ces prix seront ajoutés à toutes les commandes de qualification."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1316
+msgid "Shipping Table Rates"
+msgstr "Tableau de Frais d'expédition"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1322
+msgid "This controls the title which the user sees during checkout"
+msgstr "Ce contrôle le titre qui l'utilisateur voit lors de votre commande"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1323
+msgid "Identifier"
+msgstr "Identifiant"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1323
+msgid "Separates which rates are combined and which become different options. If left blank, one will be generated."
+msgstr "Sépare laquelle les taux sont combinées et qui deviennent différentes options. Si laissé vide, on sera généré."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1325
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1399
+msgid "Shipping Class"
+msgstr "Expédition Classe"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1326
+msgid "Based On"
+msgstr "Basé Sur"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1327
+msgid "Min"
+msgstr "Min"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1328
+msgid "Max"
+msgstr "Max"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1329
+msgid "Cost"
+msgstr "Coût"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1329
+msgid "Fixed Price"
+msgstr "Prix ​​Fixé"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1329
+msgid "Percentage of Subtotal"
+msgstr "Pourcentage du total partiel"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1329
+msgid "Multiply cost by quantity"
+msgstr "Multiplier par le coût quantité"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1329
+msgid "Multiply cost by weight"
+msgstr "Coût multiplier par le poids"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1329
+msgid "Deny: the titled shipping rate will be removed"
+msgstr "Refuser: le taux d'expédition intitulé sera retiré"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1330
+msgid "Bundle"
+msgstr "Empaqueter"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1330
+msgid "If supplied, charges cost up until quantity given. Then charges second price for this and every item after."
+msgstr "Si fourni, charges coûtent jusqu'à quantité donnée. Charge alors second prix pour cela et chaque article après."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1331
+msgid "Default"
+msgstr "Par défaut"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1331
+msgid "Check the box to set this option as the default selected choice on the cart page"
+msgstr "Cochez la case pour activer cette option que le choix sélectionné par défaut sur la page du panier"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1336
+msgid "Add Table Rate"
+msgstr "Ajouter une table Taux"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1337
+msgid "Use the wildcard symbol (*) to denote multiple regions"
+msgstr "Utilisez le symbole de caractère générique (*) pour désigner plusieurs régions"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1338
+msgid "Duplicate selected rates"
+msgstr "Dupliquer taux sélectionnés"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1339
+msgid "Delete selected rates"
+msgstr "Supprimer taux sélectionnés"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1379
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1380
+msgid "n/a"
+msgstr "n / a"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1381
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1383
+msgid "0.00"
+msgstr "0,00"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1394
+msgid "Shipping Class Priorities"
+msgstr "Priorités port de classe"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1400
+msgid "Priority"
+msgstr "Priorité"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1401
+msgid "Exclude"
+msgstr "Exclure"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1406
+msgid "These priorities will be used to calculate the appropriate shipping price in the table above. When an order has items of different shipping classes, the one with the highest priority will be used."
+msgstr "Ces priorités seront utilisés pour calculer le prix d'expédition appropriée dans le tableau ci-dessus. Quand une commande comporte des éléments de différentes classes d'expédition, l'un avec la plus haute priorité sera utilisé."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1454
+msgid "Set the Order Shipping Options Will Appear"
+msgstr "Définissez les options de commande Livraison apparaîtront"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1457
+msgid "Shipping Cost Order"
+msgstr "Coût de livraison Commande"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1472
+msgid "Not seeing all of your options"
+msgstr "Ne pas voir toutes vos options"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1472
+msgid "Refresh List"
+msgstr "Rafraîchir la liste"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1549
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1571
+msgid "Delete the selected rates"
+msgstr "Supprimez les taux sélectionnés"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1994
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1996
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1998
+msgid "Attention"
+msgstr "Attention"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1994
+msgid "Version 3.3 of the Table Rate Shipping plugin for WooCommerce introduced a new, more efficient way of storing zone information. You will need to update your system in order for the plugin to continue functioning properly."
+msgstr "Version 3.3 du plugin Tableau Taux expédition pour WooCommerce introduit une nouvelle façon, plus efficace de stocker des informations de zone. Vous devrez mettre à jour votre système pour que le plugin de continuer à fonctionner correctement."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1996
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:1998
+msgid "You have not defined any shipping zones for the WooCommerce Table Rate Shipping plugin. You must setup your zones before creating any rates in the shipping method's settings page."
+msgstr "Vous ne avez pas défini de zones de livraison pour le plugin WooCommerce tableau des taux de port. Vous devez configurer vos zones avant de créer des taux dans la page des paramètres de la méthode d'expédition."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2086
+msgid "Your zones have been updated. Please test your forms to ensure that everything is in working order."
+msgstr "Vos zones ont été mises à jour. Se il vous plaît tester vos formulaires pour se assurer que tout est en ordre de marche."
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2163
+msgid "Settings"
+msgstr "Paramètres"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2164
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2174
+msgid "Registration"
+msgstr "Inscription"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2199
+msgid "View details"
+msgstr "Voir les détails"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2200
+msgid "Docs"
+msgstr "Docs"
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:2201
+msgid "Support"
+msgstr "Soutien"

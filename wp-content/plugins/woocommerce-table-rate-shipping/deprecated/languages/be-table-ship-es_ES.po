@@ -1,0 +1,538 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Table Rate Shipping for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-23 21:47-0500\n"
+"PO-Revision-Date: Sun Jan 10 2016 18:39:39 GMT+0100 (CET)\n"
+"Last-Translator: puntoy <jgonzalezd8916@gmail.com>\n"
+"Language-Team: Bolder Elements <erica@bolderelements.net>\n"
+"Language: Spanish (Spain)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: woocommerce-table-rate-shipping\n"
+"X-Loco-Target-Locale: es_ES"
+
+msgid "0.00"
+msgstr "0.00"
+
+msgid "A valid zone ID must be supplied"
+msgstr "Un identificador válido de la zona debe ser suministrado"
+
+msgid "A zone with the ID provided does not exist"
+msgstr "La zona con el ID proporcionado no existe"
+
+msgid "Add Free Shipping as Option"
+msgstr "Añadir envío gratuito como opción"
+
+msgid "Add Handling Fee"
+msgstr "Añadir coste de manipulación"
+
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+msgid "Add Table Rate"
+msgstr "Añadir tarifa a la tabla"
+
+msgid "Adds the specified percentage of purchase total followed by the fixed fee"
+msgstr ""
+"Agrega el porcentaje especificado del total de la compra seguida de la cuota "
+"fijada"
+
+msgid "An error has occurred and the selected zones were not deleted"
+msgstr "Se ha producido un error y las zonas seleccionadas no fueron borrados"
+
+msgid "Attention"
+msgstr "Atención"
+
+msgid "Based On"
+msgstr "Basado En"
+
+msgid "Bundle"
+msgstr "Agrupado"
+
+msgid "Calculate shipping based on prices AFTER tax"
+msgstr "Calcular el envío según los precios DESPUÉS de impuestos"
+
+msgid ""
+"Check the box to set this option as the default selected choice on the cart "
+"page"
+msgstr ""
+"Marque la casilla para establecer esta opción como la opción seleccionada "
+"por defecto en la página de compra"
+
+msgid "Choose a country&hellip;"
+msgstr "Elija un país&hellip;"
+
+msgid "Choose countries &#47; states&hellip;"
+msgstr "Elija países &#47; estados&hellip;"
+
+msgid "Condition"
+msgstr "Condición"
+
+msgid "Cost"
+msgstr "Coste"
+
+msgid "Countries"
+msgstr "Países"
+
+msgid "Countries &#47; States"
+msgstr "Países &#47; Provincias"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Data Could Not Be Found"
+msgstr "Los datos no se han podido encontrar"
+
+msgid "Default"
+msgstr "Por defecto"
+
+msgid "Delete selected fees"
+msgstr "Eliminar los costes seleccionados"
+
+msgid "Delete selected rates"
+msgstr "Eliminar las tarifas seleccionadas"
+
+msgid "Delete the selected rates"
+msgstr "Eliminar las tarifas seleccionadas"
+
+msgid "Deny: the titled shipping rate will be removed"
+msgstr "Denegar: se eliminará la tarifa de envío titulada"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Do not add fees from Handling Fees table when shipping cost is Free"
+msgstr ""
+"No agregar los costes de manipulación de la Tabla correspondiente cuando el "
+"envío sea gratuito"
+
+msgid "Docs"
+msgstr "Docs"
+
+msgid "Duplicate selected rates"
+msgstr "Duplicar las tarifas seleccionadas"
+
+msgid "Enable &#47; Disable"
+msgstr "Habilitar &#47; deshabilitar"
+
+msgid "Enable &#47; Disable the use of this zone"
+msgstr "Habilitar &#47; Deshabilitar el uso de esta zona"
+
+msgid "Enable Volumetric Comparison"
+msgstr "Habilitar cálculo volumétrico"
+
+msgid "Enable this shipping method"
+msgstr "Habilitar este método de envío"
+
+msgid "Enabled"
+msgstr "Habilitado"
+
+msgid "Everywhere"
+msgstr "En todas partes"
+
+msgid "Except"
+msgstr "Excepto"
+
+msgid "Except for"
+msgstr "Excepto por"
+
+msgid "Except the Postal Codes"
+msgstr "Excepto los Códigos Postales"
+
+msgid "Except the States &#47; Provinces"
+msgstr "Excepto los Estados &#47; Provincias"
+
+msgid "Exclude"
+msgstr "Excluir"
+
+msgid "Fee"
+msgstr "Cargo"
+
+msgid "Fixed Price"
+msgstr "Precio Fijo"
+
+msgid "Free Shipping Label"
+msgstr "Etiqueta de Envío Gratis"
+
+msgid "Free Shipping Override"
+msgstr "Cargos para envío gratuito"
+
+msgid "Free Shipping at"
+msgstr "Envío Gratis en"
+
+msgid "General Settings"
+msgstr "Configuración General"
+
+msgid "Handling / Base Rates"
+msgstr "Tarifas de Manipulación / Base"
+
+msgid "Hide This Method"
+msgstr "Ocultar Este Método"
+
+msgid "Hide This Shipping Method When the Free Shipping Method is Available"
+msgstr "Ocultar este método del envío cuando el envío gratuito esté disponible"
+
+msgid "Highest Costing Class"
+msgstr "Clase de mayor coste"
+
+msgid "Identifier"
+msgstr "Identificador"
+
+msgid ""
+"If supplied, charges cost up until quantity given. Then charges second price "
+"for this and every item after."
+msgstr ""
+"Si es facilitado, los cargos se aplican hasta la cantidad determinada. "
+"Entonces se aplica el segundo precio para este y todos los elementos "
+"restantes."
+
+msgid "Include Coupons"
+msgstr "Incluir Cupones"
+
+msgid "Include Tax"
+msgstr "Incluir Impuestos"
+
+msgid "Label to appear next to Free Shipping Option in cart/checkout pages"
+msgstr ""
+"Etiqueta que aparece junto a la opción de envío gratis en las páginas de "
+"compra / pago"
+
+msgid "Locations"
+msgstr "Ubicaciones"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Maximum Shipping Cost"
+msgstr "Coste máximo de envío"
+
+msgid "Method Title"
+msgstr "Título del método"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Minimum Shipping Cost"
+msgstr "Coste mínimo de envío"
+
+msgid ""
+"Minimum cost of ALL cart items to be eligible for free shipping. Leave blank "
+"to disable free shipping option"
+msgstr ""
+"Coste mínimo de TODOS los elementos del carrito para tener derecho al envío "
+"gratuito. Dejar en blanco para desactivar la opción de envío gratuito."
+
+msgid "Miscellaneous Settings"
+msgstr "Otras configuraciones"
+
+msgid "Multiply cost by quantity"
+msgstr "Multiplica el coste por la cantidad de artículos"
+
+msgid "Multiply cost by weight"
+msgstr "Multiplicar el coste por el peso"
+
+msgid "No Fees on Free Shipping"
+msgstr "Sin cargos de manipulación en el envío gratuito"
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Not seeing all of your options"
+msgstr "¿No ve todas sus opciones"
+
+msgid "Per Class"
+msgstr "Por clase"
+
+msgid "Per Class Method Only"
+msgstr "Sólo método por clase"
+
+msgid "Per Item"
+msgstr "Por artículo"
+
+msgid "Per Order"
+msgstr "Por pedido"
+
+msgid "Percentage of Subtotal"
+msgstr "Porcentaje de subtotal"
+
+msgid "Please go back and retry"
+msgstr "Por favor, regrese y vuelva a intentarlo"
+
+msgid "Please test your forms to ensure that everything is in working order"
+msgstr "Por favor, pruebe los formularios para asegurarse de que todo está en orden."
+
+msgid "Postal Code"
+msgstr "Código Postal"
+
+msgid "Postal Codes"
+msgstr "Códigos Postales"
+
+msgid "Priority"
+msgstr "Prioridad"
+
+msgid "Refresh List"
+msgstr "Actualizar Lista"
+
+msgid "Registration"
+msgstr "Registro"
+
+msgid "Round Weight"
+msgstr "Redondear peso"
+
+msgid "Rounds weight value up to the next whole number"
+msgstr "Redondear el peso hasta el siguiente número entero"
+
+msgid ""
+"Separates which rates are combined and which become different options. If "
+"left blank, one will be generated."
+msgstr ""
+"Separa qué tarifas se combinan y cuáles se convierten en opciones diferentes."
+" Si se deja en blanco, se generará una."
+
+msgid ""
+"Set different handling rates or base fees for different countries. These "
+"prices will be added to all qualifying orders."
+msgstr ""
+"Establecer diferentes tarifas de manipulación o cuotas de base para las "
+"diferentes zonas. Estos precios se agregarán a todos los pedidos que "
+"correspondan."
+
+msgid "Set the Order Shipping Options Will Appear"
+msgstr "Establezca el orden en que aparecerán las opciones de envío"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Setup and review zones under the Shipping Zones tab"
+msgstr "Ajuste y revise las zonas en la pestaña de Zonas de Envío"
+
+msgid "Shipping"
+msgstr "Envío"
+
+msgid "Shipping Class"
+msgstr "Clase de envío"
+
+msgid "Shipping Class Priorities"
+msgstr "Prioridades de la clase de envío"
+
+msgid "Shipping Cost Order"
+msgstr "Orden de los costes de envío"
+
+msgid "Shipping Cost Tables"
+msgstr "Tablas de coste de envío"
+
+msgid "Shipping Table Rates"
+msgstr "Tabla de tarifas de envío"
+
+msgid "Shipping Zones"
+msgstr "Zonas de envío"
+
+msgid "Single Class Only"
+msgstr "Sólo una única clase"
+
+msgid "Sorry, a zone with the given ID could not be found"
+msgstr "Lo sentimos, una zona con el ID dado no se pudo encontrar"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Subtotal is calculated based on cart value after coupons"
+msgstr ""
+"El subtotal se calcula según el valor del carrito después de aplicar los "
+"cupones"
+
+msgid "Support"
+msgstr "Soporte"
+
+msgid "Table Rate"
+msgstr "Tabla de tarifa"
+
+msgid "Table Rates"
+msgstr "Tabla de tarifas"
+
+msgid ""
+"Table rate shipping allows you to set numerous rates based on location and "
+"specified conditions. Click the headlines below to expand or hide additional "
+"settings."
+msgstr ""
+"Este plugin (Table Rate Shipping) le permite establecer diversas tarifas "
+"basadas en la ubicación y condiciones especificadas. Haga clic en los "
+"títulos para expandir u ocultar los ajustes adicionales."
+
+msgid "Tax Options"
+msgstr "Opciones de Impuestos"
+
+msgid "Tax Status"
+msgstr "Situación Fiscal"
+
+msgid "Taxable"
+msgstr "Imponible"
+
+msgid "The maximum shipping price a customer pays no matter what the table returns"
+msgstr ""
+"El precio máximo de envío que un cliente pagará sin importar lo que devuelva "
+"la tabla de cálulo"
+
+msgid "The minimum shipping price a customer pays no matter what the table returns"
+msgstr ""
+"El precio mínimo de envío que un cliente pagará sin importar lo que devuelva "
+"la tabla de cálculo"
+
+msgid "The selected zones have been deleted"
+msgstr "Se han eliminado las zonas seleccionadas"
+
+msgid "The zone titled"
+msgstr "La zona titulada"
+
+msgid ""
+"These priorities will be used to calculate the appropriate shipping price in "
+"the table above. When an order has items of different shipping classes, the "
+"one with the highest priority will be used."
+msgstr ""
+"Estas prioridades se utilizarán para calcular el correcto coste del envío en "
+"la tabla anterior. Cuando un pedido tiene artículos de diferentes clases de "
+"envío, se utilizará el que tiene la más alta prioridad."
+
+msgid "This controls the title which the user sees during checkout"
+msgstr "Esto controla el título que el usuario ve durante el pago"
+
+msgid "This is an optional field to provide admins a brief description of this zone"
+msgstr ""
+"Este es un campo opcional para proporcionar a los administradores una breve "
+"descripción de esta zona"
+
+msgid "This number can be found through your carrier's website"
+msgstr ""
+"Este número se puede encontrar a través de la página web de su compañía de "
+"transportes"
+
+msgid "This will NOT appear on any shop page"
+msgstr "Esto no aparecerá en ninguna página de la tienda"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Toggle featured"
+msgstr "Alternar ofrecido"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Use the wildcard symbol (*) to denote multiple regions"
+msgstr "Utilice el símbolo de comodín (*) para denotar varias regiones"
+
+msgid ""
+"Version 3.3 of the Table Rate Shipping plugin for WooCommerce introduced a "
+"new, more efficient way of storing zone information. You will need to update "
+"your system in order for the plugin to continue functioning properly."
+msgstr ""
+"Versión 3.3 del plugin Tabla de Tarifas de Envío (Table Rate Shipping) para "
+"WooCommerce introdujo una nueva forma más eficiente de almacenar la "
+"información de las zonas. Tiene que actualizar su sistema para que el plugin "
+"siga funcionando correctamente."
+
+msgid "View details"
+msgstr "Ver detalles"
+
+msgid "Volumetric Divisor"
+msgstr "Divisor volumétrico"
+
+msgid "Volumetric Shipping"
+msgstr "Envío volumétrico"
+
+msgid ""
+"When activated, plugin will determine if volumetric weight is heavier than "
+"weight given and charge shipping based on the higher amount"
+msgstr ""
+"Cuando está activado, el plugin determinará si el peso volumétrico es más "
+"pesado que el peso dado y se aplicará la cantidad más alta"
+
+msgid ""
+"When checked, free shipping will be the only shipping cost, otherwise free "
+"shipping will be added as an option in addition to the table below"
+msgstr ""
+"Cuando está activado, el envío gratuito será el único coste de envío, de lo "
+"contrario el envío gratuito se añadirá como una opción, además de la tabla "
+"de abajo"
+
+msgid ""
+"When enabled, only items of the highest priority shipping class will be "
+"counted towards the shipping cost"
+msgstr ""
+"Cuando está activado, sólo los elementos de la clase del envío de más alta "
+"prioridad serán contados para calcular el coste de envío"
+
+msgid ""
+"When enabled, the highest shipping cost from the per class calculations will "
+"be charged"
+msgstr ""
+"Cuando está activado, se cargará el coste de envío más alto de los cálculos "
+"por clase."
+
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Usted no tiene los permisos necesarios para acceder a esta página"
+
+msgid ""
+"You have not defined any shipping zones for the WooCommerce Table Rate "
+"Shipping plugin. You must setup your zones before creating any rates in the "
+"shipping method's settings page."
+msgstr ""
+"No se ha definido ninguna zona de envío para el plugin Table Rate Shipping. "
+"Debe configurar sus zonas antes de crear cualquier tasa en la página de "
+"configuración de los métodos de envío."
+
+msgid "You have taken too long"
+msgstr "Usted se ha tomado demasiado tiempo"
+
+msgid "Your zones have been updated"
+msgstr "Sus zonas se han actualizado"
+
+msgid ""
+"Your zones have been updated. Please test your forms to ensure that "
+"everything is in working order."
+msgstr ""
+"Sus zonas han sido actualizados. Por favor, pruebe los formularios para "
+"asegurarse de que todo está en orden."
+
+msgid "Zone"
+msgstr "Zona"
+
+msgid "Zone Details"
+msgstr "Detalles de la zona"
+
+msgid "Zone Title"
+msgstr "Título de la zona"
+
+msgid "has been deleted"
+msgstr "ha sido eliminado"
+
+msgid "is a wildcard used to represent multiple characters &#47; numbers"
+msgstr "es un comodín utilizado para representar varios caracteres &#47; números"
+
+msgid "is a wildcard used to representent multiple characters/numbers"
+msgstr "es un comodín utilizado para representar varios caracteres/números"
+
+msgid "is used to denote postal codes or ranges to be excluded"
+msgstr "se utiliza para denotar códigos postales o rangos a ser excluidos"
+
+msgid "is used to separate all postal code entries"
+msgstr "se utiliza para separar todos los códigos postales"
+
+msgid "is used to separate two postal codes in a range (numerical codes ONLY)"
+msgstr ""
+"se utiliza para separar dos códigos postales en un rango (códigos numéricos "
+"SOLAMENTE)"
+
+msgid "n/a"
+msgstr "n/a"

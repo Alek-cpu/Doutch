@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>traffic.html</title>
+<style type="text/css">
+<!--
+  em,h1,h2,h3,h4,h5,h6,form,input,br,hr,p,td,th,li,ul {
+  font-family:Verdana,Arial,Helvetica,sans-serif; }
+
+  td {color:#000000; background-color:#cccccc;}
+
+  th {color:#000000; background-color:#999999;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+<!-- HEADER -->
+<h1>Traffic-Auswertung f&uuml;r HTTP, FTP/SFTP, E-Mail und WebDAV</h1>
+<p>
+Die untenstehende Auswertung zeigt Ihnen den Datentransfer f&uuml;r die
+einzelnen Monate des laufenden Jahres an. Aufgeschl&uuml;sselt sind HTTP,
+FTP, E-Mail und WebDAV. Die Summe der jeweiligen Einzelwerte ist
+in den ersten beiden Spalten angegeben. Die Zugriffs-Zahl gibt an, wie viele
+ausgehende HTTP-Antworten bzw. FTP-Datei-Up- und -Downloads von Ihrem Paket
+(inkl. aller Domains) angefordert worden sind.
+</p>
+
+<p>
+Grundlage f&uuml;r die HTTP-Auswertungen ist die Datei
+access.log.&lt;kw&gt;.&lt;tag&gt; bzw. f&uuml;r FTP/SFTP-Zugriffe die Dateien
+ftp.xferlog und sftp.log. Diese Dateien befinden sich im Verzeichnis /logs
+(ftp.xferlog nur bei Paketen mit eigener IP). 'Anzahl' im Bereich E-Mail gibt
+an, wie viele E-Mails in den einzelnen Monaten mit Skripten von Ihrer
+Pr&auml;senz versendet worden sind. E-Mails, die Sie &uuml;ber Mailinglisten
+versendet haben, werden nicht mitgez&auml;hlt.
+</p>
+
+<p>
+Die Megabytes, die den einzelnen Gliederungspunkten zugeordnet sind, geben an,
+wie viele Megabytes durch die aufgelistete Anzahl an Zugriffen bzw. E-Mails
+tats&auml;chlich verbraucht wurden.
+</p>
+
+<table border="0" cellspacing="2" cellpadding="3">
+<thead>
+<tr>
+<th></th>
+<th colspan="2">Total</th>
+<th colspan="2">HTTP</th>
+<th colspan="2">FTP/SFTP</th>
+<th colspan="2">Mail</th>
+<th colspan="2">WebDAV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Monat</th>
+<th>Megabytes</th><th>Zugriffe</th>
+<th>Megabytes</th><th>Zugriffe</th>
+<th>Megabytes</th><th>Zugriffe</th>
+<th>Megabytes</th><th>Anzahl</th>
+<th>Megabytes</th><th>Zugriffe</th>
+</tr>
+<tr><th><a href="11.html">2020-11</a></th>
+<td align="right">178,2</td><td align="right" style="border-left:0px;">4.016</td>
+<td align="right">177,8</td><td align="right" style="border-left:0px;">4.003</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,5</td><td align="right" style="border-left:0px;">13</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-11 178.240 4016 177.770 4003 0.000 0 0.470 13 0.000 0 -->
+<tr><th><a href="10.html">2020-10</a></th>
+<td align="right">2.757,9</td><td align="right" style="border-left:0px;">58.492</td>
+<td align="right">2.751,8</td><td align="right" style="border-left:0px;">58.293</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">6,1</td><td align="right" style="border-left:0px;">199</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-10 2757.929 58492 2751.784 58293 0.000 0 6.145 199 0.000 0 -->
+<tr><th><a href="09.html">2020-09</a></th>
+<td align="right">2.892,7</td><td align="right" style="border-left:0px;">59.695</td>
+<td align="right">2.891,0</td><td align="right" style="border-left:0px;">59.557</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">1,6</td><td align="right" style="border-left:0px;">138</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-09 2892.664 59695 2891.041 59557 0.000 0 1.623 138 0.000 0 -->
+<tr><th><a href="08.html">2020-08</a></th>
+<td align="right">7.054,0</td><td align="right" style="border-left:0px;">129.122</td>
+<td align="right">7.047,7</td><td align="right" style="border-left:0px;">128.911</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">6,3</td><td align="right" style="border-left:0px;">211</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-08 7053.955 129122 7047.692 128911 0.000 0 6.263 211 0.000 0 -->
+<tr><th><a href="07.html">2020-07</a></th>
+<td align="right">14.374,1</td><td align="right" style="border-left:0px;">276.986</td>
+<td align="right">14.370,5</td><td align="right" style="border-left:0px;">276.810</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">3,6</td><td align="right" style="border-left:0px;">176</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-07 14374.132 276986 14370.518 276810 0.000 0 3.614 176 0.000 0 -->
+<tr><th><a href="06.html">2020-06</a></th>
+<td align="right">10.842,5</td><td align="right" style="border-left:0px;">194.661</td>
+<td align="right">10.840,5</td><td align="right" style="border-left:0px;">194.548</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">2,0</td><td align="right" style="border-left:0px;">113</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-06 10842.504 194661 10840.514 194548 0.000 0 1.990 113 0.000 0 -->
+<tr><th><a href="05.html">2020-05</a></th>
+<td align="right">12.336,9</td><td align="right" style="border-left:0px;">99.026</td>
+<td align="right">12.336,5</td><td align="right" style="border-left:0px;">98.988</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,4</td><td align="right" style="border-left:0px;">38</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-05 12336.938 99026 12336.548 98988 0.000 0 0.390 38 0.000 0 -->
+<tr><th><a href="04.html">2020-04</a></th>
+<td align="right">9.538,6</td><td align="right" style="border-left:0px;">120.588</td>
+<td align="right">9.538,0</td><td align="right" style="border-left:0px;">120.524</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,6</td><td align="right" style="border-left:0px;">64</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-04 9538.585 120588 9538.019 120524 0.000 0 0.566 64 0.000 0 -->
+<tr><th><a href="03.html">2020-03</a></th>
+<td align="right">13.873,4</td><td align="right" style="border-left:0px;">212.636</td>
+<td align="right">13.873,1</td><td align="right" style="border-left:0px;">212.595</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,3</td><td align="right" style="border-left:0px;">41</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-03 13873.412 212636 13873.107 212595 0.000 0 0.305 41 0.000 0 -->
+<tr><th><a href="02.html">2020-02</a></th>
+<td align="right">3.952,3</td><td align="right" style="border-left:0px;">118.794</td>
+<td align="right">3.952,2</td><td align="right" style="border-left:0px;">118.771</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,2</td><td align="right" style="border-left:0px;">23</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-02 3952.324 118794 3952.170 118771 0.000 0 0.154 23 0.000 0 -->
+<tr><th><a href="01.html">2020-01</a></th>
+<td align="right">5.150,6</td><td align="right" style="border-left:0px;">145.279</td>
+<td align="right">5.150,2</td><td align="right" style="border-left:0px;">145.227</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,4</td><td align="right" style="border-left:0px;">52</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2020-01 5150.588 145279 5150.163 145227 0.000 0 0.425 52 0.000 0 -->
+</tbody>
+</table>
+
+<!-- FOOTER -->
+<pre>
+1 kB = 1000 Bytes
+1 MB = 1000 kB
+1 GB = 1000 MB
+</pre>
+
+
+</body>
+</html>

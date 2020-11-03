@@ -1,0 +1,66 @@
+.fl-countdown-cnt{ margin:10px auto 0 auto; display:block;  text-align:center;  }
+ul.fl-countdown {
+  list-style: none;
+  margin: 10px 0!important;
+  padding: 0!important;
+  display: inline-block;
+  text-align: center;
+}
+
+
+ul.fl-countdown.fl-medium li span {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+
+/*STYLES*/
+/*1*/
+ul.fl-countdown.fl-style-1 li { display: inline-block; margin:0; width:auto!important; }
+ul.fl-countdown.fl-style-1 li.seperator {
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+ul.fl-countdown.fl-style-1 li p {
+  color: #a7abb1;
+  font-size: 10px;
+  margin:0;
+}
+
+/*2*/
+ul.fl-countdown.fl-style-2 li { display: inline-block; width:50px; background:#333; -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; color:#fff; padding:5px 0;margin:0;  }
+ul.fl-countdown.fl-style-2 li.seperator {
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: top;
+  width:5px; background:none!important;
+  line-height:40px; color:#000;
+}
+
+ul.fl-countdown.fl-style-2 li p {
+  color: #fff;
+  font-size: 10px;
+  margin:0;
+}
+
+/*3*/
+ul.fl-countdown.fl-style-3 li { display: inline-block; margin:0; width:auto!important;}
+	ul.fl-countdown.fl-style-3 li span { padding:0 5px; background:#333; color:#fff;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; }
+
+ul.fl-countdown.fl-style-3 li.seperator {
+  font-size: 20px;
+  vertical-align: top;
+  width:5px; background:none;
+  line-height:15px; color:#000;
+}
+ul.fl-countdown.fl-style-3.fl-big li.seperator{line-height:20px;}
+
+ul.fl-countdown.fl-style-3 li p {
+  color: #333;
+  font-size: 10px;
+  margin:7px 0 0 0;
+}
+

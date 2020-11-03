@@ -1,0 +1,31 @@
+h3.title_h4,
+h4.title_h4 {
+	font-size:1.4em;
+	border-bottom: 1px solid #555;
+	color: #555;
+	padding:0 0 10px 15px;
+	background: url(arrow_right.png) no-repeat 0px 3px;
+}
+h3.title_h4:hover,
+h4.title_h4:hover {cursor: pointer;}
+
+h3.title_h4.active,
+h4.title_h4.active {
+	background: url(arrow_down.png) no-repeat 0px 3px;
+}
+h3.title_h4 > .form-table,
+h4.title_h4 > .form-table { height: 0px; overflow: hidden; }
+
+
+.be-compare-popup { position:fixed; top:0;  left:0; width:100%; height:100%; background:url(overlay.png) repeat; text-align:center; z-index: 8000; }
+	.be-compare-popup .be-popup-container { display: inline-block; margin-top: 200px; z-index: 9000; box-shadow:0 0 25px #111; -webkit-box-shadow:0 0 25px #111; -moz-box-shadow:0 0 25px #111; min-width:350px; max-width:450px; background: #fff; text-align: center; padding: 30px; max-height: 600px; overflow-y: auto; }
+	.be-compare-popup .add_form label { font-size: 1.2em; font-weight: bold; }
+	.be-compare-popup .add_form span { font-style: italic; color: #aeaeae; }
+	.be-compare-popup .add_form input[type="text"] { width: 100%; }
+	.be-compare-popup .add_form select { width: 85%; }
+
+	.be-compare-popup .labeled-form { text-align: left; }
+		.be-compare-popup .labeled-form label { font-size: 1em; font-weight: bold; display: block; width: 100%; }
+		.be-compare-popup .labeled-form select, .be-compare-popup .labeled-form textarea { width: 100%; }
+		.be-compare-popup .labeled-form .subcategory_title { font-size: 1.1em; padding: 3px 5px !important; border: 0 !important; background: #dcdcdc; margin-top: 20px !important; width: 100% !important; }
+		.be-compare-popup .section label { width: auto !important; display: inline; }

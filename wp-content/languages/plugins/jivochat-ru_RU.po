@@ -1,0 +1,181 @@
+# Translation of Plugins - JivoChat Live Chat &#8211; WP live chat plugin for WordPress - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - JivoChat Live Chat &#8211; WP live chat plugin for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-27 06:50:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - JivoChat Live Chat &#8211; WP live chat plugin for WordPress - Stable (latest release)\n"
+
+#: templates/jivo_logo.php:2
+msgid "jivochat_logo.svg"
+msgstr "jivo_logo.svg"
+
+#: templates/switch_on.php:15
+msgid "Show JivoChat Widget"
+msgstr "Показать виджет Jivo"
+
+#: templates/switch_on.php:10
+msgid "Click the button below to show your JivoChat widget."
+msgstr "Нажмите кнопку ниже, чтобы показать свой виджет Jivo."
+
+#: templates/switch_on.php:9
+msgid "Your JivoChat widget is currently hidden, you are missing clients!"
+msgstr "Ваш виджет Jivo в настоящее время скрыт, Вы теряете клиентов!"
+
+#: templates/signup.php:124
+msgid "Already have an account? <span id=\"login_link\" class=\"jivo-redirect\">Log in</span>"
+msgstr "Уже есть аккаунт? <span id=\"login_link\" class=\"jivo-redirect\">Авторизоваться</span>"
+
+#: templates/signup.php:117
+msgid "By creating an account you agree to <a class=\"jivo-caption\" href=\"https://www.jivochat.com/terms?utm_source=wordpress\" target=\"_blank\">Terms and Conditions</a> and <a class=\"jivo-caption\" href=\"https://www.jivochat.com/privacy-notice?utm_source=wordpress\" target=\"_blank\">Privacy Policy</a>"
+msgstr "Создавая аккаунт, вы соглашаетесь с <a class=\"jivo-caption\" href=\"https://www.jivo.ru/terms?utm_source=wordpress\" target=\"_blank\">Условиями и положениями</a> и <a class=\"jivo-caption\" href=\"https://www.jivo.ru/files/personal_data_processing_policy.pdf?utm_source=wordpress\" target=\"_blank\">Политикой конфиденциальности.</a>"
+
+#: templates/signup.php:105
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: templates/signup.php:95
+msgid "You can choose a language to have it in your JivoChat widget on your website. Suggested language for your JivoChat widget is: <b id=\"suggested_language\"></b><div>If you want to change it, please select an alternative at dropdown list.</div>"
+msgstr "Вы можете выбрать язык, чтобы он был в вашем виджете Jivo на вашем сайте. Предлагаемый язык для вашего виджета Jivo: <b id=\"suggested_language\"></b><div>Если Вы хотите изменить его, выберите другой вариант в выпадающем списке.</div>"
+
+#: templates/signup.php:84
+msgid "Widget Language"
+msgstr "Язык виджета"
+
+#: templates/signup.php:74
+msgid "The agent name that will be displayed to website visitors in the JivoChat chat window."
+msgstr "Имя оператора, которое будет отображаться посетителям сайта в окне чата Jivo."
+
+#: templates/signup.php:64
+msgid "Agent Name"
+msgstr "Ваше имя"
+
+#: templates/signup.php:54
+msgid "Please create a new JivoChat account password. Password is least 6 characters long, contains at least one digit and uppercase letter."
+msgstr "Пожалуйста, создайте новый пароль учетной записи Jivo. Пароль длиной не менее 6 символов, содержит как минимум одну цифру и заглавную букву."
+
+#: templates/signup.php:34
+msgid "Please specify the email you will use to login to the agent’s app and admin panel."
+msgstr "Пожалуйста, укажите адрес электронной почты, который Вы будете использовать для входа в приложение агента и панель администратора."
+
+#: templates/signup.php:24
+msgid "Your Business E-mail Address"
+msgstr "Ваш адрес электронной почты"
+
+#: templates/signup.php:18
+msgid "to connect with your website"
+msgstr "которая будет связана с Вашим сайтом"
+
+#: templates/signup.php:17
+msgid "Create a JivoChat account"
+msgstr "Создайте учетную запись в Jivo"
+
+#: templates/login.php:86
+msgid "You don't have a Jivo account? <span id=\"signup_link\" class=\"jivo-redirect\">Sign up</span>"
+msgstr "У Вас нет аккаунта в Jivo? <span id=\"signup_link\" class=\"jivo-redirect\">Зарегистрироваться</span>"
+
+#: templates/login.php:79
+msgid "Forgot your password? You can reset it <a class=\"jivo-redirect\" href=\"https://app.jivosite.com/password/reset?utm_source=wordpress\" target=\"_blank\">here</a>"
+msgstr "Забыли Ваш пароль? Вы можете обновить его <a class=\"jivo-redirect\" href=\"https://app.jivosite.com/password/reset?utm_source=wordpress\" target=\"_blank\">здесь</a>"
+
+#: templates/login.php:67
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: templates/login.php:57
+msgid "Please enter the password for your JivoChat account."
+msgstr "Пожалуйста, введите пароль для своей учетной записи Jivo."
+
+#: templates/login.php:47 templates/signup.php:44
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/login.php:37
+msgid "Please enter the e-mail address you use for login."
+msgstr "Пожалуйста, введите адрес электронной почты, который Вы используете для входа в Jivo."
+
+#: templates/login.php:27
+msgid "Your Jivo E-mail Address"
+msgstr "Ваш адрес электронной почты для входа в Jivo"
+
+#: templates/login.php:21
+msgid "to connect it to your store"
+msgstr "чтобы связать его с Вашим сайтом"
+
+#: templates/login.php:20
+msgid "Login to your JivoChat account"
+msgstr "Войдите в свой Jivo аккаунт"
+
+#: templates/post_install.php:28 templates/switch_common.php:7
+msgid "Knowledge Base"
+msgstr "База знаний"
+
+#: templates/post_install.php:27 templates/switch_common.php:6
+msgid "Live Chat with Us"
+msgstr "Живой чат с нами"
+
+#: templates/post_install.php:24 templates/switch_common.php:3
+msgid "Ask us anything and we will help you onboarding."
+msgstr "Обратитесь к нам, и мы поможем Вам с настройками."
+
+#: templates/post_install.php:23 templates/switch_common.php:2
+msgid "Have questions? Don't worry, we offer 24/7 live support!"
+msgstr "Есть вопросы? Не волнуйтесь, мы предлагаем круглосуточную поддержку!"
+
+#: templates/post_install.php:20
+msgid "Install Apps"
+msgstr "Установить приложения"
+
+#: templates/post_install.php:17
+msgid "You can either use our web app, our desktop apps for Windows, macOS, or mobile apps for iOS and Android. We recommend using desktop and mobile apps simultaneously."
+msgstr "Вы можете использовать наше веб-приложение, настольные приложения для Windows, macOS или мобильные приложения для iOS и Android. Мы рекомендуем использовать настольные и мобильные приложения одновременно."
+
+#: templates/post_install.php:14
+msgid "Go to Web Application"
+msgstr "Перейти в веб-приложение"
+
+#: templates/post_install.php:11
+msgid "You are now able to see live chat widget on your webiste. Now you can customize & configure your JivoChat widget. Click the button below to go to web app and start testing it!"
+msgstr "Теперь Вы можете видеть виджет чата на вашем веб-сайте. Теперь Вы можете настроить свой виджет Jivo. Нажмите кнопку ниже, чтобы перейти к веб-приложению и начать его тестирование!"
+
+#: templates/post_install.php:8
+msgid "Congratulations, you have successfully installed JivoChat widget to your website!"
+msgstr "Поздравляем, Вы успешно установили виджет Jivo на свой сайт!"
+
+#: templates/switch_off.php:15
+msgid "Hide JivoChat Widget"
+msgstr "Скрыть виджет Jivo"
+
+#: templates/switch_off.php:10
+msgid "from your website you can use the button below."
+msgstr "с Вашего сайта, Вы можете использовать кнопку ниже."
+
+#: templates/switch_off.php:9
+msgid "If you would like to temporarily hide the JivoChat widget"
+msgstr "Если Вы хотите временно скрыть виджет Jivo"
+
+#. Author URI of the plugin
+#: templates/post_install.php:20 templates/post_install.php:27
+#: templates/post_install.php:28 templates/switch_common.php:6
+#: templates/switch_common.php:7 templates/jivo_logo.php:1
+msgid "www.jivochat.com"
+msgstr "www.jivo.ru"
+
+#. Description of the plugin
+msgid "Omnichannel Live Chat and Help Desk plugin, optimized for Wordpress. Free, fast, easy to install and to use. Turn your visitors into happy customers!"
+msgstr "Плагин чата для сайта и для общения с клиентами в социальных сетях, мессенджерах и мобильных приложениях. Оптимизирован специально для WordPress. Бесплатный, быстрый, простой в установке и использовании. Зарабатывайте больше, не упуская ни одного обращения."
+
+#. Plugin URI of the plugin
+msgid "https://jivochat.com/"
+msgstr "https://jivo.ru/"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: jivosite.php:46
+msgid "JivoChat"
+msgstr "Jivo"

@@ -1,0 +1,12 @@
+Row ID,Entry Type,Cond Type,Cond Secondary,Cond Teriary,,
+1,Cond,subtotal,greater_than,149.99,,
+Row ID,Entry Type,Cost Value,Cost Type,Cost Extra,Cost Extra Val,Cost Extra Secondary
+1,Cost,5,x,quantity,,
+1,Desc,,,,,
+2,Cond,s_class,excludes,6,,
+2,Cond,subtotal,less_than,150,,
+2,Cost,10,,,,
+2,Desc,,,,,
+3,Cond,s_class,includes,6,,
+3,Cost,19.99,every,weight,2,length
+3,Desc,Personal Truck Delivery,,,,

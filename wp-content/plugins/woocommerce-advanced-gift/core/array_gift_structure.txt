@@ -1,0 +1,555 @@
+
+
+Array
+(
+    [1323] => Array
+        (
+            [rule_id] => 1323
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [time_rule] => 2019/04/15 4:15:47
+            [auto] => yes
+            [gifts] => Array
+                (
+                    [0] => 1364
+                    [1] => 1342
+                    [2] => 1300
+                    [3] => 1296
+                    [4] => 1282
+                    [5] => 1245
+                    [6] => 1200
+                    [7] => 1086
+                    [8] => 1083
+                    [9] => 1067
+                    [10] => 1058
+                    [11] => 1013
+                    [12] => 931
+                    [13] => 848
+                    [14] => 765
+                    [15] => 757
+                    [16] => 746
+                    [17] => 735
+                    [18] => 715
+                    [19] => 716
+                    [20] => 717
+                    [21] => 706
+                    [22] => 702
+                    [23] => 657
+                    [24] => 495
+                )
+
+        )
+
+    [all_gifts] => Array
+        (
+            [1323-1364] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1364
+                )
+
+            [1323-1342] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1342
+                )
+
+            [1323-1300] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1300
+                )
+
+            [1323-1296] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1296
+                )
+
+            [1323-1282] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1282
+                )
+
+            [1323-1245] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1245
+                )
+
+            [1323-1200] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1200
+                )
+
+            [1323-1086] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1086
+                )
+
+            [1323-1083] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1083
+                )
+
+            [1323-1067] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1067
+                )
+
+            [1323-1058] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1058
+                )
+
+            [1323-1013] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 1013
+                )
+
+            [1323-931] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 931
+                )
+
+            [1323-848] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 848
+                )
+
+            [1323-765] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 765
+                )
+
+            [1323-757] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 757
+                )
+
+            [1323-746] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 746
+                )
+
+            [1323-735] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 735
+                )
+
+            [1323-715] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 715
+                )
+
+            [1323-716] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 716
+                )
+
+            [1323-717] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 717
+                )
+
+            [1323-706] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 706
+                )
+
+            [1323-702] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 702
+                )
+
+            [1323-657] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 657
+                )
+
+            [1323-495] => Array
+                (
+                    [rule_id] => 1323
+                    [id_product] => 495
+                )
+
+            [1365-715] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 715
+                )
+
+            [1365-962] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 962
+                )
+
+            [1365-985] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 985
+                )
+
+            [1365-986] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 986
+                )
+
+            [1365-987] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 987
+                )
+
+            [1365-988] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 988
+                )
+
+            [1365-989] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 989
+                )
+
+            [1365-1369] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 1369
+                )
+
+            [1365-1371] => Array
+                (
+                    [rule_id] => 1365
+                    [id_product] => 1371
+                )
+
+        )
+
+    [1365] => Array
+        (
+            [rule_id] => 1365
+            [disable_if] => show
+            [pw_number_gift_allowed] => 4
+            [can_several_gift] => yes
+            [time_rule] => 2019/04/15 1:48:46
+            [auto] => no
+            [gifts] => Array
+                (
+                    [0] => 715
+                    [1] => 962
+                    [2] => 985
+                    [3] => 986
+                    [4] => 987
+                    [5] => 988
+                    [6] => 989
+                    [7] => 1369
+                    [8] => 1371
+                )
+
+        )
+
+)
+
+
+Array
+(
+    [1323-1364] => Array
+        (
+            [item] => 1364
+            [rule_id] => 1323
+            [key] => 1323-1364
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1341] => Array
+        (
+            [item] => 1341
+            [rule_id] => 1323
+            [key] => 1323-1341
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1300] => Array
+        (
+            [item] => 1300
+            [rule_id] => 1323
+            [key] => 1323-1300
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1296] => Array
+        (
+            [item] => 1296
+            [rule_id] => 1323
+            [key] => 1323-1296
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1282] => Array
+        (
+            [item] => 1282
+            [rule_id] => 1323
+            [key] => 1323-1282
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1245] => Array
+        (
+            [item] => 1245
+            [rule_id] => 1323
+            [key] => 1323-1245
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1200] => Array
+        (
+            [item] => 1200
+            [rule_id] => 1323
+            [key] => 1323-1200
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1086] => Array
+        (
+            [item] => 1086
+            [rule_id] => 1323
+            [key] => 1323-1086
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1083] => Array
+        (
+            [item] => 1083
+            [rule_id] => 1323
+            [key] => 1323-1083
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1067] => Array
+        (
+            [item] => 1067
+            [rule_id] => 1323
+            [key] => 1323-1067
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1058] => Array
+        (
+            [item] => 1058
+            [rule_id] => 1323
+            [key] => 1323-1058
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-1013] => Array
+        (
+            [item] => 1013
+            [rule_id] => 1323
+            [key] => 1323-1013
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-931] => Array
+        (
+            [item] => 931
+            [rule_id] => 1323
+            [key] => 1323-931
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-848] => Array
+        (
+            [item] => 848
+            [rule_id] => 1323
+            [key] => 1323-848
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-765] => Array
+        (
+            [item] => 765
+            [rule_id] => 1323
+            [key] => 1323-765
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-757] => Array
+        (
+            [item] => 757
+            [rule_id] => 1323
+            [key] => 1323-757
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-746] => Array
+        (
+            [item] => 746
+            [rule_id] => 1323
+            [key] => 1323-746
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-735] => Array
+        (
+            [item] => 735
+            [rule_id] => 1323
+            [key] => 1323-735
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-714] => Array
+        (
+            [item] => 714
+            [rule_id] => 1323
+            [key] => 1323-714
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-706] => Array
+        (
+            [item] => 706
+            [rule_id] => 1323
+            [key] => 1323-706
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-702] => Array
+        (
+            [item] => 702
+            [rule_id] => 1323
+            [key] => 1323-702
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-657] => Array
+        (
+            [item] => 657
+            [rule_id] => 1323
+            [key] => 1323-657
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1323-495] => Array
+        (
+            [item] => 495
+            [rule_id] => 1323
+            [key] => 1323-495
+            [disable_if] => show
+            [pw_number_gift_allowed] => 84
+            [can_several_gift] => no
+            [auto] => yes
+        )
+
+    [1365-715] => Array
+        (
+            [item] => 715
+            [rule_id] => 1365
+            [key] => 1365-715
+            [disable_if] => show
+            [pw_number_gift_allowed] => 4
+            [can_several_gift] => yes
+            [auto] => no
+        )
+
+    [1365-22] => Array
+        (
+            [item] => 22
+            [rule_id] => 1365
+            [key] => 1365-22
+            [disable_if] => show
+            [pw_number_gift_allowed] => 4
+            [can_several_gift] => yes
+            [auto] => no
+        )
+
+)

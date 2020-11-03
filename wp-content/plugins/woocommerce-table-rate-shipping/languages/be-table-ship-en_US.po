@@ -1,0 +1,579 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-04-06 17:08-0400\n"
+"PO-Revision-Date: 2020-04-06 17:08-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: woocommerce-table-rate-shipping\n"
+"X-Poedit-SearchPathExcluded-0: woocommerce-table-rate-shipping/deprecated\n"
+
+#: woocommerce-table-rate-shipping/compatibility/comp.currency_switcher.php:22
+#: woocommerce-table-rate-shipping/compatibility/comp.dokan.php:22
+#: woocommerce-table-rate-shipping/compatibility/comp.polylang.php:22
+#: woocommerce-table-rate-shipping/compatibility/comp.wmc.php:22
+#: woocommerce-table-rate-shipping/compatibility/comp.wpml.php:22
+#: woocommerce-table-rate-shipping/inc/class.calculate-rates.php:32
+#: woocommerce-table-rate-shipping/inc/class.settings-method-conditions.php:32
+#: woocommerce-table-rate-shipping/inc/class.shipping-method.php:44
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:60
+msgid "Cloning this class could cause catastrophic disasters!"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/compatibility/comp.currency_switcher.php:31
+#: woocommerce-table-rate-shipping/compatibility/comp.dokan.php:31
+#: woocommerce-table-rate-shipping/compatibility/comp.polylang.php:31
+#: woocommerce-table-rate-shipping/compatibility/comp.wmc.php:31
+#: woocommerce-table-rate-shipping/compatibility/comp.wpml.php:31
+#: woocommerce-table-rate-shipping/inc/class.calculate-rates.php:41
+#: woocommerce-table-rate-shipping/inc/class.settings-method-conditions.php:41
+#: woocommerce-table-rate-shipping/inc/class.shipping-method.php:53
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:69
+msgid "Unserializing is forbidden!"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/compatibility/comp.dokan.php:63
+msgid "Specific Vendors"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/compatibility/comp.dokan.php:91
+msgid "Vendors"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:49
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:50
+#: woocommerce-table-rate-shipping/inc/admin/view.user-management.php:11
+msgid "Manage Shipping"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:69
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:131
+msgid "Zone regions"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:136
+msgid "Shipping Method"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:137
+msgid "Enabled"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:138
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:199
+msgid "Description"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:153
+msgid "Manage"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:184
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:283
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:314
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:346
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:705
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:217
+msgid "Return to list of shipping zones"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:249
+msgid "Empty"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:262
+msgid "None"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/class.user-management.php:274
+#: woocommerce-table-rate-shipping/inc/class.shipping-method.php:173
+#: woocommerce-table-rate-shipping/inc/class.shipping-method.php:221
+msgid "Table of Rates"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/admin/view.user-management.php:11
+msgid "Edit Shipping Method"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.calculate-rates.php:726
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:93
+msgid "multiplied by"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.calculate-rates.php:727
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:94
+msgid "for every"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-method-conditions.php:82
+msgid "Method Conditions"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-method-conditions.php:87
+msgid ""
+"These optional conditions will be required in order for any shipping options "
+"below to be returned. They are applied to the order as a whole regardless to "
+"your 'Base Table Rates' selection above."
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-method-conditions.php:193
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:122
+msgid "Add Condition"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-shipping-classes.php:50
+msgid "Priority"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:101
+msgid "Item(s)"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:105
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:125
+msgid "Weight"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:106
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:115
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:128
+msgid "Length"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:107
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:116
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:127
+msgid "Width"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:108
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:117
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:126
+msgid "Height"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:109
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:118
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:129
+msgid "Surface Area"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:110
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:119
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:130
+msgid "Volume"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:111
+msgid "Item Quantity"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:123
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:124
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:131
+msgid "Shipping Class"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:132
+msgid "Products"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:133
+msgid "Categories"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:134
+msgid "Date Range"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:135
+msgid "Time"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:136
+msgid "Day of Week"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:137
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:142
+msgid "Greater than"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:147
+msgid "Less than"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:152
+msgid "Equal to"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:157
+msgid "Includes"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:162
+msgid "Excludes"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:219
+msgid "How many shipping options are you giving your customers?"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:249
+msgid "No items found."
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:259
+msgid "Add Another Option"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:297
+msgid "Remove Shipping Option"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:301
+msgid "Shipping Option Title"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:302
+msgid "Enter the title customers will see (required)"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:310
+msgid "Additional Settings"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:312
+msgid "Default Selection"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:322
+msgid "Hide Other Options"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:332
+msgid "Disable Option"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:342
+msgid "Combine Descriptions"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:353
+msgid "Recursive Pricing"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:367
+msgid "Move Option Up"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.settings-table-rates.php:368
+msgid "Move Option Down"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.shipping-method.php:67
+msgid "Table Rate"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.shipping-method.php:68
+msgid "Charge varying rates based on user defined conditions"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:92
+msgid "Add Table Row"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:93
+msgid "Delete Selected Rows"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:96
+msgid "Import"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:97
+msgid "Export"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:108
+msgid "No shipping options have been added yet"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:143
+msgid "Add another cost"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:157
+msgid "Optional text shown to customer"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:197
+msgid "Conditions"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:198
+msgid "Costs"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:471
+msgid "Before"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/class.table-rate_options.php:472
+msgid "After"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:43
+msgid "General Settings"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:46
+msgid "Method Title"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:48
+msgid "For your reference"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:49
+msgid "Table Rate Shipping"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:53
+msgid "Tax Status"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:58
+msgid "Taxable"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:63
+msgid "Base Table Rules"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:68
+msgid "Per Order"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:69
+msgid "Per Item"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:70
+msgid "Per Line Item"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:71
+msgid "Per Class"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:78
+msgid "User Permissions"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:81
+msgid "Shipping options appear for"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:86
+msgid "Everyone"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:87
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:104
+msgid "Specific Roles"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:91
+msgid "Ship to roles"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:98
+msgid "Settings can be modified by"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:103
+msgid "Admins Only"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:105
+msgid "Specific Users"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:109
+msgid "User Roles"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:116
+msgid "Users"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:134
+msgid "Volumetric Settings"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:138
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:140
+msgid "Volumetric Number"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:140
+msgid "Equation"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:147
+msgid "Operand"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:153
+msgid "Divide"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:154
+msgid "Multiply"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:159
+msgid "Exclude Weight"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:161
+msgid ""
+"Do not compare product weight to calculated volumetric weight. Weight "
+"condition should always equal the volumetric weight."
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:168
+msgid "Additional Options"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:172
+msgid "Include Tax"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:174
+msgid "Calculate shipping based on prices AFTER tax"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:179
+msgid "Include Coupons"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:181
+msgid "Subtotal is calculated based on cart value after coupons"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:186
+msgid "Single Class Only"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:190
+msgid "Disabled"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:191
+msgid "Highest Priority"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:192
+msgid "Highest Costing Class"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:193
+msgid "Lowest Costing Class"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:200
+msgid "Round Weight"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:202
+msgid "Rounds weight value up to the next whole number"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:207
+msgid "Hide This Method"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/inc/instance-settings-fields.php:209
+msgid "Hide This Shipping Method When the Free Shipping Method is Available"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:298
+msgid "OK"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:299
+msgid "Edit"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:300
+msgid "Error"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:301
+msgid "Upload"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:302
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:303
+msgid "Are you sure you want to do this? Delete actions cannot be undone."
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:304
+msgid "Import Table of Rates"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:305
+msgid "Select a CSV file"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:306
+msgid "Delete existing rows before importing"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:307
+msgid "Exporting"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:308
+msgid "Please select which rows you wish to export"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:309
+msgid "Please review the documentation and enable the required server settings"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:337
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-table-rate-shipping/woocommerce-table-rate-shipping.php:338
+msgid "Support"
+msgstr ""

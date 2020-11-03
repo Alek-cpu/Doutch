@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#BETRS-method-options {
+	display: block;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+.betrs_settings_section { font-family: 'Open Sans'; }
+	.betrs_settings_section input, .betrs_settings_section textarea, .betrs_settings_section select { border: 1px solid #ddd; border-radius: 1px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; vertical-align: middle; }
+	.betrs_settings_section .wp-list-table { margin-top: 20px; border: 1px solid #ddd; border-radius: 1px; padding: 5px 10px; }
+	.betrs_settings_section .widefat thead tr th, .betrs_settings_section .widefat tfoot tr th { color: #777; font-weight: bold; font-size: 0.9em; text-transform: uppercase; letter-spacing: 1px; }
+	.betrs_settings_section .widefat th:last-child, .betrs_settings_section .widefat td:last-child { width: 36px; text-align: right; }
+	.betrs_settings_section .widefat tbody td, .betrs_settings_section .widefat tbody th { background: none; border-bottom: 1px solid #ddd; padding-top: 15px; padding-bottom: 15px; }
+	.betrs_settings_section .widefat tr.alternate { background: none; }
+	.betrs_settings_section .widefat tr.no-items, .betrs_settings_section .widefat tr.no-items td { background: none; text-align: left; }
+	.betrs_settings_section .widefat td.column-description textarea { width: 100%; height: 4em; }
+	.betrs_settings_section .widefat td.column-costs div.cost_op, .betrs_settings_section .widefat td.column-conditions div.condition_op { padding-bottom: 10px; }
+	.betrs_settings_section .widefat td.column-costs div.cost_op:last-child { border: 0; }
+	.betrs_settings_section .widefat td .wait_cursor { display: block; width: 15px; height: 15px; }
+	.betrs_settings_section .tablenav.bottom { padding: 8px 0; }
+		.betrs_settings_section .tablenav.bottom .bulkactions { display: none;  }
+		.betrs_settings_section .tablenav.bottom a, #conditions.betrs_settings_section table a { text-decoration: none; padding: 5px 15px; border-radius: 5px; text-transform: uppercase; letter-spacing: 1px; }
+		.betrs_settings_section .tablenav.bottom a.betrs_add_ops, #conditions.betrs_settings_section table a.betrs_add_method_cond { background: #444; color: #fff; }
+			.betrs_settings_section .tablenav.bottom a.betrs_add_ops:hover, #conditions.betrs_settings_section table a.betrs_add_method_cond:hover { background: #0073aa; }
+		.betrs_settings_section .tablenav.bottom a.betrs_delete_ops { background: #aaa; color: #fff; }
+			.betrs_settings_section .tablenav.bottom a.betrs_delete_ops:hover { background: #cc2f2f; }
+		.betrs_settings_section .tablenav.bottom .alignright a { padding: 5px 0; }
+	.betrs_settings_section .single-row {  }
+		.betrs_settings_section .single-row h4.shipping-headline { font-size: 1.2em; color: #72777c; position: relative; z-index: 1; margin: 10px 0; text-transform: uppercase; font-size: 1.5em; font-weight: 300; border-bottom: 1px solid #ccc; padding-bottom: 15px; }
+			#BETRS-table-rates-parent h4.shipping-headline span { float: right; }
+			#BETRS-table-rates-parent h4.shipping-headline span a.remove-shipping-option { display: block; height: 1em; width: 12px; line-height: 1em; vertical-align: middle; background: url(../img/delete-rate.png) no-repeat center center; }
+				#BETRS-table-rates-parent h4.shipping-headline span a.remove-shipping-option:hover { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+		.betrs_settings_section .single-row .titlewrap { background: #fff; padding: 10px; border: 1px solid #ddd; }
+			.betrs_settings_section .single-row .titlewrap label { padding: 0 !important; color: #777; font-weight: bold; font-size: 0.9em; text-transform: uppercase; letter-spacing: 1px; }
+			.betrs_settings_section .single-row .titlewrap input { padding: 8px 0 0; border: 0; font-size: 1.6em; width: 100%; box-shadow: none; color: #0073aa; font-weight: bold; letter-spacing: 1px; }
+				.betrs_settings_section .single-row .titlewrap input::placeholder { font-style: italic; color: #ddd;  }
+		.betrs_settings_section .single-row .widefat .move_row { background: url(../img/move_row.png) no-repeat center top; display: inline-block; height: 20px; width: 20px; text-align: right; cursor: move; }
+		.betrs_settings_section .single-row:last-child:after { visibility: hidden; }
+		.betrs_settings_section .single-row .single-row-left { display: block; float: left; width: 70%; }
+		.betrs_settings_section .single-row .single-row-right { display: block; float: right; width: 28%; }
+		.betrs_settings_section .single-row .additional-settings { padding: 10px; border: 1px solid #ddd; background: #fff; }
+			.betrs_settings_section .single-row .additional-settings label { margin-bottom: 15px; }
+			.betrs_settings_section .single-row .additional-settings .clear { margin-bottom: 10px; }
+			.betrs_settings_section .single-row .additional-settings .clear:after { content: ".";  visibility: hidden; display: block; height: 0; clear: both; }
+			.betrs_settings_section .single-row .additional-settings h5 { font-weight: bold; color: #777; margin: 0; float: left; font-size: 1em; line-height: 30px; }
+			.betrs_settings_section .single-row .additional-settings .onoffswitch { float: right; }
+		.betrs_settings_section .single-row .option-sorting { text-align: right; }
+			.betrs_settings_section .single-row .option-sorting a { text-decoration: none !important; }
+			.betrs_settings_section .single-row .option-sorting span { font-size: 2em; line-height: 2em; width: auto; height: 26px; font-weight: bold; vertical-align: baseline; }
+			.betrs_settings_section .single-row:first-child .option-sorting .betrs-move-option-up,
+			.betrs_settings_section .single-row:last-child .option-sorting .betrs-move-option-down { display: none; }
+
+#conditions.betrs_settings_section table a.betrs_add_method_cond { font-size: 0.9em; }
+#conditions.betrs_settings_section table#method_conditions { background: #f8f8f8; padding: 0 8px; border: 1px solid #eee; width: 100%; max-width: 750px; margin-bottom: 15px; }
+	#conditions.betrs_settings_section table#method_conditions td { background: #f8f8f8; border-bottom: 1px solid #dedede; }
+	#conditions.betrs_settings_section table#method_conditions tr:last-child td { border: 0; }
+	#conditions.betrs_settings_section table#method_conditions tr td:last-child { text-align: right; max-width: 30px; }
+
+.betrs_settings_section h3 { padding: 15px; border: 1px solid #ddd; margin-bottom: 0; line-height: 20px; cursor: pointer; overflow: hidden; vertical-align: middle; background: #f8f8f8 url(../img/plus.png) no-repeat; background-position: right 30px center; }
+	.betrs_settings_section h3:hover { background-color: #eee; }
+	.betrs_settings_section h3 span { display: inline-block; margin-left: 25px; }
+	.betrs_settings_section h3 span.counter { font-size: 4.6em; font-style: italic; color: #aaa; margin: -3px 0 0; vertical-align: top; }
+	.betrs_settings_section h3.open { background-image: url(../img/minus.png); }
+	.betrs_settings_section .betrs_settings_inner { display: none; background: #fff; border: 1px solid #ddd; padding: 20px; border-top: 0; }
+		.betrs_settings_section .betrs_settings_inner .next-link { text-align: center; }
+		.betrs_settings_section .betrs_settings_inner .next-link a { margin: 0 auto; }
+
+#BETRS-table-rates-parent { display: block; width: 100%; }
+	#BETRS-table-rates-parent .tablenav.top { display: none; }
+	#BETRS-table-rates-parent .single-row { margin-bottom: 20px; background: #f8f8f8; padding: 10px 20px; border: 1px solid #ddd; }
+	#BETRS-table-rates-parent label { display:block; width: 100%; padding: 0; font-weight: bold; color: #777; font-size: 0.9em; letter-spacing: 1px; text-transform: uppercase; cursor: default; }
+	#BETRS-table-rates-footer { text-align: left; padding: 0 10px 10px; }
+	#BETRS-table-rates-parent .option_slug { display: none; line-height: 24px; min-height: 25px; margin-top: 5px; padding: 0 10px; color: #666; font-weight: bold; }
+		#BETRS-table-rates-parent .option_slug span { font-weight: normal; }
+
+/* toggle slider checkbox */
+.betrs_settings_section .onoffswitch{ position:relative ; width: 90px; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; right: 0; }
+.betrs_settings_section .onoffswitch-checkbox{ display: none !important; }
+.betrs_settings_section .onoffswitch-label{ display: block; overflow:hidden; cursor: pointer; border:2px solid #999; border-radius:20px; width: auto !important; padding: 0 !important; margin: 0 !important; }
+.betrs_settings_section .onoffswitch-inner{ display: block; width:200%; margin-left:-100%; transition:margin .3s ease-in 0s; }
+.betrs_settings_section .onoffswitch-inner:after,.onoffswitch-inner:before{ display:block; float:left; width:50%; height:30px; padding:0; line-height:30px; font-size:14px; font-family:Trebuchet,Arial,sans-serif; font-weight:700; box-sizing:border-box; }
+.betrs_settings_section .onoffswitch-inner:before{ content:"ON"; padding-left:10px; background-color:#fff; color: #A9A9A9; }
+.betrs_settings_section .onoffswitch-inner:after{ content:"OFF"; padding-right:10px; background-color:#fff; color: #999; text-align: right; }
+.betrs_settings_section .onoffswitch-switch{ display: block; width: 18px; margin: 6px; background: #A1A1A1; position: absolute; top: 0; bottom: 0; right: 56px; border: 2px solid #fff; border-radius: 20px; transition:all .3s ease-in 0s; }
+.betrs_settings_section .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner{ margin-left: 0; }
+.betrs_settings_section .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch{ right:0; background-color: #0073AA; }
+
+/* override slider checkbox for regular inputs */
+.betrs_settings_section div.regular-input { position:relative ; width: 100px; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; right: 0; float: right; }
+	.betrs_settings_section div.regular-input input { width: 90%; }
+
+.betrs_settings_section ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #a0a5aa; font-style: italic; }
+.betrs_settings_section ::-moz-placeholder { /* Firefox 19+ */ opacity: 1; color: #a0a5aa; font-style: italic; }
+.betrs_settings_section :-ms-input-placeholder { /* IE 10+ */ color: #a0a5aa; font-style: italic; }
+.betrs_settings_section :-moz-placeholder { /* Firefox 18- */ color: #a0a5aa; font-style: italic; }
+
+.betrs-small-delete { display: inline-block !important; height: 20px; width: 18px; background: url(../img/small-delete.png) 0 50% no-repeat; cursor: pointer; vertical-align: middle; }
+	.betrs-small-delete:hover { background-position: 100% 50%; }
+
+table.wc-shipping-classes .wc-shipping-class-priority { text-align: center; }
+
+.betrs-popup { position:fixed; top:0;  left:0; width:100%; height:100%; background:url(../img/overlay.png) repeat; text-align:center; z-index: 8000; }
+	.betrs-popup .be-popup-container { display: inline-block; margin-top: 200px; z-index: 9000; box-shadow:0 0 25px #111; -webkit-box-shadow:0 0 25px #111; -moz-box-shadow:0 0 25px #111; min-width:350px; max-width:450px; background: #fff; text-align: center; padding: 30px; max-height: 600px; overflow-y: auto; }
+	#betrs-export-table-popup .be-popup-container { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; background: transparent; }
+	#betrs-export-table-popup .be-popup-container h2 { font-size: 3em; color: #b6b6b6; }
+	#betrs-export-table-popup .be-popup-container img { height: 30px; }
+	.betrs-popup h2.betrs_error { color: #f44336 !important; text-transform: uppercase; }
+	.betrs-popup .be-popup-container span { font-style: italic; color: #aeaeae; }
+	.betrs-popup .be-popup-container input[type="text"] { width: 100%; }
+
+/* User Shipping Management */
+#betrs_user_shipping_settings {}
+	#betrs_user_shipping_settings h1 { font-size: 3em; line-height: 1.4em; border-bottom: 1px solid #d4d4d4; width: 100%; font-weight: 200; }
+	#betrs_user_shipping_settings h2 { font-size: 2.2em; margin-bottom: 0; }
+	#betrs_user_shipping_settings h4 { font-size: 1.2em; font-weight: normal; }
+	#betrs_user_shipping_settings table.betrs-user-shipping-method-table th { font-weight: bold; padding: 20px; }
+	#betrs_user_shipping_settings table.betrs-user-shipping-method-table td { padding: 20px; }
+	table.betrs-user-shipping-method-table th:first-child { width: 30%; }
+	#betrs_user_shipping_settings .betrs-enabled-yes,
+	#betrs_user_shipping_settings .betrs-enabled-no { padding: 0 1em; border-radius: 4px; line-height: 2.5em; color: #777; background: #e5e5e5; display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; }
+	#betrs_user_shipping_settings .betrs-enabled-yes { background: #c6e1c6; color: #5b841b; }
+	#betrs_user_shipping_settings .betrs_settings_section { border: 1px solid #e5e5e5; box-shadow: 0 1px 1px rgba(0,0,0,0.04); background: #fff; margin-bottom: 15px; padding: 15px; }
+		#betrs_user_shipping_settings .betrs_settings_section h4 { margin: 0 0 8px; border-bottom: 1px solid #ddd; font-size: 1.3em; padding-bottom: 5px; }
+		#betrs_user_shipping_settings .betrs_settings_section table { font-size: 1.1em; border-spacing: 0; width: 100%; table-layout: fixed; }
+			#betrs_user_shipping_settings .betrs_settings_section table tr:nth-child(even) { background: #f6f6f6; }
+			#betrs_user_shipping_settings .betrs_settings_section table th { text-align: left; font-weight: normal; padding: 8px; }
+			#betrs_user_shipping_settings .betrs_settings_section table td { text-align: left; font-weight: 200; padding: 8px; }
+
+/* Added for select2 box markup */
+#BETRS-table-rates-parent table.table_rates .select2-container { display: block; width: 100% !important; }
+#BETRS-table-rates-parent table.table_rates .select2-container ul { overflow-x: scroll; }

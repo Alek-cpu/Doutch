@@ -1,0 +1,364 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Google Analytics Opt-Out (DSGVO / GDPR)\n"
+"POT-Creation-Date: 2019-10-24 20:14+0200\n"
+"PO-Revision-Date: 2019-10-24 20:14+0200\n"
+"Last-Translator: Schweizer Solutions <info@schweizersolutions.com>\n"
+"Language-Team: Schweizer Solutions <info@schweizersolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ga-opt-out.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/activator.class.php:64
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a PHP version greater "
+"than %1$s. Your PHP version can be updated by your hosting company."
+msgstr ""
+
+#: inc/activator.class.php:66 inc/activator.class.php:73
+#: inc/activator.class.php:82
+msgid "Go back"
+msgstr ""
+
+#: inc/activator.class.php:71
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a WordPress version "
+"greater than %1$s. Please go to Dashboard &#9656; Updates to gran the latest "
+"version of WordPress."
+msgstr ""
+
+#: inc/activator.class.php:80
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a Database version "
+"greater than %1$s. Your Database version can be updated by your hosting "
+"company."
+msgstr ""
+
+#: inc/admin.class.php:88 templates/settings.php:2
+msgid "Google Analytics Opt-Out"
+msgstr ""
+
+#: inc/admin.class.php:103
+msgid "Settings"
+msgstr ""
+
+#: inc/admin.class.php:122
+msgid "Copied!"
+msgstr ""
+
+#: inc/admin.class.php:123
+msgid "Couldn't copy!"
+msgstr ""
+
+#: inc/admin.class.php:141 inc/admin.class.php:309
+msgid ""
+"It seems like you have disabled the cronjob through your wp-config.php ... "
+"Please make sure that you have installed a server-side cronjob, otherwise "
+"you wont receive the status reports via mail."
+msgstr ""
+
+#: inc/admin.class.php:149
+#, php-format
+msgid ""
+"Google Analytics does not appear to function in compliance with data "
+"protection regulations. Please check the settings <a href=\"%s\">here</a>."
+msgstr ""
+
+#: inc/admin.class.php:165
+msgid "Google Analytics for WordPress by MonsterInsights"
+msgstr ""
+
+#: inc/admin.class.php:172
+msgid "Google Analytics Dashboard for WP (GADWP)"
+msgstr ""
+
+#: inc/admin.class.php:219
+msgid "Security check fail!"
+msgstr ""
+
+#: inc/admin.class.php:249
+msgid "Please enter a valid UA Code. Format: UA-XXXXXX-Y"
+msgstr ""
+
+#: inc/admin.class.php:266
+msgid ""
+"Your custom css code was not stored, because it is not valid! We stoll hold "
+"the old version of it, please check below the code and save again."
+msgstr ""
+
+#: inc/admin.class.php:281
+msgid ""
+"Please enter the text for the deactivate link, otherwise link doesn't "
+"appears!"
+msgstr ""
+
+#: inc/admin.class.php:285
+msgid ""
+"Please enter the text for the activate link, otherwise link doesn't appears!"
+msgstr ""
+
+#: inc/admin.class.php:318
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin.class.php:350
+msgid "Google Analytics Opt-Out - Status check failed!"
+msgstr ""
+
+#: inc/admin.class.php:351
+msgid "Here is your status check report:"
+msgstr ""
+
+#: inc/admin.class.php:367
+#, php-format
+msgid "Check the settings: %s"
+msgstr ""
+
+#: inc/utils.class.php:17
+msgid "Disallow Google Analytics to track me"
+msgstr ""
+
+#: inc/utils.class.php:18
+msgid "Allow Google Analytics to track me"
+msgstr ""
+
+#: inc/utils.class.php:20
+msgid "Tracking is now disabled. Click the link again to enable it."
+msgstr ""
+
+#: inc/utils.class.php:21
+msgid "Tracking is now enabled. Click the link again to disable it."
+msgstr ""
+
+#: inc/utils.class.php:313
+msgid "Opt-Out Enabled"
+msgstr ""
+
+#: inc/utils.class.php:317
+msgid "Found valid UA-Code"
+msgstr ""
+
+#: inc/utils.class.php:322
+msgid "IP anonymization is enabled"
+msgstr ""
+
+#: inc/utils.class.php:327
+msgid "Found shortcode on page"
+msgstr ""
+
+#: inc/utils.class.php:332
+msgid "Page accessibile"
+msgstr ""
+
+#: inc/utils.class.php:337
+msgid "Cronjob for this plugin activated"
+msgstr ""
+
+#: inc/utils.class.php:388 templates/settings.php:114
+msgid "weekly"
+msgstr ""
+
+#: inc/utils.class.php:395 templates/settings.php:115
+msgid "monthly"
+msgstr ""
+
+#: templates/settings.php:7
+#, php-format
+msgid ""
+"Use this shortcode on every page or post you want, to display the GA Opt "
+"Out: %s"
+msgstr ""
+
+#: templates/settings.php:7
+msgid "Click to copy the shortcode!"
+msgstr ""
+
+#: templates/settings.php:14
+#, php-format
+msgid ""
+"Do you have a data processing agreement for Google Analytics? <a href='%s' "
+"target='_blank'>More infos.</a>"
+msgstr ""
+
+#: templates/settings.php:24
+msgid "Got to page"
+msgstr ""
+
+#: templates/settings.php:38
+msgid "Current status of this website"
+msgstr ""
+
+#: templates/settings.php:47
+msgid "Status"
+msgstr ""
+
+#: templates/settings.php:52
+msgid "Enable Opt-Out function"
+msgstr ""
+
+#: templates/settings.php:59
+msgid "UA-Code"
+msgstr ""
+
+#: templates/settings.php:71
+msgid ""
+"Enter here your tracking code for Google Analytics to insert it on your "
+"whole website. Leave empty if you do not want it."
+msgstr ""
+
+#: templates/settings.php:84
+msgid "Not activated"
+msgstr ""
+
+#: templates/settings.php:89
+msgid "Not installed"
+msgstr ""
+
+#: templates/settings.php:106
+msgid "Status check"
+msgstr ""
+
+#: templates/settings.php:111
+msgid "Run the status check"
+msgstr ""
+
+#: templates/settings.php:113
+msgid "daily"
+msgstr ""
+
+#: templates/settings.php:121
+msgid "Send mail if the status check failed, to"
+msgstr ""
+
+#: templates/settings.php:122
+msgid "Leave empty to disable."
+msgstr ""
+
+#: templates/settings.php:122
+msgid "e.g. admin@example.org"
+msgstr ""
+
+#: templates/settings.php:126
+msgid ""
+"Suppress the message in the dashboard if the settings are not data "
+"protection compliant."
+msgstr ""
+
+#: templates/settings.php:133
+msgid "Force reload"
+msgstr ""
+
+#: templates/settings.php:136
+msgid "Force page reload after the click on the link."
+msgstr ""
+
+#: templates/settings.php:142
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: templates/settings.php:145
+msgid "— Select —"
+msgstr ""
+
+#: templates/settings.php:147
+msgid "Edit selected page"
+msgstr ""
+
+#: templates/settings.php:150
+msgid "Select the page, where you will use this shortcode, for the monitoring."
+msgstr ""
+
+#: templates/settings.php:155
+msgid "Synchronize with WordPress Privacy Policy page."
+msgstr ""
+
+#: templates/settings.php:155
+msgid "Go to settings"
+msgstr ""
+
+#: templates/settings.php:163
+msgid "Text of link for deactivate"
+msgstr ""
+
+#: templates/settings.php:172
+msgid "Popup Text for deactivate"
+msgstr ""
+
+#: templates/settings.php:176 templates/settings.php:197
+msgid "Click to empty field, to disable the popup."
+msgstr ""
+
+#: templates/settings.php:178 templates/settings.php:199
+msgid "Leave empty to disable popup"
+msgstr ""
+
+#: templates/settings.php:185
+msgid "Text of link for activate"
+msgstr ""
+
+#: templates/settings.php:194
+msgid "Popup Text for activate"
+msgstr ""
+
+#: templates/settings.php:206
+msgid "Add custom css"
+msgstr ""
+
+#: templates/settings.php:214
+msgid "This CSS is only inserted where the shortcode is used."
+msgstr ""
+
+#: templates/settings.php:218
+msgid "Overview CSS classes"
+msgstr ""
+
+#: templates/settings.php:224
+msgid "The link itselfs."
+msgstr ""
+
+#: templates/settings.php:231
+msgid "If the user has DISALLOWED tracking and wants to allow it again."
+msgstr ""
+
+#: templates/settings.php:238
+msgid "If the user has ALLOWED tracking and wants to diallow it again."
+msgstr ""
+
+#: templates/settings.php:252
+msgid "Save Changes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Google Analytics Opt-Out (DSGVO / GDPR)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://schweizersolutions.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds the possibility for the user to opt out from Google Analytics. The user "
+"will not be tracked by Google Analytics on this site until he allows it "
+"again, clears his cookies or uses a different browser."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Schweizer Solutions GmbH"
+msgstr ""

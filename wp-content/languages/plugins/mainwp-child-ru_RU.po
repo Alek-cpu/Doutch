@@ -1,0 +1,2918 @@
+# Translation of Plugins - MainWP Child - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - MainWP Child - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-25 10:35:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - MainWP Child - Stable (latest release)\n"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3157
+msgid "Remote storage: %s"
+msgstr "Удаленное хранилище: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3155
+msgid "remote site"
+msgstr "удаленный сайт"
+
+#: class/class-mainwp-child-branding.php:886
+msgid "From:"
+msgstr "От:"
+
+#: class/class-mainwp-child.php:548
+msgid "<b>NOW</b> or deactivate the "
+msgstr "<b>СЕЙЧАС</b> или деактивируйте"
+
+#: class/class-mainwp-wordpress-seo.php:70
+msgid "Settings could not be imported."
+msgstr "Настройки не могут быть импортированы."
+
+#: class/class-mainwp-child-wordfence.php:1623
+msgid "An error occurred: Invalid options format received."
+msgstr "Произошла ошибка: Опции имеют неверный формат."
+
+#: class/class-mainwp-child-wordfence.php:1606
+msgid "Invalid response: "
+msgstr "Неверный запрос:"
+
+#: class/class-mainwp-child-wordfence.php:1603
+#: class/class-mainwp-child-wordfence.php:1610
+msgid "An error occurred: "
+msgstr "Произошла ошибка:"
+
+#: class/class-mainwp-clone.php:393
+msgid "<strong>Current Directory:</strong> <span>"
+msgstr "<strong>Текущая директория:</strong> <span>"
+
+#: class/class-mainwp-child-back-wp-up.php:1410
+msgid "Cannot save jobs: "
+msgstr "Невозможно сохранить задания: "
+
+#: class/class-mainwp-child-back-wp-up.php:1490
+msgid "Cannot save settings: "
+msgstr "Невозможно сохранить настройки: "
+
+#: class/class-mainwp-child-branding.php:856
+msgid "Message has been submitted successfully."
+msgstr "Сообщение успешно отправлено."
+
+#: class/class-mainwp-child-back-wp-up.php:289
+msgid "Check database tables"
+msgstr "Проверить таблицы базы данных"
+
+#: class/class-mainwp-child-back-wp-up.php:288
+msgid "Installed plugins list"
+msgstr "Список установленных плагинов"
+
+#: class/class-mainwp-child-back-wp-up.php:287
+msgid "WordPress XML export"
+msgstr "Экспорт WordPress XML"
+
+#: class/class-mainwp-child-back-wp-up.php:286
+msgid "File backup"
+msgstr "Резервная копия файлов"
+
+#: class/class-mainwp-child-back-wp-up.php:285
+msgid "Database backup"
+msgstr "Резервная копия базы данных"
+
+#: class/class-mainwp-child-timecapsule.php:1176
+msgid "Function Disabled"
+msgstr "Функция отключена"
+
+#: class/class-mainwp-child-timecapsule.php:1149
+msgid "WP Time Capsule version"
+msgstr "Версия WP Time Capsule"
+
+#: class/class-mainwp-child-back-up-wordpress.php:411
+#: class/class-mainwp-child-back-up-buddy.php:386
+msgid "Invalid data. Please check and try again."
+msgstr "Неверные данные. Пожалуйста проверьте и попытку позднее"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3249
+msgid "Go to Restore"
+msgstr "Перейти к Восстановлению"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2977
+msgid "This database backup has the following WordPress tables excluded: %s"
+msgstr "Эта копия базы данных имеет исключенные таблицы WordPress: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2912
+msgid "Your chosen replacement collation"
+msgstr "Вы выбрали замену сопоставления таблиц"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2889
+msgid "You can choose another suitable collation instead and continue with the restoration (at your own risk)."
+msgstr "Вместо этого, вы можете выбрать другое подходящее сопоставление и продолжить восстановление (на ваш страх и риск)."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2889
+msgid "The database server that this WordPress site is running on doesn't support the collation (%s) used in the database which you are trying to import."
+msgid_plural "The database server that this WordPress site is running on doesn't support multiple collations (%s) used in the database which you are trying to import."
+msgstr[0] "Сервер баз данных, который используется вашим WordPress сайтом не поддерживает сопоставление (%s), которое вы пытаетесь импортировать"
+msgstr[1] "Сервер баз данных, который используется вашим WordPress сайтом не поддерживает сопоставления (%s), которые вы пытаетесь импортировать"
+msgstr[2] "Сервер баз данных, который используется вашим WordPress сайтом не поддерживает сопоставление (%s), которое вы пытаетесь импортировать"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2865
+msgid "Your chosen character set to use instead:"
+msgstr "Вы выбрали кодировку вместо:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2855
+msgid "Go here for more information."
+msgstr "Перейдите сюда для получения подробной информации."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2855
+msgid "You can choose another suitable character set instead and continue with the restoration at your own risk."
+msgstr "Вместо этого, вы можете выбрать другую подходящую кодировку и продолжить восстановление (на ваш страх и риск)."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2855
+msgid "The database server that this WordPress site is running on doesn't support the character set (%s) which you are trying to import."
+msgid_plural "The database server that this WordPress site is running on doesn't support the character sets (%s) which you are trying to import."
+msgstr[0] "Сервер баз данных, который используется вашим WordPress сайтом не поддерживает кодировку (%s), которую вы пытаетесь импортировать"
+msgstr[1] "Сервер баз данных, который используется вашим WordPress сайтом не поддерживает кодировки (%s), которые вы пытаетесь импортировать"
+msgstr[2] "Сервер баз данных, который используется вашим WordPress сайтом не поддерживает кодировок (%s), которые вы пытаетесь импортировать"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2834
+msgid "You must upgrade MySQL to be able to use this database."
+msgstr "Вы должны обновить MySQL, чтобы использовать эту базу данных."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2834
+msgid "The database backup uses MySQL features not available in the old MySQL version (%s) that this site is running on."
+msgstr "Функция резервного копирования базы данных MySQL недоступна для старых версий MySQL (%s), которая используется вашим сайтом."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2765
+msgid "To import an ordinary WordPress site into a multisite installation requires %s."
+msgstr "Для импорта одиночного WordPress сайта в мультисайт структуру требуется %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2761
+msgid "Please read this link for important information on this process."
+msgstr "Пожалуйста, прочитайте важную информацию об этом процессе по этой ссылке."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2761
+msgid "It will be imported as a new site."
+msgstr "Будет импортирован как новый сайт."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2713
+msgid "You should enable %s to make any pretty permalinks (e.g. %s) work"
+msgstr "Вы должны активировать %s, чтобы включить понятные постоянные ссылки (например %s) "
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2713
+msgid "You are using the %s webserver, but do not seem to have the %s module loaded."
+msgstr "Вы используете вебсервер %s, но похоже модуль %s не активирован."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2708
+msgid "You can search and replace your database (for migrating a website to a new location/URL) with the Migrator add-on - follow this link for more information"
+msgstr "Вы можете найти и заменить данные в вашей базе данных (для миграции сайт на новый адрес/URL) с помощью модуля Migrator, для получения подробной информации, проследуйте по следующей ссылке"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2696
+msgid "As long as your web hosting allows http (i.e. non-SSL access) or will forward requests to https (which is almost always the case), this is no problem. If that is not yet set up, then you should set it up, or use %s so that the non-https links are automatically replaced."
+msgstr "Пока ваш хостинг позволяет http (т.е. Не SSL доступ) или перенаправляет запросы на https (почти все это так), то не будет никаких проблем. Если это еще не настроено, то необходимо настроить или использовать %s для замены всех не https ссылок"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2694
+#: class/class-mainwp-child-updraft-plus-backups.php:2696
+msgid "the migrator add-on"
+msgstr "модуль миграции"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2694
+msgid "This restoration will work if you still have an SSL certificate (i.e. can use https) to access the site. Otherwise, you will want to use %s to search/replace the site address so that the site can be visited without https."
+msgstr "Это восстановление будет работать только при наличии SSL сертификата (т.е. при использовании https) для доступа к сайту. Иначе, вы можете использовать %s для поиска/замены адреса сайта, чтобы он был доступен без https"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2692
+msgid "This backup set is of this site, but at the time of the backup you were using %s, whereas the site now uses %s."
+msgstr "Этот набор резервных копий принадлежит этому сайту, но во время создания копии вы использовали %s, а сейчас сайт использует %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2687
+msgid "The website address in the backup set (%s) is slightly different from that of the site now (%s). This is not expected to be a problem for restoring the site, as long as visits to the former address still reach the site."
+msgstr "Адрес сайта в резервной копии (%s) немного отличается от текущего адреса (%s). Это не помешает восстановлению сайта, если предыдущей адрес также доступен."
+
+#: class/class-mainwp-child.php:551
+msgid "If you are not sure how to add this site to your Dashboard, <a href=\"https://mainwp.com/help/docs/set-up-the-mainwp-plugin/add-site-to-your-dashboard/\" target=\"_blank\">please review these instructions</a>."
+msgstr "Если вы не уверены, что знаете как добавить сайт в Консоль, то <a href=\"https://mainwp.com/help/docs/set-up-the-mainwp-plugin/add-site-to-your-dashboard/\" target=\"_blank\">прочитайте эти инструкции</a>."
+
+#: class/class-mainwp-child.php:548
+msgid " plugin until you are ready to connect this site to your Dashboard in order to avoid unexpected security issues."
+msgstr "плагин, пока вы не будете готовы присоединить этот сайт к Консоли. Это необходимо в целях безопасности."
+
+#: class/class-mainwp-child-wordfence.php:2862
+msgid "PHP error logs generated by your site, if enabled by your host."
+msgstr "Журналы ошибок PHP, созданные на вашем сайте, если они включены на хосте."
+
+#: class/class-mainwp-child-wordfence.php:2861
+msgid "Log Files"
+msgstr "Файлы журналов"
+
+#: class/class-mainwp-child-wordfence.php:2807
+msgid "Database table names, sizes, timestamps, and other metadata."
+msgstr "Имена таблиц базы данных, их размеры, временные отметки и другие метаданные."
+
+#: class/class-mainwp-child-wordfence.php:2806
+msgid "Database Tables"
+msgstr "Таблицы базы данных"
+
+#: class/class-mainwp-child-wordfence.php:2755
+msgid "List of WordPress cron jobs scheduled by WordPress, plugins, or themes."
+msgstr "Список задач планировщика WordPress, назначенных через WordPress, плагины или темы."
+
+#: class/class-mainwp-child-wordfence.php:2754
+msgid "Cron Jobs"
+msgstr "Задания планировщика"
+
+#: class/class-mainwp-child-wordfence.php:2715
+msgid "Status of installed themes."
+msgstr "Статус установленных тем."
+
+#: class/class-mainwp-child-wordfence.php:2714
+msgid "Themes"
+msgstr "Темы"
+
+#: class/class-mainwp-child-wordfence.php:2676
+msgid "WordPress \"mu-plugins\" that are always active, incluing those provided by hosts."
+msgstr "Плагины \"mu-plugins\" всегда активны, в том числе и предоставленные хостами."
+
+#: class/class-mainwp-child-wordfence.php:2675
+msgid "Must-Use WordPress Plugins"
+msgstr "Обязательные к использованию плагины WordPress"
+
+#: class/class-mainwp-child-wordfence.php:2640
+msgid "Status of installed plugins."
+msgstr "Статус установленных плагинов."
+
+#: class/class-mainwp-child-wordfence.php:2639
+msgid "WordPress Plugins"
+msgstr "Плагины WordPress"
+
+#: class/class-mainwp-child-wordfence.php:2542
+msgid "WordPress version and internal settings/constants."
+msgstr "Версия WordPress и внутренние настройки/константы"
+
+#: class/class-mainwp-child-wordfence.php:2541
+msgid "WordPress Settings"
+msgstr "Настройки WordPress"
+
+#: class/class-mainwp-child-wordfence.php:2459
+msgid "Methods of detecting a visitor's IP address."
+msgstr "Метод отслеживания IP адреса посетителя."
+
+#: class/class-mainwp-child-wordfence.php:2458
+msgid "IP Detection"
+msgstr "Отслеживание IP адреса"
+
+#: class/class-mainwp-child-wordfence.php:1966
+msgid "No configuration changes were provided to save."
+msgstr "Нет изменений конфигурации, которые нужно сохранить."
+
+#: class/class-mainwp-child-wordfence.php:1955
+msgid "An error occurred while saving the configuration."
+msgstr "Произошла ошибка при сохранении конфигурации."
+
+#: class/class-mainwp-child-wordfence.php:1946
+msgid "Errors occurred while saving the configuration."
+msgstr "Произошли ошибки при сохранении конфигурации."
+
+#: class/class-mainwp-child-wordfence.php:1941
+msgid "Errors occurred while saving the configuration: %s"
+msgstr "Произошли ошибки при сохранении конфигурации: %s"
+
+#: class/class-mainwp-child-wordfence.php:1932
+msgid "An error occurred while saving the configuration: %s"
+msgstr "Произошла ошибка при сохранении конфигурации: %s"
+
+#: class/class-mainwp-clone.php:199
+msgid "The site selected above will replace this site's files and database"
+msgstr "Сайт выбранный выше, заменит файлы и базу данных этого сайта"
+
+#: class/class-mainwp-clone.php:178
+msgid "Select Source for clone"
+msgstr "Выберите Источник для клонирования"
+
+#: class/class-mainwp-client-report.php:726
+msgid "Trusted"
+msgstr "Доверенный"
+
+#: class/class-mainwp-client-report.php:724
+msgid "Verified Clear"
+msgstr "Убрать статус Проверенного"
+
+#: class/class-mainwp-client-report.php:721
+msgid "Site With Warnings"
+msgstr "Сайт с предупреждениями"
+
+#: class/class-mainwp-client-report.php:719
+#: class/class-mainwp-client-report.php:726
+msgid "Site Blacklisted"
+msgstr "Сайт в черном списке"
+
+#. translators: 1: user display name, 2: user login
+#: class/class-mainwp-child-ithemes-security.php:1204
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: class/class-mainwp-wordpress-seo.php:181
+msgid "Focus keyword not set."
+msgstr "Фокусное ключевое слово не задано."
+
+#: class/class-mainwp-wordpress-seo.php:176
+msgid "Post is set to noindex."
+msgstr "Запись теперь не индексируется."
+
+#: class/class-mainwp-helper.php:423
+msgid "This content is currently locked. %s is currently editing."
+msgstr "Содержимое заблокировано. %s редактирует его в данный момент."
+
+#: class/class-mainwp-child-pagespeed.php:275
+msgid "The API is busy checking other pages, please try again later."
+msgstr "API занято проверкой других страниц, повторите попытку позже"
+
+#: class/class-mainwp-child-back-wp-up.php:1396
+msgid "Run now"
+msgstr "Запустить сейчас"
+
+#: class/class-mainwp-child-back-wp-up.php:1396
+msgid "Jobs overview"
+msgstr "Обзор заданий"
+
+#: class/class-mainwp-child-back-wp-up.php:1396
+msgid "Changes for job <i>%s</i> saved."
+msgstr "Изменения для задания <i>%s</i> сохранены."
+
+#: class/class-mainwp-child.php:1541
+msgid "Required version has not been detected. Please, make sure that you are using the latest version of the MainWP Child plugin on your site."
+msgstr "Необходимая версия не обнаружена. Убедитесь, что вы используете последнюю версию плагина MainWP Child на своем сайте."
+
+#: class/class-mainwp-child-server-information.php:1593
+msgid "wp-config.php not found"
+msgstr "Файл wp-config.php не найден"
+
+#: class/class-mainwp-child.php:2423
+msgid "SSL is required on the child site to set up a secure connection."
+msgstr "Для установки безопасного соединения на дочернем сайте требуется SSL."
+
+#: class/class-mainwp-clone.php:55
+msgid "Double request!"
+msgstr "Двойной запрос!"
+
+#: class/class-mainwp-child-links-checker.php:563
+#: class/class-mainwp-child-links-checker.php:635
+msgid "Error: link_id is not specified."
+msgstr "Ошибка: link_id не определен."
+
+#. Description of the plugin
+msgid "Provides a secure connection between your MainWP Dashboard and your WordPress sites. MainWP allows you to manage WP sites from one central location. Plugin documentation and options can be found here https://mainwp.com/help/"
+msgstr "Предоставляет безопасное соединение между вашей консолью MainWP и вашими WordPress сайтами. MainWP позволяет вам управлять WP сайтами из одной консоли управления. Документация по плагину и опциям может быть найдена здесь https://mainwp.com/help/"
+
+#: class/class-mainwp-clone.php:158
+msgid "Clone/Restore website"
+msgstr "Клонировать/Восстановить сайт"
+
+#: class/class-mainwp-clone-install.php:98
+msgid "Database backup is missing."
+msgstr "Отсутствует резервная копия базы данных."
+
+#: class/class-mainwp-clone-install.php:92
+#: class/class-mainwp-clone-install.php:95
+msgid "This is not a full backup."
+msgstr "Это не полный бэкап."
+
+#: class/class-mainwp-child.php:5014
+msgid "This site already contains a link. Please deactivate and reactivate the MainWP plugin."
+msgstr "Этот сайт уже содержит ссылку - пожалуйста, отключите и включите плагин MainWP."
+
+#: class/class-mainwp-child.php:4476
+msgid "No scheduled posts."
+msgstr "Нет запланированных записей."
+
+#: class/class-mainwp-child.php:3025
+msgid "Administrator password could not be changed."
+msgstr "Пароль администратора не может быть изменен."
+
+#: class/class-mainwp-child.php:2885
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong> ОШИБКА </strong>: Этот адрес уже зарегистрирован, пожалуйста, выберите другой."
+
+#: class/class-mainwp-child.php:2883
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ОШИБКА</strong>: Адрес электронной почты &#8217;t не правильный."
+
+#: class/class-mainwp-child.php:2881
+msgid "<strong>ERROR</strong>: Please enter an email address."
+msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите корректный адрес e-mail."
+
+#: class/class-mainwp-child.php:2876
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr "<strong>ОШИБКА</strong>: Это имя пользователя не разрешено."
+
+#: class/class-mainwp-child.php:2863
+msgid "<strong>ERROR</strong>: Please enter the same password in both password fields."
+msgstr "<strong>ОШИБКА</strong>: Введите один и тот же пароль в обоих полях."
+
+#: class/class-mainwp-child.php:2858
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>ОШИБКА</strong>: Пароли могут не содержать символ \"\\\"."
+
+#: class/class-mainwp-child.php:2853
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите пароль."
+
+#: class/class-mainwp-child.php:2846
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите имя пользователя."
+
+#: class/class-mainwp-child.php:2417
+msgid "The unique security ID mismatch! Please correct it before the connection can be established."
+msgstr "Несоответствие идентификатора безопасности! Пожалуйста, исправьте его до того, как соединение будет установлено."
+
+#: class/class-mainwp-child.php:1155 class/class-mainwp-child.php:2434
+msgid "That user is not an administrator. Please use an administrator user to establish the connection."
+msgstr "Этот пользователь не является администратором. Для установления соединения используйте пользователя-администратора."
+
+#: class/class-mainwp-child.php:1151 class/class-mainwp-child.php:2430
+msgid "That administrator username was not found on this child site. Please verify that it is an existing administrator."
+msgstr "Это имя пользователя администратора не было найдено на дочернем сайте. Убедитесь, что это уже существующий администратор."
+
+#: class/class-mainwp-child.php:934
+msgid "Connection Details"
+msgstr "Сведения о подключении"
+
+#: class/class-mainwp-child.php:555
+msgid " settings</a> if you would like extra security and additional time to add this site to your Dashboard. <br/>Find out more in this help document <a href=\"https://mainwp.com/help/docs/set-up-the-mainwp-plugin/set-unique-security-id/\" target=\"_blank\">How do I use the child unique security ID?</a>"
+msgstr " настройки</a>, если вы хотите добавить дополнительный элемент безопасности, но это потребует увеличения времени на добавление сайта в Консоль. <br/>Подробнее об этом в документации <a href=\"https://mainwp.com/help/docs/set-up-the-mainwp-plugin/set-unique-security-id/\" target=\"_blank\">Зачем использовать уникальный идентификатор безопасности на дочерних сайтах?</a>"
+
+#: class/class-mainwp-child.php:555
+msgid "You can also turn on the unique security ID option in <a href=\"admin.php?page=mainwp_child_tab\">"
+msgstr "Вы также можете включить уникальный идентификатор безопасности в <a href=\"admin.php?page=mainwp_child_tab\">"
+
+#: class/class-mainwp-child.php:548
+msgid "Please add this site to your "
+msgstr "Добавьте этот сайт в свою "
+
+#: class/class-mainwp-child.php:546
+msgid "Attention!"
+msgstr "Внимание!"
+
+#: class/class-mainwp-child-wordfence.php:222
+msgid "Please install the Wordfence plugin on the child site."
+msgstr "Пожалуйста, установите плагин Wordfence на дочернем сайте."
+
+#: class/class-mainwp-child-server-information.php:1662
+msgid "If you are trying to connect this child site to your %s Dashboard, you can use following details to do that. Please note that these are only suggested values."
+msgstr "Если вы пытаетесь подключить этот дочерний сайт к вашей консоли %s, вы можете использовать для этого следующие данные. Помните, что это только рекомендованные значения."
+
+#: class/class-mainwp-child-server-information.php:1658
+msgid "Connection details"
+msgstr "Сведения о подключении"
+
+#: class/class-mainwp-child-server-information.php:1651
+#: class/class-mainwp-child-server-information.php:1652
+msgid "Auto Detect"
+msgstr "Автоматическое определение"
+
+#: class/class-mainwp-child-server-information.php:1650
+msgid "SSL version"
+msgstr "Версия SSL"
+
+#: class/class-mainwp-child-server-information.php:1647
+msgid "If there is an issue with SSL certificate on this site, try to set this option to No."
+msgstr "Если на этом сайте возникает проблема с сертификатом SSL, попробуйте установить этот параметр на значение Нет."
+
+#: class/class-mainwp-child-server-information.php:1646
+msgid "Yes"
+msgstr "Да"
+
+#: class/class-mainwp-child-server-information.php:1645
+msgid "Verify certificate"
+msgstr "Проверить сертификат"
+
+#: class/class-mainwp-child-server-information.php:1642
+msgid "Child unique security id is not required, however, since you have enabled it, you need to add it to your %s dashboard."
+msgstr "Уникальный идентификатор безопасности для дочернего сайта не обязателен, но так как вы включили эту опцию, вам нужно указать его в консоли %s."
+
+#: class/class-mainwp-child-server-information.php:1641
+msgid "Leave the field blank"
+msgstr "Оставьте поле пустым"
+
+#: class/class-mainwp-child-server-information.php:1640
+msgid "Child unique security id"
+msgstr "Уникальный идентификатор безопасности дочернего сайта"
+
+#: class/class-mainwp-child-server-information.php:1637
+msgid "For the friendly site name, you can use any name, this is just a suggestion."
+msgstr "Для дружественного названия сайта вы можете использовать любое название, это всего лишь предложение."
+
+#: class/class-mainwp-child-server-information.php:1635
+msgid "Friendly site name"
+msgstr "Дружественное название сайта"
+
+#: class/class-mainwp-child-server-information.php:1632
+msgid "This is your Administrator username, however, you can use any existing Administrator username."
+msgstr "Это ваше имя пользователя администратора, однако вы можете использовать любое существующее имя пользователя."
+
+#: class/class-mainwp-child-server-information.php:1630
+msgid "Administrator name"
+msgstr "Логин администратора"
+
+#: class/class-mainwp-child-server-information.php:1625
+msgid "Site URL"
+msgstr "URL сайта"
+
+#: class/class-mainwp-child-server-information.php:1605
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: class/class-mainwp-child-branding.php:859
+msgid "Sending email failed!"
+msgstr "Письмо не удалось отправить!"
+
+#: class/class-mainwp-child-back-up-wordpress.php:326
+msgid "Error while trying to trigger the schedule"
+msgstr "Возникла ошибка при попытке запуска расписания"
+
+#: class/class-mainwp-child-back-up-buddy.php:217
+msgid "Please install the BackupBuddy plugin on the child site."
+msgstr "Пожалуйста, установите плагин BackupBuddy на дочернем сайте"
+
+#: class/class-mainwp-backup.php:54
+msgid "Another backup process is running. Please, try again later."
+msgstr "Выполняется другой процесс резервного копирования. Пожалуйста, повторите попытку позже."
+
+#: class/class-mainwp-child-back-up-buddy.php:3051
+msgid "An unknown error occurred. Please contact iThemes support. Error details: %s"
+msgstr "Произошла неизвестная ошибка. Свяжитесь с поддержкой, детали ошибки: %s"
+
+#: class/class-mainwp-child-back-up-buddy.php:3049
+msgid "An unknown error relating to the %1$s product occurred. Please contact iThemes support. Error details: %2$s"
+msgstr "Произошла неизвестная ошибка, связанная с %1$s. Свяжитесь с поддержкой, детали ошибки: %2$s"
+
+#: class/class-mainwp-child-back-up-buddy.php:3043
+msgid "%s could not be licensed due to an internal error. Please try to license %s again at a later time. If this problem continues, please contact iThemes support."
+msgstr "%s не может быть лицензирован из-за внутренней ошибки. Попробуйте лицензировать %s снова или позже. Если проблема не исчезнет, обратитесь в службу поддержки iThemes."
+
+#: class/class-mainwp-child-back-up-buddy.php:3040
+msgid "%1$s could not be licensed since the membership account is out of available licenses for this product. You can unlicense the product on other sites or upgrade your membership to one with a higher number of licenses in order to increase the amount of available licenses."
+msgstr "%1$s не может быть лицензирован, т.к. нет доступных лицензий. Вы можете отключить лицензию на другом сайте или приобрести дополнительные лицензии."
+
+#: class/class-mainwp-child-back-up-buddy.php:3037
+msgid "The licensing server reports that the %1$s (%2$s) product is unknown. Please contact support for assistance."
+msgstr "Сервер лицензирования ответил, что %1$s (%2$s) не опознано. Свяжитесь с поддержкой."
+
+#: class/class-mainwp-child-back-up-buddy.php:3034
+msgid "Invalid username. Please make sure that you are supplying your iThemes membership username and password details."
+msgstr "Неверное имя пользователя. Проверьте свою информацию пользователя iThemes."
+
+#: class/class-mainwp-child-back-up-buddy.php:3030
+msgid "Incorrect password. Please make sure that you are supplying your iThemes membership username and password details."
+msgstr "Неверный пароль. Проверьте свою информацию пользователя iThemes."
+
+#: class/class-mainwp-child-back-up-buddy.php:3014
+msgid "Unable to remove license from %1$s. Reason: %2$s"
+msgstr "Не удалось удалить лицензию с %1$s. Причина: %2$s"
+
+#: class/class-mainwp-child-back-up-buddy.php:3008
+msgid "Successfully removed license from %l."
+msgid_plural "Successfully removed licenses from %l."
+msgstr[0] "Лицензия успешно удалена из %l."
+msgstr[1] "Лицензии успешно удалены из %l."
+msgstr[2] "Лицензии успешно удалены из %l."
+
+#: class/class-mainwp-child-back-up-buddy.php:3003
+msgid "Unknown server error."
+msgstr "Неизвестная ошибка сервера."
+
+#: class/class-mainwp-child-back-up-buddy.php:2981
+msgid "An unknown server error occurred. Please try to remove licenses from your products again at another time."
+msgstr "Произошла неизвестная ошибка. Попробуйте удалить лицензию позже."
+
+#: class/class-mainwp-child-back-up-buddy.php:2942
+#: class/class-mainwp-child-back-up-buddy.php:2948
+msgid "Unable to license %1$s. Reason: %2$s"
+msgstr "Не получилось лицензировать %1$s. Причина: %2$s"
+
+#: class/class-mainwp-child-back-up-buddy.php:2936
+msgid "Successfully licensed %l."
+msgstr "Успешно лицензирован %l."
+
+#: class/class-mainwp-child-back-up-buddy.php:2929
+msgid "Your product subscription has expired"
+msgstr "Срок подписки истек"
+
+#: class/class-mainwp-child-back-up-buddy.php:2909
+msgid "An unknown server error occurred. Please try to license your products again at another time."
+msgstr "Произошла неизвестная ошибка. Попробуйте указать лицензию немного позже."
+
+#: class/class-mainwp-child-back-up-buddy.php:2647
+msgid "Live Database Backup resumed."
+msgstr "Оперативный бэкап базы данных возобновлен."
+
+#: class/class-mainwp-child-back-up-buddy.php:2641
+msgid "Live Database Backup paused."
+msgstr "Оперативный бэкап базы данных приостановлен."
+
+#: class/class-mainwp-child-back-up-buddy.php:2634
+msgid "Live File Backup has resumed."
+msgstr "Оперативный бэкап базы данных возобновлен."
+
+#: class/class-mainwp-child-back-up-buddy.php:2625
+msgid "Unpaused but not running now."
+msgstr "Не заблокировано, но не работает."
+
+#: class/class-mainwp-child-back-up-buddy.php:2622
+msgid "Live File Backup paused. It may take a moment for current processes to finish."
+msgstr "Резервное копирование в реальном времени приостановлено. Для завершения текущих процессов может потребоваться некоторое время."
+
+#: class/class-mainwp-child-back-up-buddy.php:2614
+msgid "Please wait while we verify your backup is completely up to date before we create the Snapshot. This may take a few minutes..."
+msgstr "Подождите, пока мы проверим, что ваша резервная копия полностью обновлена ​​до того, как мы создадим снимок. Это может занять несколько минут..."
+
+#: class/class-mainwp-child-back-up-buddy.php:2614
+msgid "Verifying everything is up to date before Snapshot"
+msgstr "Проверка до даты перед созданием Снимка."
+
+#: class/class-mainwp-child-back-up-buddy.php:2415
+msgid "Themes Backup"
+msgstr "Бэкап тем"
+
+#: class/class-mainwp-child-back-up-buddy.php:2414
+msgid "Plugins Backup"
+msgstr "Бэкап плагинов"
+
+#: class/class-mainwp-child-back-up-buddy.php:2413
+msgid "Full Backup"
+msgstr "Полный бэкап"
+
+#: class/class-mainwp-child-back-up-buddy.php:2412
+msgid "Database Backup"
+msgstr "Бэкап базы данных"
+
+#: class/class-mainwp-child-back-up-buddy.php:2388
+msgid "Blacklisting Status"
+msgstr "Статус в черном списке"
+
+#: class/class-mainwp-child-back-up-buddy.php:2380
+msgid "Iframes Included"
+msgstr "Включеные фреймы"
+
+#: class/class-mainwp-child-back-up-buddy.php:2372
+msgid "External Javascript"
+msgstr "Внешний Javascript"
+
+#: class/class-mainwp-child-back-up-buddy.php:2364
+msgid "Local Javascript"
+msgstr "Локальный Javascript"
+
+#: class/class-mainwp-child-back-up-buddy.php:2356
+msgid "Links"
+msgstr "Ссылки"
+
+#: class/class-mainwp-child-back-up-buddy.php:2350
+msgid "Warnings"
+msgstr "Предупреждения"
+
+#: class/class-mainwp-child-back-up-buddy.php:2349
+msgid "Errors"
+msgstr "Ошибки"
+
+#: class/class-mainwp-child-back-up-buddy.php:2348
+msgid "Notices"
+msgstr "Уведомления"
+
+#: class/class-mainwp-child-back-up-buddy.php:2347
+msgid "Versions"
+msgstr "Версии"
+
+#: class/class-mainwp-child-back-up-buddy.php:2346
+msgid "Details"
+msgstr "Подробности"
+
+#: class/class-mainwp-child-back-up-buddy.php:2344
+msgid "Web application"
+msgstr "Веб-приложение"
+
+#: class/class-mainwp-child-back-up-buddy.php:2338
+msgid "Information"
+msgstr "Информация"
+
+#: class/class-mainwp-child-back-up-buddy.php:2337
+msgid "System details"
+msgstr "Система"
+
+#: class/class-mainwp-child-back-up-buddy.php:2336
+msgid "IP Address"
+msgstr "IP-адрес"
+
+#: class/class-mainwp-child-back-up-buddy.php:2335
+msgid "Hostname"
+msgstr "Имя хоста"
+
+#: class/class-mainwp-child-back-up-buddy.php:2334
+msgid "Site"
+msgstr "Сайт"
+
+#: class/class-mainwp-child-back-up-buddy.php:2332
+msgid "Web server details"
+msgstr "Сведения о веб-сервере"
+
+#: class/class-mainwp-child-back-up-buddy.php:2318
+msgid "Malware"
+msgstr "Вредоносный скрипт"
+
+#: class/class-mainwp-child-back-up-buddy.php:2316
+msgid "Malware Detection"
+msgstr "Обнаружение вредоносных скриптов"
+
+#: class/class-mainwp-child-back-up-buddy.php:2315
+#: class/class-mainwp-child-back-up-buddy.php:2331
+#: class/class-mainwp-child-back-up-buddy.php:2355
+#: class/class-mainwp-child-back-up-buddy.php:2363
+#: class/class-mainwp-child-back-up-buddy.php:2371
+#: class/class-mainwp-child-back-up-buddy.php:2379
+#: class/class-mainwp-child-back-up-buddy.php:2387
+msgid "Click to toggle"
+msgstr "﻿Нажмите, чтобы переключить"
+
+#: class/class-mainwp-child-back-up-buddy.php:2304
+msgid "See details below."
+msgstr "Подробности ниже"
+
+#: class/class-mainwp-child-back-up-buddy.php:2304
+msgid "Warning: Possible Malware Detected!"
+msgstr "Предупреждение: возможно обнаружен вредоносный скрипт!"
+
+#: class/class-mainwp-child-back-up-buddy.php:2296
+#: class/class-mainwp-child-back-up-buddy.php:2324
+#: class/class-mainwp-child-back-up-buddy.php:2334
+#: class/class-mainwp-child-back-up-buddy.php:2335
+#: class/class-mainwp-child-back-up-buddy.php:2336
+#: class/class-mainwp-child-back-up-buddy.php:2337
+#: class/class-mainwp-child-back-up-buddy.php:2338
+#: class/class-mainwp-child-back-up-buddy.php:2346
+#: class/class-mainwp-child-back-up-buddy.php:2347
+#: class/class-mainwp-child-back-up-buddy.php:2348
+#: class/class-mainwp-child-back-up-buddy.php:2349
+#: class/class-mainwp-child-back-up-buddy.php:2350
+#: class/class-mainwp-child-back-up-buddy.php:2358
+#: class/class-mainwp-child-back-up-buddy.php:2366
+#: class/class-mainwp-child-back-up-buddy.php:2374
+#: class/class-mainwp-child-back-up-buddy.php:2382
+#: class/class-mainwp-child-back-up-buddy.php:2390
+msgid "none"
+msgstr "нет"
+
+#: class/class-mainwp-child-back-up-buddy.php:2259
+msgid "An internet connection is required and this site must be accessible on the public internet."
+msgstr "Требуется подключение к Интернету и этот сайт должен быть доступен в сети."
+
+#: class/class-mainwp-child-back-up-buddy.php:2258
+msgid "An error was encountered attempting to scan this site."
+msgstr "Произошла ошибка при попытке сканирования этого сайта."
+
+#: class/class-mainwp-child-back-up-buddy.php:2247
+msgid "ERROR #24452. Unable to load Malware Scan results. Details:"
+msgstr "ОШИБКА # 24452. Не удается загрузить результаты сканирования на вредоносные скрипты. Детали:"
+
+#: class/class-mainwp-child-back-up-buddy.php:2212
+msgid "ERROR: You are currently running your site locally. Your site must be internet accessible to scan."
+msgstr "ОШИБКА. В настоящее время вы запускаете свой сайт локально. Ваш сайт должен быть доступен в Интернете для сканирования."
+
+#: class/class-mainwp-child-back-up-buddy.php:2202
+msgid "Malware Scan URL"
+msgstr "Сканирования на вирусы"
+
+#: class/class-mainwp-child-back-up-buddy.php:2102
+msgid "Nothing has been logged."
+msgstr "Запись в журнал не выполнена."
+
+#: class/class-mainwp-child-back-up-buddy.php:1889
+#: class/class-mainwp-child-back-up-buddy.php:1910
+msgid "Fatal Error #4344443: Backup failure. Please see any errors listed in the Status Log for details."
+msgstr "Ошибка # 4344443: Ошибка резервного копирования. Пожалуйста, просмотрите все ошибки, перечисленные в журнале состояния."
+
+#: class/class-mainwp-child-back-up-buddy.php:1764
+msgid "No step statistics were found for this backup."
+msgstr "Для этой резервной копии не было найдено статистических данных."
+
+#: class/class-mainwp-child-back-up-buddy.php:1760
+msgid "Attempts"
+msgstr "Попытки"
+
+#: class/class-mainwp-child-back-up-buddy.php:1758
+msgid "Backup Steps"
+msgstr "Шаги"
+
+#: class/class-mainwp-child-back-up-buddy.php:1643
+msgid "Integrity Test"
+msgstr "Целостность"
+
+#: class/class-mainwp-child-back-up-buddy.php:1509
+msgid "Empty schedule ids"
+msgstr "ID c пустыми расписаниями"
+
+#: class/class-mainwp-child-back-up-buddy.php:1479
+msgid "Trigger"
+msgstr "Триггер"
+
+#: class/class-mainwp-child-back-up-buddy.php:1478
+msgid "File Size"
+msgstr "Размер файла"
+
+#: class/class-mainwp-child-back-up-buddy.php:1477
+msgid "Type | Profile"
+msgstr "Тип | Профиль"
+
+#: class/class-mainwp-child-back-up-buddy.php:1476
+msgid "Recently Made Backups (Start Time)"
+msgstr "Недавно выполненные бэкапы (Время)"
+
+#: class/class-mainwp-child-back-up-buddy.php:1420
+msgid "Backup Process Technical Details"
+msgstr "Техническое описание процесса резервного копирования"
+
+#: class/class-mainwp-child-back-up-buddy.php:1396
+#: class/class-mainwp-child-back-up-buddy.php:1576
+msgid "Unable to access fileoptions data file."
+msgstr "Не удалось получить доступ к файлу данных."
+
+#: class/class-mainwp-child-back-up-buddy.php:1336
+#: class/class-mainwp-child-back-up-buddy.php:1424
+msgid "View Backup Log"
+msgstr "Журнал событий"
+
+#: class/class-mainwp-child-back-up-buddy.php:1332
+msgid "View Details"
+msgstr "Подробнее"
+
+#: class/class-mainwp-child-back-up-buddy.php:1332
+msgid "Backup Status"
+msgstr "Статус резервного копирования"
+
+#: class/class-mainwp-child-back-up-buddy.php:683
+msgid "Invalid profile data"
+msgstr "Недопустимые данные профиля"
+
+#: class/class-mainwp-child-back-up-buddy.php:650
+msgid "Invalid schedule data"
+msgstr "Недопустимые данные расписания"
+
+#: class/class-mainwp-child-back-up-buddy.php:636
+msgid "Note: If there is no site activity there may be delays between steps in the backup. Access the site or use a 3rd party service, such as a free pinging service, to generate site activity."
+msgstr "Примечание. Если нет активности сайта, могут быть задержки между этапами резервного копирования. Получите доступ к сайту или используйте сторонний сервис, например бесплатную службу ping, для генерирования активности сайта."
+
+#: class/class-mainwp-child-back-up-buddy.php:632
+msgid "Error: not found the backup schedule or invalid data"
+msgstr "Ошибка: не найдено расписание резервного копирования или неверные данные"
+
+#: class/class-mainwp-child-back-up-buddy.php:626
+msgid "Only run for main site or standalone. Multisite subsites do not allow schedules"
+msgstr "Выполняется только для основного сайта или отдельно. Для мультисайтов не допускаются расписания"
+
+#: class/class-mainwp-child-back-up-buddy.php:581
+msgid "Never"
+msgstr "Никогда"
+
+#: class/class-mainwp-child-back-up-buddy.php:561
+msgid "Plugin settings have been reset to defaults."
+msgstr "Настройки плагина были сброшены на по умолчанию."
+
+#: class/class-mainwp-child-back-up-buddy.php:552
+msgid "Remote destination settings were not reset."
+msgstr "Настройки удаленного назначения не были сброшены."
+
+#: class/class-mainwp-child-ithemes-security.php:391
+msgid "The directory supplied in %1$s is not writable. Please select a directory that can be written to."
+msgstr "Каталог %1$s не доступен для записи. Выберите каталог, в который можно записать."
+
+#: class/class-mainwp-child-ithemes-security.php:386
+msgctxt "%1$s is the input name. %2$s is the error message."
+msgid "The directory supplied in %1$s cannot be used as a valid directory. %2$s"
+msgstr "Каталог %1$s не может использоваться. %2$s"
+
+#: class/class-mainwp-child-ithemes-security.php:251
+msgid "You must change <strong>WordPress permalinks</strong> to a setting other than \"Plain\" in order to use \"Hide Backend\" feature."
+msgstr "Вы должны изменить <strong>Постоянные ссылки WordPress</strong> на значение отличное от \"Простые\", чтобы использовать функцию \"Скрыть бэкэнд\"."
+
+#: class/class-mainwp-custom-post-type.php:334
+msgid "Error when adding taxonomy to post"
+msgstr "Ошибка при добавлении таксономии для публикации"
+
+#: class/class-mainwp-custom-post-type.php:310
+msgid "Missing taxonomy"
+msgstr "Отсутствует таксономия"
+
+#: class/class-mainwp-custom-post-type.php:280
+msgid "Error when adding post meta"
+msgstr "Ошибка при добавлении метаданных"
+
+#: class/class-mainwp-custom-post-type.php:268
+msgid "Cannot add featured image"
+msgstr "Невозможно добавить миниатюру для продукта"
+
+#: class/class-mainwp-custom-post-type.php:247
+msgid "Cannot add product image"
+msgstr "Невозможно добавить изображение для продукта"
+
+#: class/class-mainwp-custom-post-type.php:233
+msgid "Product SKU must be unique"
+msgstr "артикул товара должен быть уникальным"
+
+#: class/class-mainwp-custom-post-type.php:223
+msgid "Error when insert new post:"
+msgstr "Ошибка при вводе новой записи:"
+
+#: class/class-mainwp-custom-post-type.php:208
+msgid "Cannot delete old post meta values"
+msgstr "Не удается удалить старые мета-данные записи"
+
+#: class/class-mainwp-custom-post-type.php:198
+msgid "This post is inside trash on child website. Please try publish it manually and try again."
+msgstr "Эта запись находится в корзине на дочернем сайте. Попробуйте опубликовать ее вручную и повторите попытку."
+
+#: class/class-mainwp-custom-post-type.php:193
+msgid "Cannot get old post. Probably is deleted now. Please try again for create new post"
+msgstr "Не удается получить старую запись. Вероятно, она удалена. Повторите попытку для создания новой записи"
+
+#: class/class-mainwp-custom-post-type.php:174
+msgid "on child and try again"
+msgstr "на дочерний сайт и попробуйте снова"
+
+#: class/class-mainwp-custom-post-type.php:174
+msgid "Please install"
+msgstr "Пожалуйста, установите"
+
+#: class/class-mainwp-custom-post-type.php:167
+msgid "inside post data"
+msgstr "внутри записи"
+
+#: class/class-mainwp-custom-post-type.php:167
+msgid "Missing"
+msgstr "Отсуствует"
+
+#: class/class-mainwp-custom-post-type.php:68
+msgid "Cannot decode data"
+msgstr "Не удается декодировать данные"
+
+#: class/class-mainwp-custom-post-type.php:60
+msgid "Missing data"
+msgstr "Отсутствуют данные"
+
+#: class/class-mainwp-child-server-information.php:811
+msgid "WORDPRESS PLUGINS"
+msgstr "ПЛАГИНЫ WORDPRESS"
+
+#: class/class-mainwp-child-server-information.php:580
+msgid "Currently connected to dashboard URL"
+msgstr "В настоящее время подключено к панели управления"
+
+#: class/class-mainwp-child-ithemes-security.php:903
+msgid "The database table prefix was successfully changed to <code>%1$s</code>."
+msgstr "Префикс таблицы базы данных был успешно изменен на <code>%1$s</code>."
+
+#: class/class-mainwp-child-ithemes-security.php:646
+#: class/class-mainwp-child-ithemes-security.php:655
+msgid "Result"
+msgstr "Результат"
+
+#: class/class-mainwp-child-ithemes-security.php:644
+#: class/class-mainwp-child-ithemes-security.php:653
+msgid "Suggestion"
+msgstr "Предложение"
+
+#: class/class-mainwp-child-ithemes-security.php:643
+#: class/class-mainwp-child-ithemes-security.php:652
+msgid "Relative Path"
+msgstr "Относительный путь"
+
+#: class/class-mainwp-child-ithemes-security.php:639
+msgid "Reload File Permissions Details"
+msgstr "Обновить сведения о разрешениях файлов"
+
+#: class/class-mainwp-child-ithemes-security.php:625
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+#: class/class-mainwp-child-ithemes-security.php:545
+msgid "The WordPress salts were successfully regenerated."
+msgstr "Salts WordPress были успешно созданы."
+
+#: class/class-mainwp-child-ithemes-security.php:519
+msgid "The backup request returned an unexpected response. It returned a response of type <code>%1$s</code>."
+msgstr "Запрос резервного копирования возвратил неожиданный ответ: <code>%1$s</code>."
+
+#: class/class-mainwp-child-ithemes-security.php:350
+msgid "Not Updated"
+msgstr "Не обновлено"
+
+#: class/class-mainwp-clone.php:307
+msgid "If you have a FULL backup created by basic MainWP Backup system you may restore it by uploading here. Backups created by 3rd party plugins will not work."
+msgstr "Если у вас есть ПОЛНАЯ резервная копия, созданная основной системой резервного копирования MainWP, вы можете восстановить ее, загрузив здесь. Резервные копии, созданные сторонними плагинами, не будут работать."
+
+#: class/class-mainwp-clone.php:219
+msgid "If you have a FULL backup created by the default MainWP Backup system you may restore it by uploading here. Backups created by 3rd party plugins will not work."
+msgstr "Если у вас есть ПОЛНАЯ резервная копия, созданная по умолчанию системой резервного копирования MainWP, вы можете восстановить ее, загрузив здесь. Резервные копии, созданные сторонними плагинами, не будут работать."
+
+#: class/class-mainwp-child.php:931
+msgid "Server information"
+msgstr "Информация о сервере"
+
+#: class/class-mainwp-child.php:928
+msgid "Restore / Clone"
+msgstr "Восстановление / Клонирование"
+
+#: class/class-mainwp-child-wp-rocket.php:248
+msgid "Please install WP Rocket plugin on child website"
+msgstr "Пожалуйста установите плагин WP Rocket на дочерний сайт"
+
+#: class/class-mainwp-child-server-information.php:1336
+msgid "Not expected HTTP response body: %s"
+msgstr "На тест ответа HTTP возникла ошибка: %s "
+
+#: class/class-mainwp-child-server-information.php:695
+msgid "Server self connect"
+msgstr "Самостоятельное подключение к серверу"
+
+#: class/class-mainwp-child-server-information.php:469
+msgid "Get system report"
+msgstr "Отчет о работе системы"
+
+#: class/class-mainwp-child-server-information.php:465
+msgid "Hide"
+msgstr "Скрыть"
+
+#: class/class-mainwp-child-server-information.php:464
+msgid "Please include this information when requesting support:"
+msgstr "Пожалуйста, укажите эту информацию при обращении в поддержку:"
+
+#: class/class-mainwp-child-branding.php:889
+msgid "Your message:"
+msgstr "Ваше сообщение:"
+
+#: class/class-mainwp-child-branding.php:884
+msgid "Subject:"
+msgstr "Тема:"
+
+#: class/class-mainwp-child-back-up-wordpress.php:650
+msgid "Your Site"
+msgstr "Ваш сайт"
+
+#: class/class-mainwp-child.php:5013
+msgid "Hint: Go to the child site, deactivate and reactivate the MainWP Child plugin and try again."
+msgstr "Подсказка: перейдите на дочерний сайт, отключите и снова активируйте плагин MainWP Child и повторите попытку."
+
+#: class/class-mainwp-child.php:2429
+msgid "Hint: Check if the administrator user exists on the child site, if not, you need to use an existing administrator."
+msgstr "Подсказка: проверьте, существует ли пользователь-администратор на дочернем сайте, если нет, вам нужно использовать существующего администратора."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:353
+msgid "Your email address and password were not recognised by UpdraftPlus.Com"
+msgstr "Ваш адрес электронной почты и пароль не были найдены на сайте UpdraftPlus.Com"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:349
+msgid "You entered an email address that was not recognised by UpdraftPlus.Com"
+msgstr "Вы ввели адрес электронной почты, который не связан с UpdraftPlus.Com"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:346
+msgid "If you have forgotten your password, then go here to change your password on updraftplus.com."
+msgstr "Если вы забыли свой пароль, перейдите сюда, чтобы изменить пароль на сайте updraftplus.com."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:346
+msgid "Your email address was valid, but your password was not recognised by UpdraftPlus.Com."
+msgstr "Ваш адрес электронной почты был действительным, но ваш пароль не был распознан UpdraftPlus.Com."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:339
+#: class/class-mainwp-child-updraft-plus-backups.php:357
+msgid "UpdraftPlus.Com returned a response, but we could not understand it"
+msgstr "UpdraftPlus.Com вернул неясный ответ"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:337
+msgid "You do not currently have any UpdraftPlus Vault quota"
+msgstr "В настоящее время у вас нет квоты UpdraftPlus"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:320
+msgid "UpdraftPlus.Com returned a response which we could not understand (data: %s)"
+msgstr "UpdraftPlus.Com вернул неясный ответ (данные: %s)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:318
+msgid "To remove the block, please go here."
+msgstr "Чтобы удалить блок, перейдите сюда."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:318
+msgid "This most likely means that you share a webserver with a hacked website that has been used in previous attacks."
+msgstr "Это, скорее всего, означает, что вы используете веб-сервер со взломанным веб-сайтом, который использовался в предыдущих атаках."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:318
+msgid "It appears that your web server's IP Address (%s) is blocked."
+msgstr "Похоже, что IP-адрес вашего веб-сервера (%s) заблокирован."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:318
+msgid "UpdraftPlus.com has responded with 'Access Denied'."
+msgstr "UpdraftPlus.com ответил 'Доступ запрещен'."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:288
+msgid "Disconnect"
+msgstr "Отключить"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:278
+msgid "Quota:"
+msgstr "Квота:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:276
+msgid "Vault owner"
+msgstr "Владелец"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:276
+msgid "Well done - there's nothing more needed to set up."
+msgstr "Все хорошо - больше не надо ничего настраивать."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:276
+msgid "This site is <strong>connected</strong> to UpdraftPlus Vault."
+msgstr "Этот сайт <strong>подключен</strong> к UpdraftPlus."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:253
+msgid "An unknown error occurred when trying to connect to UpdraftPlus.Com"
+msgstr "При попытке подключения к UpdraftPlus.Com произошла неизвестная ошибка"
+
+#. Author URI of the plugin
+msgid "https://mainwp.com"
+msgstr "https://mainwp.com"
+
+#. Author of the plugin
+msgid "MainWP"
+msgstr "MainWP"
+
+#. Plugin URI of the plugin
+msgid "https://mainwp.com/"
+msgstr "https://mainwp.com/"
+
+#. Plugin Name of the plugin
+msgid "MainWP Child"
+msgstr "MainWP Child"
+
+#: class/class-mainwp-wordpress-seo.php:166
+msgid "Upload failed."
+msgstr "Загрузка не удалась."
+
+#: class/class-mainwp-wordpress-seo.php:161
+msgid "Unzipping failed with error \"%s\"."
+msgstr "Ошибка при распаковке архива \"%s\"."
+
+#: class/class-mainwp-wordpress-seo.php:105
+#: class/class-mainwp-wordpress-seo.php:152
+#: class/class-mainwp-wordpress-seo.php:156
+#: class/class-mainwp-wordpress-seo.php:161
+#: class/class-mainwp-wordpress-seo.php:166
+msgid "Settings could not be imported:"
+msgstr "Настройки не могут быть импортированы:"
+
+#: class/class-mainwp-helper.php:1056
+msgid "Child plugin is disabled or the security key is incorrect. Please resync with your main installation."
+msgstr "Дочерний плагин отключен или ключ безопасности является неправильным. Пожалуйста, повторите синхронизацию из вашего главного сайта."
+
+#: class/class-mainwp-helper.php:1054
+msgid "Something went wrong while contacting the child site. Please check if there is an error on the child site. This error could also be caused by trying to clone or restore a site to large for your server settings."
+msgstr "Что-то пошло не так во время обмена данными с дочерним сайтом. Пожалуйста, проверьте все параметры. Эта ошибка также может быть вызвана попыткой клонирования или восстановления сайта с большими настройками."
+
+#: class/class-mainwp-helper.php:856
+msgid " Is its parent directory writable by the server?"
+msgstr " Этот родительский каталог доступен для записи на сервере?"
+
+#: class/class-mainwp-helper.php:856
+msgid "Unable to create directory "
+msgstr "Невозможно создать папку"
+
+#: class/class-mainwp-clone-install.php:262
+msgid "Error: unexpected end of file for database."
+msgstr "Ошибка: неожиданный конец файла базы данных."
+
+#: class/class-mainwp-clone-install.php:164
+msgid "Invalid database name."
+msgstr "Неверное имя базы данных."
+
+#: class/class-mainwp-clone-install.php:159
+msgid "Invalid database host or user/password."
+msgstr "Неверный хост базы данных или пользователь/пароль"
+
+#: class/class-mainwp-clone-install.php:140
+msgid "Cant read configuration file from the backup."
+msgstr "Невозможно прочитать файл конфигурации из резервной копии."
+
+#: class/class-mainwp-clone.php:1610
+msgid "Restore process completed successfully!"
+msgstr "Процесс восстановления успешно завершен!"
+
+#: class/class-mainwp-clone.php:1598
+msgid "CAUTION: this will overwrite your existing site."
+msgstr "ВНИМАНИЕ: это приведет к перезаписи существующего сайта."
+
+#: class/class-mainwp-clone.php:1597
+msgid "Start Restore"
+msgstr "Начать восстановление"
+
+#: class/class-mainwp-clone.php:1594
+msgid "Be sure to use a FULL backup created by your Network dashboard, if critical folders are excluded it may result in a not working installation."
+msgstr "Важно создать полную копию сайта, чтобы ничего не исключать."
+
+#: class/class-mainwp-clone.php:1564
+msgid "Cloning process completed successfully! Check and re-save permalinks "
+msgstr "Процесс клонирования успешно завершен! Повторно сохраните постоянные ссылки"
+
+#: class/class-mainwp-clone.php:1562
+msgid "Restore process completed successfully! Check and re-save permalinks "
+msgstr "Процесс восстановления успешно завершен! Повторно сохраните постоянные ссылки"
+
+#: class/class-mainwp-clone.php:1415
+msgid "Backup file not found"
+msgstr "Файл резервной копии не найден"
+
+#: class/class-mainwp-clone.php:1375 class/class-mainwp-clone.php:1407
+msgid "No download file found"
+msgstr "Файл загрузки не найден"
+
+#: class/class-mainwp-clone.php:1276
+msgid "No download link given"
+msgstr "Нет ссылки на скачивание"
+
+#: class/class-mainwp-clone.php:1260
+msgid "Invalid response"
+msgstr "Неверный ответ"
+
+#: class/class-mainwp-clone.php:1215
+msgid "Could not create backupfile on child"
+msgstr "Не удалось создать файл резервной копии на дочернем сайте"
+
+#: class/class-mainwp-clone.php:1193 class/class-mainwp-clone.php:1242
+#: class/class-mainwp-clone.php:1286
+msgid "Site not found"
+msgstr "Сайт не найден"
+
+#: class/class-mainwp-clone.php:1186 class/class-mainwp-clone.php:1235
+msgid "No site given"
+msgstr "Сайт не указан"
+
+#: class/class-mainwp-clone.php:593
+msgid "Cloning process completed successfully!"
+msgstr "Процесс клонирования успешно завершен!"
+
+#: class/class-mainwp-clone.php:592
+msgid "Extracting backup and updating your database, this might take a while. Please be patient."
+msgstr "Извлечение резервной копии и обновление базы данных может занять некоторое время. Пожалуйста, будьте терпеливы."
+
+#: class/class-mainwp-clone.php:591
+msgid "Backup downloaded"
+msgstr "Бэкап скачан"
+
+#: class/class-mainwp-clone.php:590
+msgid "Downloading backup"
+msgstr "Скачивание резервной копии"
+
+#: class/class-mainwp-clone.php:589
+msgid "Backup created on %s total size to download: %dMB"
+msgstr "Бэкап создан %s с общим размером для загрузки: %dМб."
+
+#: class/class-mainwp-clone.php:588
+msgid "Creating backup on %s expected size: %dMB (estimated time: %d seconds)"
+msgstr "Создание бэкапа %s, ожидаемый размер: %dМб. (расчетное время: %d секунд)"
+
+#: class/class-mainwp-clone.php:587
+msgid "Continue Anyway?"
+msgstr "Продолжить?"
+
+#: class/class-mainwp-clone.php:586
+msgid "This is a large site (%dMB), the restore process will more than likely fail."
+msgstr "Это большой сайт (%dMB), процесс восстановления, скорее всего, не удастся."
+
+#: class/class-mainwp-clone.php:451
+msgid "Parent Folder"
+msgstr "Родительская папка"
+
+#: class/class-mainwp-clone.php:444
+msgid "Select File"
+msgstr "Выберите файл"
+
+#: class/class-mainwp-clone.php:414
+msgid "Quick Jump:"
+msgstr "Перейти:"
+
+#: class/class-mainwp-clone.php:400
+msgid "Content Folder"
+msgstr "Папка с контентом"
+
+#: class/class-mainwp-clone.php:398
+msgid "Uploads Folder"
+msgstr "Папка загрузки"
+
+#: class/class-mainwp-clone.php:395
+msgid "Site Root"
+msgstr "Корень сайта"
+
+#: class/class-mainwp-clone.php:375
+msgid "Root directory is not readable. Please contact with site administrator to correct."
+msgstr "Корневой каталог не читается. Пожалуйста, свяжитесь с администратором сайта, чтобы исправить."
+
+#: class/class-mainwp-clone.php:372
+msgid "If you have uploaded a FULL backup to your server (via FTP or other means) you can use this section to locate the zip file and select it. A database only backup will not work."
+msgstr "Если вы загрузили ПОЛНЫЙ бэкап на ваш сервер (через FTP или другим способом), вы можете использовать этот раздел, чтобы найти и выбрать свой архив. Только бэкап базы данных не будет работать."
+
+#: class/class-mainwp-clone.php:370
+msgid "Restore/Clone From Server"
+msgstr "Восстановление/Клонирование с сервера"
+
+#: class/class-mainwp-clone.php:370
+msgid "Option 2:"
+msgstr "Шаг 2:"
+
+#: class/class-mainwp-clone.php:293 class/class-mainwp-clone.php:321
+msgid "Restore Website"
+msgstr "Восстановить сайт"
+
+#: class/class-mainwp-clone.php:285 class/class-mainwp-clone.php:1601
+msgid "Restore process completed successfully! You will now need to click "
+msgstr "Процесс восстановления успешно завершен! Нажмите на "
+
+#: class/class-mainwp-clone.php:221 class/class-mainwp-clone.php:311
+msgid "A database only backup will not work."
+msgstr "Резервное копирование только базы данных не будет работать."
+
+#: class/class-mainwp-clone.php:218 class/class-mainwp-clone.php:301
+msgid "Upload backup in .zip format (Maximum filesize for your server settings: "
+msgstr "Загрузите резервную копию в формате .zip (Максимальный размер файла: "
+
+#: class/class-mainwp-clone.php:216
+msgid "Restore/Clone from backup"
+msgstr "Восстановление/Клонирование из резервной копии"
+
+#: class/class-mainwp-clone.php:216 class/class-mainwp-clone.php:274
+msgid "Option 1:"
+msgstr "Шаг 1:"
+
+#: class/class-mainwp-clone.php:204
+msgid "Clone website"
+msgstr "Клонировать сайт"
+
+#: class/class-mainwp-clone.php:177
+msgid "URL"
+msgstr "URL"
+
+#: class/class-mainwp-clone.php:175
+msgid "Site Name"
+msgstr "Название сайта"
+
+#: class/class-mainwp-clone.php:173
+msgid "Display by:"
+msgstr "Отображать:"
+
+#: class/class-mainwp-clone.php:166
+msgid "Cloning is currently on but no sites have been allowed, to allow sites return to your main dashboard and turn cloning on on the Clone page."
+msgstr "Клонирование в настоящее время не разрешено, перейдите в панель настроек включите клонирование на странице Клонирование."
+
+#: class/class-mainwp-clone.php:234 class/class-mainwp-clone.php:493
+msgid "Clone/Restore Website"
+msgstr "Клонировать/Восстановить сайт"
+
+#: class/class-mainwp-clone.php:156 class/class-mainwp-clone.php:290
+msgid "Upload successful."
+msgstr "Успешно загружен."
+
+#: class/class-mainwp-clone.php:151 class/class-mainwp-clone.php:286
+#: class/class-mainwp-clone.php:1602
+msgid " to re-login to the admin and re-save permalinks."
+msgstr " авторизуйтесь на сайте повторно и пересохраните постоянные ссылки."
+
+#: class/class-mainwp-clone.php:151 class/class-mainwp-clone.php:286
+#: class/class-mainwp-clone.php:1566 class/class-mainwp-clone.php:1602
+msgid "here"
+msgstr "здесь"
+
+#: class/class-mainwp-clone.php:150
+msgid "Cloning process completed successfully! You will now need to click "
+msgstr "Процесс клонирования успешно завершен! Нажмите на "
+
+#: class/class-mainwp-clone.php:145 class/class-mainwp-clone.php:281
+msgid "Your content directory is not writable. Please set 0755 permission to "
+msgstr "Папка не доступна для записи. Пожалуйста, установите разрешение 0755 на "
+
+#: class/class-mainwp-clone.php:137
+msgid "Cloning is currently off - To turn on return to your main dashboard and turn cloning on on the Clone page."
+msgstr "Клонирование в настоящее время выключено - Для включения перейдите в главную панель настроек и включите клонирование на странице Клонирование."
+
+#: class/class-mainwp-clone.php:127 class/class-mainwp-clone.php:264
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "Файл пуст. Эта ошибка также может быть вызвана запретом загрузки в файле php.ini или в параметре post_max_size определено меньшее число чем в параметре upload_max_filesize в файле php.ini."
+
+#: class/class-mainwp-clone.php:124 class/class-mainwp-clone.php:261
+msgid "File could not be uploaded."
+msgstr "Файл не может быть загружен."
+
+#: class/class-mainwp-client-report.php:696
+msgid "Guest"
+msgstr "Гость"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3961
+msgid "No local copy present."
+msgstr "Локальная копия отсутствует."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3958
+msgid "Download in progress"
+msgstr "Скачивание в процессе"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3946
+msgid "File ready."
+msgstr "Файл готов."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3928
+msgid "Download failed"
+msgstr "Ошибка загрузки"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3908
+#: class/class-mainwp-child-updraft-plus-backups.php:3911
+msgid "The log file could not be read."
+msgstr "Файл журнала не может быть прочитан."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3901
+msgid "Error: unexpected file read fail"
+msgstr "Ошибка: неожиданный сбой чтения файла"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3861
+msgid "Could not find that job - perhaps it has already finished?"
+msgstr "Не удалось найти это расписание - возможно, оно уже завершено?"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3850
+msgid "Job deleted"
+msgstr "расписание удалено"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3807
+msgid "delete schedule"
+msgstr "удалить расписание"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3807
+msgid "Note: the progress bar below is based on stages, NOT time. Do not stop the backup simply because it seems to have remained in the same place for a while - that is normal."
+msgstr "Примечание: индикатор прогресса основывается на этапах, а не на времени. Не останавливайте процесс резервного копирования просто потому, что вам кажется, что он завис. Индикатор может стоять на одном месте некоторое время и это нормально."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3804
+msgid "show log"
+msgstr "показать журнал"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3801
+msgid "Job ID: %s"
+msgstr "ID: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3790
+msgid "last activity: %ss ago"
+msgstr "Последняя активность: %ss назад."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3789
+msgid "next resumption: %d (after %ss)"
+msgstr "следующее возобновление: %d (после %ss)"
+
+#: class/class-mainwp-child-back-up-buddy.php:586
+#: class/class-mainwp-child-updraft-plus-backups.php:280
+#: class/class-mainwp-child-updraft-plus-backups.php:3770
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3768
+msgid "Encrypted database"
+msgstr "Зашифрованная база данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3758
+msgid "Encrypting database"
+msgstr "Шифрование базы данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3743
+msgid "table: %s"
+msgstr "таблица: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3741
+msgid "Creating database backup"
+msgstr "Создание резервной копии базы данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3728
+msgid "Created database backup"
+msgstr "Создано бэкапов базы данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3712
+msgid "Backup finished"
+msgstr "Бэкап завершен"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3707
+msgid "Waiting until scheduled time to retry because of errors"
+msgstr "Ожидание следующего запланированного запуска из-за ошибок "
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3703
+msgid "Pruning old backup sets"
+msgstr "Обрезка старых бэкапов"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3698
+msgid "(%s%%, file %s of %s)"
+msgstr "(%s%%, файл %s из %s)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3691
+msgid "Uploading files to remote storage"
+msgstr "Загрузка файлов на удаленное хранилище"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3685
+msgid "Created file backup zips"
+msgstr "Архив резервной копии создан"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3670
+msgid "Creating file backup zips"
+msgstr "Создание архива резервной копии"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3665
+msgid "Backup begun"
+msgstr "Резервное копирование начато"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3632
+msgid "The backup apparently succeeded and is now complete"
+msgstr "Резервное копирование по-видимому удалось и является полным"
+
+#: class/class-mainwp-child-back-up-buddy.php:1336
+#: class/class-mainwp-child-back-up-buddy.php:1424
+#: class/class-mainwp-child-updraft-plus-backups.php:3426
+msgid "View Log"
+msgstr "Журнал событий"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3377
+msgid "You appear to be missing one or more archives from this multi-archive set."
+msgstr "Кажется, не хватает одного или нескольких архивов в этом множественном архиве."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3374
+msgid "(%d archive(s) in set)."
+msgstr "(%d архив(ов))."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3368
+msgid "Press here to download"
+msgstr "Нажмите чтобы скачать"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3336
+msgid "Files backup (created by %s)"
+msgstr "Файл резервной копии (создан %s)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3336
+msgid "Files and database WordPress backup (created by %s)"
+msgstr "Файлы и база данных WordPress (создано %s)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3330
+msgid "Backup created by: %s."
+msgstr "Резервная копия была создана: %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3285
+msgid "External database"
+msgstr "Внешняя база данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3283
+msgid "Database (created by %s)"
+msgstr "База данных (создано %s)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3277
+#: class/class-mainwp-child-updraft-plus-backups.php:3332
+msgid "unknown source"
+msgstr "неизвестный источник"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3266
+msgid "(Not finished)"
+msgstr "(Не завершено)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3266
+msgid "If you are seeing more backups than you expect, then it is probably because the deletion of old backup sets does not happen until a fresh backup completes."
+msgstr "Если вы видите больше резервных копий, чем ожидалось, то это, вероятно из-за того, что старые резервные копии не удалены, пока новая резервная копия не будет завершена."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3260
+msgid "Delete this backup set"
+msgstr "Удалить эту резервную копию"
+
+#: class/class-mainwp-clone.php:274 class/class-mainwp-clone.php:1591
+#: class/class-mainwp-child-updraft-plus-backups.php:3249
+#: class/class-mainwp-child.php:928
+msgid "Restore"
+msgstr "Восстановление"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3246
+msgid "(backup set imported from remote storage)"
+msgstr "(бэкап импортирован из удаленного хранилища)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3107
+msgid "Backup data (click to download)"
+msgstr "Резервная копия (нажмите, чтобы скачать)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3106
+msgid "Backup date"
+msgstr "Дата бэкапа"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3088
+msgid "You have not yet made any backups."
+msgstr "Вы Вы еще не сделали никаких резервных копий."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3064
+msgid "The attempt to undo the double-compression succeeded."
+msgstr "Было отменено двойное сжатие."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3038
+#: class/class-mainwp-child-updraft-plus-backups.php:3062
+msgid "The attempt to undo the double-compression failed."
+msgstr "Не удалось отменить двойное сжатие."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3031
+msgid "The database file appears to have been compressed twice - probably the website you downloaded it from had a mis-configured webserver."
+msgstr "Файл базы данных был сжат в два раза - вероятно, это случилось из-за неправильно сконфигурированного веб-сервера."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3003
+msgid "restoration"
+msgstr "восстановление"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3003
+msgid "Your hosting company must enable these functions before %s can work."
+msgstr "Ваш хостер должен включить эти функции, прежде чем будет выполнена %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:3003
+msgid "Your web server's PHP installation has these functions disabled: %s."
+msgstr "В настройках PHP на сервере эти функции отключены: %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2551
+#: class/class-mainwp-child-updraft-plus-backups.php:2982
+msgid "UpdraftPlus was unable to find the table prefix when scanning the database backup."
+msgstr "UpdraftPlus не нашел префикс таблиц при сканировании резервной копии базы данных."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2546
+#: class/class-mainwp-child-updraft-plus-backups.php:2974
+msgid "This database backup is missing core WordPress tables: %s"
+msgstr "В таблицах этой резервной копии базы данных отсутствует ядро WordPress: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2513
+#: class/class-mainwp-child-updraft-plus-backups.php:2776
+msgid "Site information:"
+msgstr "Информация о сайте:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2507
+#: class/class-mainwp-child-updraft-plus-backups.php:2769
+msgid "If you want to restore a multisite backup, you should first set up your WordPress installation as a multisite."
+msgstr "Если вы хотите восстановить мультисайт из бэкапа, вы должны сначала на сайте WordPress мультисайтовость."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2507
+#: class/class-mainwp-child-updraft-plus-backups.php:2769
+msgid "Your backup is of a WordPress multisite install; but this site is not. Only the first site of the network will be accessible."
+msgstr "В бэкапе находится мультисайтовая установка WordPress, но этот сайт таким не является. Только первый сайт сети будет доступен."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2507
+#: class/class-mainwp-child-updraft-plus-backups.php:2769
+msgid "Warning:"
+msgstr "Предупреждение:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2502
+msgid "To import an ordinary WordPress site into a multisite installation requires both the multisite and migrator add-ons."
+msgstr "Чтобы импортировать обычный сайт WordPress в мультисайтовую установку, необходимы расширения для мультисайта и миграции."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2496
+#: class/class-mainwp-child-updraft-plus-backups.php:2761
+msgid "You are running on WordPress multisite - but your backup is not of a multisite site."
+msgstr "Вы работаете в режиме мультисайт - но ваш бэкап не для мультисайта."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2488
+#: class/class-mainwp-child-updraft-plus-backups.php:2750
+msgid "Backup label:"
+msgstr "Назание бэкапа:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2480
+#: class/class-mainwp-child-updraft-plus-backups.php:2742
+msgid "Any support requests to do with %s should be raised with your web hosting company."
+msgstr "Любые запросы поддержки, чтобы сделать с %s, должны быть сделаны с помощью хостинговой компании."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2480
+#: class/class-mainwp-child-updraft-plus-backups.php:2742
+msgid "You should only proceed if you cannot update the current server and are confident (or willing to risk) that your plugins/themes/etc. are compatible with the older %s version."
+msgstr "Вы можете не обновлять текущий сервер, но должны быть уверены (не хотите рисковать), что ваши плагины/темы/ и т.д. совместимы со старой версией %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2480
+#: class/class-mainwp-child-updraft-plus-backups.php:2742
+msgid "This is significantly newer than the server which you are now restoring onto (version %s)."
+msgstr "Это значительно новее, чем сервер, который вы сейчас восстанавливаете (версия %s)."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2480
+#: class/class-mainwp-child-updraft-plus-backups.php:2742
+msgid "The site in this backup was running on a webserver with version %s of %s. "
+msgstr "Сайт в этой резервной копии был запущен на веб-сервере с версией %s из %s. "
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2473
+#: class/class-mainwp-child-updraft-plus-backups.php:2735
+msgid "You are importing from a newer version of WordPress (%s) into an older one (%s). There are no guarantees that WordPress can handle this."
+msgstr "Вы импортируете из новой версии WordPress (%s) в старую (%s). Нет гарантии, что это будет работать."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2451
+#: class/class-mainwp-child-updraft-plus-backups.php:2461
+#: class/class-mainwp-child-updraft-plus-backups.php:2705
+#: class/class-mainwp-child-updraft-plus-backups.php:2725
+msgid "This backup set is from a different site - this is not a restoration, but a migration. You need the Migrator add-on in order to make this work."
+msgstr "Этот бэкап от другого сайта - это уже не восстановление, а миграция. Вам необходимо расширение Мигратор, чтобы выполнить эту задачу."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2447
+#: class/class-mainwp-child-updraft-plus-backups.php:2674
+msgid "(version: %s)"
+msgstr "(версия: %s)"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2447
+#: class/class-mainwp-child-updraft-plus-backups.php:2674
+msgid "Backup of:"
+msgstr "Резервное копирование:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2400
+#: class/class-mainwp-child-updraft-plus-backups.php:2618
+msgid "Failed to open database file."
+msgstr "Не удалось открыть файл базы данных."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2391
+#: class/class-mainwp-child-updraft-plus-backups.php:2610
+msgid "The database is too small to be a valid WordPress database (size: %s Kb)."
+msgstr "База данных слишком мала, чтобы быть базой данных WordPress (размер: %s Kb)."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2383
+#: class/class-mainwp-child-updraft-plus-backups.php:2603
+msgid "Decryption failed. The most likely cause is that you used the wrong key."
+msgstr "Расшифровка не удалась. Наиболее вероятной причиной является то, что вы использовали неверный ключ."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2377
+msgid "Failed to write out the decrypted database to the filesystem."
+msgstr "Не удалось записать расшифрованную базу данных в файловой системе."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2366
+#: class/class-mainwp-child-updraft-plus-backups.php:2593
+msgid "Decryption failed. The database file is encrypted."
+msgstr "Расшифровка не удалась. Файл базы данных в зашифрованном виде."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2364
+#: class/class-mainwp-child-updraft-plus-backups.php:2591
+msgid "Decryption failed. The database file is encrypted, but you have no encryption key entered."
+msgstr "Расшифровка не удалась. Файл базы данных находится в зашифрованном виде, а вы не указали ключ шифрования."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2364
+#: class/class-mainwp-child-updraft-plus-backups.php:2366
+#: class/class-mainwp-child-updraft-plus-backups.php:2496
+#: class/class-mainwp-child-updraft-plus-backups.php:2502
+#: class/class-mainwp-child-updraft-plus-backups.php:2591
+#: class/class-mainwp-child-updraft-plus-backups.php:2593
+#: class/class-mainwp-child-updraft-plus-backups.php:2765
+#: class/class-mainwp-child-updraft-plus-backups.php:2834
+msgid "Error: %s"
+msgstr "Ошибка: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2264
+#: class/class-mainwp-child-updraft-plus-backups.php:2301
+#: class/class-mainwp-child-updraft-plus-backups.php:2310
+msgid "Failed"
+msgstr "Не удалось"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2228
+msgid "Old directory removal failed for some reason. You may want to do this manually."
+msgstr "Старые папки не были удалены. Вы можете сделать это вручную."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2225
+msgid "Now press Restore again to proceed."
+msgstr "Теперь снова нажмите Восстановить, чтобы продолжить."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2224
+msgid "Old directories successfully removed."
+msgstr "Старые папки успешно удалены."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2221
+msgid "Remove old directories"
+msgstr "Удалить старые папки"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2215
+msgid "Delete Old Directories"
+msgstr "Удалить старые папки"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2127
+msgid "Please consult this FAQ for help on what to do about it."
+msgstr "Пожалуйста, проконсультируйтесь с этим ЧАВО для получения помощи."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2125
+msgid "Error data:"
+msgstr "Данные об ошибке:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2117
+msgid "Error message"
+msgstr "Сообщение ошибки"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2034
+#: class/class-mainwp-child-updraft-plus-backups.php:2035
+msgid "Could not find one of the files for restoration"
+msgstr "Не удалось найти один из файлов для восстановления"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2031
+msgid "The backup records do not contain information about the proper size of this file."
+msgstr "Резервные записи не содержат информации относительно точного размера этого файла."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2028
+msgid "file is size:"
+msgstr "размер файла:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2028
+#: class/class-mainwp-child-updraft-plus-backups.php:2059
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2023
+msgid "Archive is expected to be size:"
+msgstr "Размер архива:"
+
+#: class/class-mainwp-child-ithemes-security.php:628
+#: class/class-mainwp-child-updraft-plus-backups.php:2012
+#: class/class-mainwp-child-updraft-plus-backups.php:2026
+#: class/class-mainwp-child-updraft-plus-backups.php:2267
+#: class/class-mainwp-child-updraft-plus-backups.php:2303
+#: class/class-mainwp-child-updraft-plus-backups.php:2307
+msgid "OK"
+msgstr "OK"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2006
+msgid "File is not locally present - needs retrieving from remote storage"
+msgstr "Файл локально отсутствует - нуждается в извлечении из удаленного хранилища"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2000
+msgid "Looking for %s archive: file name: %s"
+msgstr "Поиск архива %s: название файла: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1987
+msgid "Skipping restoration of WordPress core when importing a single site into a multisite installation. If you had anything necessary in your WordPress directory then you will need to re-add it manually from the zip file."
+msgstr "Пропущено восстановление ядра WordPress при импорте отдельного сайта в мультисайтовой установке. Если у вас есть что-нибудь важное в папке WordPress, то вам нужно будет повторно добавить это вручную из архива."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1954
+msgid "Final checks"
+msgstr "Заключительные проверки"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1926
+msgid "If making a request for support, please include this information:"
+msgstr "Пожалуйста, укажите эту информацию при обращении в поддержку:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1925
+msgid "ABORT: Could not find the information on which entities to restore."
+msgstr "ПРЕРВАНО: Не удалось найти информацию по поводу восстановления."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1877
+msgid "Follow this link to download the log file for this restoration (needed for any support requests)."
+msgstr "Перейдите по этой ссылке, чтобы скачать файл журнала для этого восстановления (требуется для поддержки)."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1876
+msgid "UpdraftPlus Restoration: Progress"
+msgstr "Восстановление UpdraftPlus: прогресс"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1855
+msgid "Why am I seeing this?"
+msgstr "Почему я вижу это?"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1833
+msgid "Backup does not exist in the backup history"
+msgstr "Эта резервная копия отсутствует в истории"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1831
+msgid "This backup does not exist in the backup history - restoration aborted. Timestamp:"
+msgstr "Эта резервная копия отсутствует в истории - восстановление прервано. Отметка:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1756
+msgid "The backup archive files have been processed, but with some errors. You will need to cancel and correct any problems before retrying."
+msgstr "Архивы резервных копий были обработаны, но возникли ошибки. Отмените и исправьте ошибки перед повторной попыткой."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1754
+msgid "The backup archive files have been processed, but with some warnings. If all is well, then now press Restore again to proceed. Otherwise, cancel and correct any problems first."
+msgstr "Архивы резервных копий были обработаны, но возникли предупреждения. Если все хорошо, то теперь нажмите снова Восстановить, чтобы продолжить. В противном случае, отмените и исправьте проблемы."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1752
+msgid "The backup archive files have been successfully processed. Now press Restore again to proceed."
+msgstr "Архив резервных копий были успешно обработаны. Теперь нажмите Восстановить снова, чтобы продолжить."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1747
+msgid "This multi-archive backup set appears to have the following archives missing: %s"
+msgstr "В этом мульти-архиве, кажется недостает следующих архивов: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1727
+msgid "File (%s) was found, but has a different size (%s) from what was expected (%s) - it may be corrupt."
+msgstr "Файл (%s) найден, но имеет другой размер (%s), чем ожидается (%s) - может поврежден."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1722
+msgid "File was found, but is zero-sized (you need to re-upload it): %s"
+msgstr "Файл найден, но его размер равен нулю (вы должны перезалить его): %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1720
+msgid "File not found (you need to upload it): %s"
+msgstr "Файл не найден (вы должны загрузить его): %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1690
+#: class/class-mainwp-child-updraft-plus-backups.php:3333
+msgid "Backup created by unknown source (%s) - cannot be restored."
+msgstr "Бэкап создан неизвестным источником (%s) - восстановление не может быть выполнено."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1674
+msgid "Only the WordPress database can be restored; you will need to deal with the external database manually."
+msgstr "Только базы данных WordPress могут быть восстановлены; работа с внешней базой данных выполняется вручную."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1659
+msgid "You should make sure that this really is a backup set intended for use on this website, before you restore (rather than a backup set of an unrelated website that was using the same storage location)."
+msgstr "Перед восстановлением, вы должны убедиться, что этот бэкап предназначен для использования на этом сайте."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1659
+msgid "This backup set was not known by UpdraftPlus to be created by the current WordPress installation, but was found in remote storage."
+msgstr "Этот бэкап был найден в удаленном хранилище, но он не был сделан UpdraftPlus."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1655
+msgid "The PHP setup on this webserver allows only %s seconds for PHP to run, and does not allow this limit to be raised. If you have a lot of data to import, and if the restore operation times out, then you will need to ask your web hosting company for ways to raise this limit (or attempt the restoration piece-by-piece)."
+msgstr "Настройки PHP на веб-сервере позволяют только %s секунд для выполнения скрипта PHP, и не позволяют это ограничение поднять. если вам не хватате времени для выполнения скрипта, то нужно братиться к хостеру, чтобы он поднял этот параметр (или можно выполнить по частям)."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1637
+msgid "No such backup set exists"
+msgstr "Бэкапы отсутствуют"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1604
+msgid "The backup archive for this file could not be found. The remote storage method in use (%s) does not allow us to retrieve files. To perform any restoration using UpdraftPlus, you will need to obtain a copy of this file and place it inside UpdraftPlus's working folder"
+msgstr "Резервная копия для этого файла не может быть найдена. Метод дистанционного хранения (%s) не позволяют извлекать файлы. Чтобы выполнить восстановление используйте UpdraftPlus, вам нужно копию файла разместить в рабочую папку UpdraftPlus"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1416
+msgid "Existing Backups"
+msgstr "Существующие бэкапы"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1353
+msgid "Remote archives deleted: %d"
+msgstr "Удаленный архив удален: %d"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1352
+msgid "Local archives deleted: %d"
+msgstr "Локальный архив удален: %d"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1351
+msgid "The backup set has been removed."
+msgstr "Бэкап был удален."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1251
+msgid "Backup set not found"
+msgstr "Бэкап отсутствует"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1199
+msgid "Time now"
+msgstr "В это время"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1198
+#: class/class-mainwp-child-updraft-plus-backups.php:1684
+#: class/class-mainwp-child-updraft-plus-backups.php:2103
+#: class/class-mainwp-child-updraft-plus-backups.php:3283
+msgid "Database"
+msgstr "База данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1197
+msgid "Files"
+msgstr "Файлы"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1108
+#: class/class-mainwp-child-updraft-plus-backups.php:1165
+#: class/class-mainwp-child-updraft-plus-backups.php:1186
+msgid "Nothing currently scheduled"
+msgstr "Еще не запланировано"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1100
+#: class/class-mainwp-child-updraft-plus-backups.php:1175
+msgid "At the same time as the files backup"
+msgstr "В то же время, как резервное файлы резервной копии"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1062
+msgid "No backup has been completed."
+msgstr "Бэкап не был еще выполнен."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1058
+msgid "Download log file"
+msgstr "Скачать журнал событий"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1042
+#: class/class-mainwp-child-updraft-plus-backups.php:2451
+#: class/class-mainwp-child-updraft-plus-backups.php:2461
+#: class/class-mainwp-child-updraft-plus-backups.php:3813
+msgid "Warning: %s"
+msgstr "Внимание: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1030
+msgid "incremental backup; base backup: %s"
+msgstr "инкрементальный бэкап; основной бэкап: %s."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:1005
+msgid "Nothing yet logged"
+msgstr "Вход не выполнен"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:927
+msgid "OK. You should soon see activity in the \"Last log message\" field below."
+msgstr "ОК. Активность будет отображена в поле \"Последнее сообщение журнала\" ниже."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:927
+#: class/class-mainwp-child-updraft-plus-backups.php:937
+msgid "Start backup"
+msgstr "Начать резервное копирование"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:905
+msgid "Connection failed."
+msgstr "Подключение не удалось."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:903
+msgid "Connection succeeded."
+msgstr "Подключение удалось."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:890
+msgid "Messages:"
+msgstr "Сообщения:"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:883
+msgid "%s total table(s) found; %s with the indicated prefix."
+msgstr "найдено таблиц %s; %s с указанным префиксом."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:875
+msgid "%s table(s) found."
+msgstr "найдено таблиц: %s"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:854
+msgid "Connection failed: check your access details, that the database server is up, and that the network connection is not firewalled."
+msgstr "Ошибка подключения: проверьте данные доступа."
+
+#: class/class-mainwp-child-updraft-plus-backups.php:846
+msgid "database connection attempt failed"
+msgstr "Попытка подключения к базе данных не удалась"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:832
+msgid "database name"
+msgstr "Имя базы данных"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:825
+msgid "host"
+msgstr "хост"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:818
+msgid "user"
+msgstr "пользователь"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:818
+#: class/class-mainwp-child-updraft-plus-backups.php:825
+#: class/class-mainwp-child-updraft-plus-backups.php:832
+msgid "Failure: No %s was given."
+msgstr "Отказ: %s не был найден."
+
+#: class/class-mainwp-child-server-information.php:1451
+msgid "Error logging disabled."
+msgstr "Ведение журнала отключено"
+
+#: class/class-mainwp-child-updraft-plus-backups.php:2010
+#: class/class-mainwp-child-server-information.php:1438
+msgid "Error"
+msgstr "Ошибка"
+
+#: class/class-mainwp-child-back-up-buddy.php:1759
+#: class/class-mainwp-child-server-information.php:1436
+msgid "Time"
+msgstr "Время"
+
+#: class/class-mainwp-child-server-information.php:1223
+#: class/class-mainwp-child-server-information.php:1232
+#: class/class-mainwp-child-server-information.php:1241
+msgid "NO"
+msgstr "НЕТ"
+
+#: class/class-mainwp-child-server-information.php:1221
+#: class/class-mainwp-child-server-information.php:1230
+#: class/class-mainwp-child-server-information.php:1239
+msgid "YES"
+msgstr "Да"
+
+#: class/class-mainwp-child-server-information.php:1205
+msgid "NOT SET"
+msgstr "НЕ ЗАДАНО"
+
+#: class/class-mainwp-child-server-information.php:1193
+#: class/class-mainwp-child-server-information.php:1214
+#: class/class-mainwp-child-server-information.php:1313
+msgid "OFF"
+msgstr "ВЫКЛ"
+
+#: class/class-mainwp-child-server-information.php:1191
+#: class/class-mainwp-child-server-information.php:1212
+#: class/class-mainwp-child-server-information.php:1311
+msgid "ON"
+msgstr "ВКЛ"
+
+#: class/class-mainwp-child-server-information.php:1180
+#: class/class-mainwp-child-server-information.php:1291
+#: class/class-mainwp-child-server-information.php:1352
+#: class/class-mainwp-child-server-information.php:1380
+msgid "N/A"
+msgstr "Нет"
+
+#: class/class-mainwp-child-server-information.php:1178
+msgid " MB"
+msgstr " Mб"
+
+#: class/class-mainwp-child-server-information.php:934
+msgid "Hook"
+msgstr "Хук"
+
+#: class/class-mainwp-child-server-information.php:932
+msgid "Schedule"
+msgstr "Процесс"
+
+#: class/class-mainwp-child-server-information.php:930
+msgid "Next due"
+msgstr "Следующий запуск"
+
+#: class/class-mainwp-child-server-information.php:882
+msgid "No functions disabled"
+msgstr "Отключенные функции отсутствуют"
+
+#: class/class-mainwp-child-server-information.php:807
+msgid "MySQL Client Encoding"
+msgstr "Кодировка MySQL"
+
+#: class/class-mainwp-child-server-information.php:802
+msgid "MySQL Mode"
+msgstr "Режим MySQL"
+
+#: class/class-mainwp-child-server-information.php:798
+msgid "MySQL INFORMATION"
+msgstr "ИНФОРМАЦИЯ О MySQL"
+
+#: class/class-mainwp-child-server-information.php:793
+msgid "PHP Loaded Extensions"
+msgstr "PHP Загруженные расширения"
+
+#: class/class-mainwp-child-server-information.php:788
+msgid "PHP Disabled Functions"
+msgstr "PHP Выключенные функции"
+
+#: class/class-mainwp-child-server-information.php:783
+msgid "PHP XML Support"
+msgstr "PHP Поддержка XML"
+
+#: class/class-mainwp-child-server-information.php:778
+msgid "PHP IPTC Support"
+msgstr "PHP Поддержка IPTC"
+
+#: class/class-mainwp-child-server-information.php:773
+msgid "PHP Exif Support"
+msgstr "PHP Поддержка Exif"
+
+#: class/class-mainwp-child-server-information.php:768
+msgid "PHP Allow URL fopen"
+msgstr "PHP Разрешить URL fopen"
+
+#: class/class-mainwp-child-server-information.php:607
+msgid "PHP Safe Mode Disabled"
+msgstr "Безопасный режим PHP отключен"
+
+#: class/class-mainwp-child-server-information.php:764
+msgid "PHP INFORMATION"
+msgstr "ИНФОРМАЦИЯ О PHP"
+
+#: class/class-mainwp-child-server-information.php:760
+msgid "Remote Port"
+msgstr "Удаленный порт"
+
+#: class/class-mainwp-child-server-information.php:755
+msgid "Remote Host"
+msgstr "Удаленный хост"
+
+#: class/class-mainwp-child-server-information.php:750
+msgid "Remote Address"
+msgstr "Удаленный адрес"
+
+#: class/class-mainwp-child-server-information.php:745
+msgid "Current Page URI"
+msgstr "Путь к текущей страницы"
+
+#: class/class-mainwp-child-server-information.php:740
+msgid "Currently Executing Script Pathname"
+msgstr "Текущий выполняемый скрипт"
+
+#: class/class-mainwp-child-server-information.php:735
+msgid "Accept-Charset Content"
+msgstr "Содержимое Accept-Charset"
+
+#: class/class-mainwp-child-server-information.php:730
+msgid "Accept Content"
+msgstr "Допустимое содержимое"
+
+#: class/class-mainwp-child-server-information.php:725
+msgid "Request Time"
+msgstr "Время запроса"
+
+#: class/class-mainwp-child-server-information.php:720
+msgid "Complete URL"
+msgstr "Полный URL"
+
+#: class/class-mainwp-child-server-information.php:700
+msgid "User Agent"
+msgstr "Агент пользователя"
+
+#: class/class-mainwp-child-server-information.php:690
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: class/class-mainwp-child-server-information.php:715
+msgid "Memory Usage"
+msgstr "СИспользование памяти"
+
+#: class/class-mainwp-child-server-information.php:710
+msgid "Gateway Interface"
+msgstr "Интерфейс шлюза"
+
+#: class/class-mainwp-child-server-information.php:705
+msgid "Server Port"
+msgstr "Порт сервера"
+
+#: class/class-mainwp-child-server-information.php:685
+msgid "HTTP Host"
+msgstr "Хост HTTP"
+
+#: class/class-mainwp-child-server-information.php:680
+msgid "Server Protocol"
+msgstr "Протокол сервера"
+
+#: class/class-mainwp-child-server-information.php:675
+msgid "Server IP"
+msgstr "IP сервера"
+
+#: class/class-mainwp-child-server-information.php:670
+msgid "Architecture"
+msgstr "Архитектура"
+
+#: class/class-mainwp-child-server-information.php:660
+msgid "Server Software"
+msgstr "Программное обеспечение сервера"
+
+#: class/class-mainwp-child-server-information.php:655
+msgid "Server Name"
+msgstr "Название сервера"
+
+#: class/class-mainwp-child-server-information.php:650
+msgid "WordPress Root Directory"
+msgstr "Корневой каталог WordPress"
+
+#: class/class-mainwp-child-server-information.php:646
+msgid "SERVER INFORMATION"
+msgstr "ИНФОРМАЦИЯ О СЕРВЕРЕ"
+
+#: class/class-mainwp-child-server-information.php:637
+msgid "BACKUP ARCHIVE INFORMATION"
+msgstr "Информация о резервной копии"
+
+#: class/class-mainwp-child-server-information.php:631
+msgid "MySQL SETTINGS"
+msgstr "Настройки MySQL"
+
+#: class/class-mainwp-child-server-information.php:594
+msgid "FileSystem Method"
+msgstr "Доступ к файлам (FileSystem Method)"
+
+#: class/class-mainwp-child-server-information.php:601
+msgid "PHP SETTINGS"
+msgstr "НАСТРОЙКИ PHP"
+
+#: class/class-mainwp-child-server-information.php:586
+msgid "WORDPRESS"
+msgstr "WORDPRESS"
+
+#: class/class-mainwp-child-server-information.php:557
+msgid "Required value"
+msgstr "Обязательное значение"
+
+#: class/class-mainwp-child-server-information.php:555
+msgid "Server configuration"
+msgstr "Настройки сервера"
+
+#: class/class-mainwp-child-server-information.php:480
+msgid "Error Log"
+msgstr "Журнал ошибок"
+
+#: class/class-mainwp-child-server-information.php:478
+msgid "Cron Schedules"
+msgstr "Планировщик заданий"
+
+#: class/class-mainwp-child-server-information.php:476
+msgid "Server Information"
+msgstr "Информация о сервере"
+
+#: class/class-mainwp-clone.php:396
+msgid "Backup"
+msgstr "Бэкап"
+
+#: class/class-mainwp-child-links-checker.php:625
+msgid "This link was manually marked as working by the user."
+msgstr "Эта ссылка была вручную отмечена пользователем как работающая."
+
+#: class/class-mainwp-child-links-checker.php:599
+msgid "Error: link_id not specified."
+msgstr "Ошибка: link_id не определен."
+
+#: class/class-mainwp-child-links-checker.php:487
+msgid "An unexpected error occurred!"
+msgstr "Произошла непредвиденная ошибка!"
+
+#: class/class-mainwp-child-ithemes-security.php:1080
+msgid "The selected lockouts have been cleared."
+msgstr "Выделенные блокировки убраны."
+
+#: class/class-mainwp-child.php:925
+msgid "Settings"
+msgstr "Настройки"
+
+#: class/class-mainwp-child-ithemes-security.php:724
+msgid "Admin user ID already changes."
+msgstr "Администратор уже изменен."
+
+#: class/class-mainwp-child-ithemes-security.php:712
+msgid "Admin user already changes."
+msgstr "Администратор уже изменен."
+
+#: class/class-mainwp-child-ithemes-security.php:482
+msgid "is whitelisted for"
+msgstr "в белый список для"
+
+#: class/class-mainwp-child-ithemes-security.php:481
+msgid "Your IP Address"
+msgstr "Ваш IP-адрес"
+
+#: class/class-mainwp-child-branding.php:906
+msgid "Submit"
+msgstr "Отправить"
+
+#: class/class-mainwp-child-back-wp-up.php:1467
+msgid "You try to use pro version settings in non pro plugin version. Please install pro version on child and try again."
+msgstr "Вы пытаетесь использовать настройки премиум-версии в не премиум-версии плагина. Пожалуйста, установите премиум-версию на дочерний сайт и попробуйте еще раз."
+
+#: class/class-mainwp-child-back-wp-up.php:1364
+#: class/class-mainwp-child-back-wp-up.php:1463
+msgid "Install BackWPup on child website"
+msgstr "Установите плагин BackWPup на дочернем сайте"
+
+#: class/class-mainwp-child-back-wp-up.php:1356
+msgid "Missing tab"
+msgstr "Отсутствует вкладка"
+
+#: class/class-mainwp-child-back-wp-up.php:1254
+msgid "Missing new job_id"
+msgstr "Отсутствует новый job_id"
+
+#: class/class-mainwp-child-back-wp-up.php:1223
+#: class/class-mainwp-child-back-wp-up.php:1352
+#: class/class-mainwp-child-back-wp-up.php:1459
+msgid "Missing array settings"
+msgstr "Отсутствуют настройки массива"
+
+#: class/class-mainwp-child-back-wp-up.php:1087
+msgid "Email sent."
+msgstr "Письмо отправлено."
+
+#: class/class-mainwp-child-back-wp-up.php:1085
+msgid "Error while sending email!"
+msgstr "Ошибка при отправке письма!"
+
+#: class/class-mainwp-child-back-wp-up.php:1073
+msgid "If this message reaches your inbox, sending backup archives via email should work for you."
+msgstr "Это поможет проверить работу отправки архивов на почту."
+
+#: class/class-mainwp-child-back-wp-up.php:1070
+msgid "BackWPup archive sending TEST Message"
+msgstr "Отправка тестового сообщения для проверки"
+
+#: class/class-mainwp-child-back-wp-up.php:1012
+msgid "Missing email address."
+msgstr "Отсутствует адрес электронной почты."
+
+#: class/class-mainwp-child-back-wp-up.php:906
+#: class/class-mainwp-child-back-wp-up.php:1227
+#: class/class-mainwp-child-back-wp-up.php:1360
+msgid "Missing job_id"
+msgstr "Отсутствует job id"
+
+#: class/class-mainwp-child-back-wp-up.php:872
+msgid "Missing logfile or logpos."
+msgstr "Файл журнала или logpos отсутствует."
+
+#: class/class-mainwp-child-back-wp-up.php:741
+msgid "not yet"
+msgstr "еще нет"
+
+#: class/class-mainwp-child-back-wp-up.php:738
+msgid "Runtime: %d seconds"
+msgstr "Продолжительность: %d секунд"
+
+#: class/class-mainwp-child-back-wp-up.php:695
+#: class/class-mainwp-child-back-wp-up.php:736
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: class/class-mainwp-child-back-wp-up.php:731
+msgid "Inactive"
+msgstr "Неактивные"
+
+#: class/class-mainwp-child-back-wp-up.php:728
+msgid "Not scheduled!"
+msgstr "Не запланировано!"
+
+#: class/class-mainwp-child-back-wp-up.php:726
+msgid "%1$s at %2$s by WP-Cron"
+msgstr "%1$s в %2$s от WP-Cron"
+
+#: class/class-mainwp-child-back-wp-up.php:647
+msgid "Missing website id."
+msgstr "Отсутствует идентификатор сайта."
+
+#: class/class-mainwp-child-back-wp-up.php:643
+msgid "Missing type."
+msgstr "Отсутствует тип."
+
+#: class/class-mainwp-child-back-wp-up.php:621
+msgid "Log file doesn't exists"
+msgstr "Файл журнала событий не существует"
+
+#: class/class-mainwp-child-back-wp-up.php:595
+msgid "Invalid dest class."
+msgstr "Неверный класс."
+
+#: class/class-mainwp-child-back-wp-up.php:584
+msgid "Missing dest."
+msgstr "Отсутствует dest."
+
+#: class/class-mainwp-child-back-wp-up.php:580
+msgid "Missing backupfile."
+msgstr "Отсутствует файл резервной копии."
+
+#: class/class-mainwp-child-back-wp-up.php:572
+msgid "Cannot delete job"
+msgstr "Не удается удалить расписание"
+
+#: class/class-mainwp-child-back-wp-up.php:565
+msgid "Missing job_id."
+msgstr "Отсутствует job_id."
+
+#: class/class-mainwp-child-back-wp-up.php:553
+msgid "Not file:"
+msgstr "Не файл:"
+
+#: class/class-mainwp-child-back-wp-up.php:550
+msgid "Directory not writable:"
+msgstr "Папка не доступна для записи:"
+
+#: class/class-mainwp-child-back-wp-up.php:540
+#: class/class-mainwp-child-back-wp-up.php:613
+msgid "Missing logfile."
+msgstr "Файл журнала отсутствует."
+
+#: class/class-mainwp-child-timecapsule.php:1212
+#: class/class-mainwp-child-back-wp-up.php:524
+msgid "Loaded PHP Extensions:"
+msgstr "Загруженные расширения PHP:"
+
+#: class/class-mainwp-child-timecapsule.php:1206
+#: class/class-mainwp-child-back-wp-up.php:519
+msgid "Disabled PHP Functions:"
+msgstr "Выключенные функции PHP:"
+
+#: class/class-mainwp-child-timecapsule.php:1200
+#: class/class-mainwp-child-back-wp-up.php:514
+msgid "Memory in use"
+msgstr "Используемая память"
+
+#: class/class-mainwp-child-timecapsule.php:1199
+#: class/class-mainwp-child-back-wp-up.php:513
+msgid "WP maximum memory limit"
+msgstr "Максимальный лимит памяти WP"
+
+#: class/class-mainwp-child-timecapsule.php:1198
+#: class/class-mainwp-child-back-wp-up.php:512
+msgid "WP memory limit"
+msgstr "Лимит памяти WP"
+
+#: class/class-mainwp-child-timecapsule.php:1197
+#: class/class-mainwp-child-back-wp-up.php:511
+msgid "PHP Memory limit"
+msgstr "Лимит памяти PHP"
+
+#: class/class-mainwp-child-timecapsule.php:1196
+#: class/class-mainwp-child-back-wp-up.php:510
+msgid "Blog charset"
+msgstr "Кодировка блога"
+
+#: class/class-mainwp-child-timecapsule.php:1193
+#: class/class-mainwp-child-back-wp-up.php:507
+msgid "MySQL Client encoding"
+msgstr "Кодировка MySQL"
+
+#: class/class-mainwp-child-timecapsule.php:1192
+#: class/class-mainwp-child-back-wp-up.php:506
+msgid "Blog language"
+msgstr "Язык"
+
+#: class/class-mainwp-child-back-wp-up.php:505
+msgid "%s hours"
+msgstr "%s часов"
+
+#: class/class-mainwp-child-back-wp-up.php:505
+msgid "Blog Time offset"
+msgstr "Смещение времени"
+
+#: class/class-mainwp-child-back-wp-up.php:504
+msgid "Blog Timezone"
+msgstr "Часовой пояс"
+
+#: class/class-mainwp-child-timecapsule.php:1191
+#: class/class-mainwp-child-back-wp-up.php:503
+msgid "Blog Time"
+msgstr "Время на сайте"
+
+#: class/class-mainwp-child-timecapsule.php:1190
+#: class/class-mainwp-child-back-wp-up.php:502
+msgid "Server Time"
+msgstr "Время на сервере"
+
+#: class/class-mainwp-child-timecapsule.php:1185
+#: class/class-mainwp-child-timecapsule.php:1187
+#: class/class-mainwp-child-back-wp-up.php:496
+#: class/class-mainwp-child-back-wp-up.php:498
+msgid "CHMOD Dir"
+msgstr "Правва CHMOD на папку"
+
+#: class/class-mainwp-child-back-wp-up.php:491
+#: class/class-mainwp-child-back-wp-up.php:493
+msgid "Disabled WP Cron"
+msgstr "Отключить Планировщик заданий WP"
+
+#: class/class-mainwp-child-back-wp-up.php:486
+#: class/class-mainwp-child-back-wp-up.php:488
+msgid "Alternative WP Cron"
+msgstr "Альтернативный планировщик задач WP"
+
+#: class/class-mainwp-child-timecapsule.php:1182
+#: class/class-mainwp-child-back-wp-up.php:484
+msgid "seconds"
+msgstr "сек."
+
+#: class/class-mainwp-child-timecapsule.php:1182
+#: class/class-mainwp-child-back-wp-up.php:484
+msgid "Maximum execution time"
+msgstr "Максимальное время выполнения"
+
+#: class/class-mainwp-child-back-wp-up.php:483
+msgid "Safe Mode"
+msgstr "Безопасный режим"
+
+#: class/class-mainwp-child-back-wp-up.php:482
+#: class/class-mainwp-child-back-wp-up.php:488
+#: class/class-mainwp-child-back-wp-up.php:493
+msgid "Off"
+msgstr "Выкл."
+
+#: class/class-mainwp-child-back-wp-up.php:482
+#: class/class-mainwp-child-back-wp-up.php:486
+#: class/class-mainwp-child-back-wp-up.php:491
+msgid "On"
+msgstr "Вкл."
+
+#: class/class-mainwp-child-timecapsule.php:1181
+#: class/class-mainwp-child-back-wp-up.php:481
+msgid "Current PHP user"
+msgstr "Текущий пользователь PHP"
+
+#: class/class-mainwp-child-timecapsule.php:1174
+#: class/class-mainwp-child-back-wp-up.php:480
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: class/class-mainwp-child-timecapsule.php:1173
+#: class/class-mainwp-child-server-information.php:665
+#: class/class-mainwp-child-back-wp-up.php:479
+msgid "Operating System"
+msgstr "Операционная система"
+
+#: class/class-mainwp-child-timecapsule.php:1172
+#: class/class-mainwp-child-back-wp-up.php:478
+msgid "Server"
+msgstr "Сервер"
+
+#: class/class-mainwp-child-back-wp-up.php:473
+msgid "Log folder %s is not writable."
+msgstr "Папка с журналами %s нечитабельная."
+
+#: class/class-mainwp-child-back-wp-up.php:471
+msgid "Logs folder %s not exist."
+msgstr "Папка с журналами %s не существует."
+
+#: class/class-mainwp-child-back-wp-up.php:466
+msgid "Log folder:"
+msgstr "Папка с журналами событий:"
+
+#: class/class-mainwp-child-back-wp-up.php:460
+msgid "Temporary folder %s is not writable."
+msgstr "Временная папка %s нечитабельная."
+
+#: class/class-mainwp-child-back-wp-up.php:458
+msgid "Temp folder %s doesn't exist."
+msgstr "Временная папка %s не существует."
+
+#: class/class-mainwp-child-back-wp-up.php:456
+msgid "Temp folder:"
+msgstr "Временная папка:"
+
+#: class/class-mainwp-child-server-information.php:1340
+#: class/class-mainwp-child-back-wp-up.php:450
+msgid "Response Test O.K."
+msgstr "Тест ответа O.K."
+
+#: class/class-mainwp-child-back-wp-up.php:446
+msgid "The BackWPup HTTP response header returns a false value: \"%s\""
+msgstr "Заголовок HTTP вернул значение: \"%s\""
+
+#: class/class-mainwp-child-server-information.php:1332
+#: class/class-mainwp-child-back-wp-up.php:442
+msgid "The HTTP response test get a false http status (%s)"
+msgstr "Возникла ошибка на тест ответа HTTP (%s)"
+
+#: class/class-mainwp-child-server-information.php:1328
+#: class/class-mainwp-child-back-wp-up.php:440
+msgid "The HTTP response test get an error \"%s\""
+msgstr "Возникла ошибка \"%s\" на тест ответа HTTP"
+
+#: class/class-mainwp-child-back-wp-up.php:436
+msgid "Server self connect:"
+msgstr "Самостоятельно подключить сервер:"
+
+#: class/class-mainwp-child-back-wp-up.php:434
+msgid "WP-Cron url:"
+msgstr "WP-Cron url:"
+
+#: class/class-mainwp-child-timecapsule.php:1168
+#: class/class-mainwp-child-back-wp-up.php:432
+msgid "unavailable"
+msgstr "недоступно"
+
+#: class/class-mainwp-child-timecapsule.php:1165
+#: class/class-mainwp-child-back-wp-up.php:430
+msgid "cURL SSL version"
+msgstr "Версия cURL SSL"
+
+#: class/class-mainwp-child-timecapsule.php:1164
+#: class/class-mainwp-child-timecapsule.php:1168
+#: class/class-mainwp-child-back-wp-up.php:429
+#: class/class-mainwp-child-back-wp-up.php:432
+msgid "cURL version"
+msgstr "Версия cURL"
+
+#: class/class-mainwp-child-timecapsule.php:1160
+#: class/class-mainwp-child-back-wp-up.php:426
+msgid "MySQL version"
+msgstr "Версия MySQL"
+
+#: class/class-mainwp-child-timecapsule.php:1159
+#: class/class-mainwp-child-back-wp-up.php:425
+msgid "PHP version"
+msgstr "Версия PHP"
+
+#: class/class-mainwp-child-back-wp-up.php:422
+msgid "BackWPup Pro version"
+msgstr "Премиум-версия BackWPup"
+
+#: class/class-mainwp-child-back-wp-up.php:420
+msgid "Get pro."
+msgstr "Получить премиум-версию."
+
+#: class/class-mainwp-child-back-wp-up.php:420
+msgid "BackWPup version"
+msgstr "Версия BackWPup"
+
+#: class/class-mainwp-child-timecapsule.php:1148
+#: class/class-mainwp-child-back-wp-up.php:418
+msgid "WordPress version"
+msgstr "Версия WordPress"
+
+#: class/class-mainwp-child-timecapsule.php:1147
+#: class/class-mainwp-child-ithemes-security.php:645
+#: class/class-mainwp-child-ithemes-security.php:654
+#: class/class-mainwp-child-server-information.php:558
+#: class/class-mainwp-child-back-wp-up.php:416
+#: class/class-mainwp-child-back-wp-up.php:417
+msgid "Value"
+msgstr "Значение"
+
+#: class/class-mainwp-child-timecapsule.php:1147
+#: class/class-mainwp-child-back-wp-up.php:416
+#: class/class-mainwp-child-back-wp-up.php:417
+msgid "Setting"
+msgstr "Настройки"
+
+#: class/class-mainwp-child-back-wp-up.php:211
+msgid "Wrong action."
+msgstr "Неправильное действие."
+
+#: class/class-mainwp-child-back-wp-up.php:134
+msgid "Missing action."
+msgstr "Отсутствует действие."
+
+#: class/class-mainwp-child-back-wp-up.php:111
+msgid "Please install BackWPup plugin on child website"
+msgstr "Пожалуйста, установите плагин BackWPup на дочернем сайте"
+
+#: class/class-mainwp-child-back-up-wordpress.php:1018
+#: class/class-mainwp-child-back-up-wordpress.php:1047
+msgid "Error: Empty exclude directory path."
+msgstr "Ошибка: Пустые пути к папкам."
+
+#: class/class-mainwp-child-back-up-wordpress.php:992
+msgid "Done"
+msgstr "Готово"
+
+#: class/class-mainwp-child-back-up-wordpress.php:976
+msgid "Exclude &rarr;"
+msgstr "Исключить &rarr;"
+
+#: class/class-mainwp-child-back-up-wordpress.php:960
+msgid "Excluded"
+msgstr "Исключено"
+
+#: class/class-mainwp-child-back-up-wordpress.php:956
+msgid "Unreadable"
+msgstr "Нечитаемые"
+
+#: class/class-mainwp-child-back-up-wordpress.php:956
+msgid "Unreadable files won't be backed up."
+msgstr "Нечитаемые файлы не будут добавлены в резервную копию."
+
+#: class/class-mainwp-child-back-up-wordpress.php:944
+msgid "File"
+msgstr "Файл"
+
+#: class/class-mainwp-child-back-up-wordpress.php:908
+msgid "Recalculate the size of this directory"
+msgstr "Пересчитать размер этой папки"
+
+#: class/class-mainwp-child-back-up-wordpress.php:782
+#: class/class-mainwp-child-back-up-wordpress.php:940
+msgid "Folder"
+msgstr "Папка"
+
+#: class/class-mainwp-child-back-up-wordpress.php:780
+#: class/class-mainwp-child-back-up-wordpress.php:936
+msgid "Symlink"
+msgstr "Ссылка"
+
+#: class/class-mainwp-child-back-up-wordpress.php:763
+#: class/class-mainwp-child-back-up-wordpress.php:910
+msgid "Refresh"
+msgstr "Обновить"
+
+#: class/class-mainwp-child-ithemes-security.php:647
+#: class/class-mainwp-child-ithemes-security.php:656
+#: class/class-mainwp-child-back-up-wordpress.php:694
+#: class/class-mainwp-child-back-up-buddy.php:1480
+#: class/class-mainwp-child-back-up-buddy.php:1644
+#: class/class-mainwp-child-server-information.php:559
+msgid "Status"
+msgstr "Статус"
+
+#: class/class-mainwp-child-back-up-wordpress.php:692
+msgid "Permissions"
+msgstr "Разрешения"
+
+#: class/class-mainwp-child-back-up-wordpress.php:689
+msgid "Name"
+msgstr "Имя"
+
+#: class/class-mainwp-child-back-up-wordpress.php:652
+msgid "Here's a directory listing of all files on your site, you can browse through and exclude files or folders that you don't want included in your backup."
+msgstr "Вот список папок и всех файлов на вашем сайте, вы можете просматривать и исключать файлы или папки, которые вы не хотите включить в резервную копию."
+
+#: class/class-mainwp-child-back-up-wordpress.php:634
+msgid "Stop excluding"
+msgstr "Остановить за исключением"
+
+#: class/class-mainwp-child-back-up-wordpress.php:628
+msgid "Defined in wp-config.php"
+msgstr "Определено в wp-config.php"
+
+#: class/class-mainwp-child-back-up-wordpress.php:624
+msgid "Default rule"
+msgstr "Правило по умолчанию"
+
+#: class/class-mainwp-child-back-up-wordpress.php:584
+msgid "We automatically detect and ignore common <abbr title=\"Version Control Systems\">VCS</abbr> folders and other backup plugin folders."
+msgstr "Мы автоматически обнаружили и проигнорировали папки <abbr title=\"Version Control Systems\">VCS</abbr> и другие папки плагина для резервного копирования."
+
+#: class/class-mainwp-child-back-up-wordpress.php:581
+msgid "Currently Excluded"
+msgstr "В настоящее время исключено"
+
+#: class/class-mainwp-child-back-up-wordpress.php:547
+#: class/class-mainwp-child-updraft-plus-backups.php:2261
+#: class/class-mainwp-child-updraft-plus-backups.php:2296
+#: class/class-mainwp-child-updraft-plus-backups.php:3260
+msgid "Delete"
+msgstr "Удалить"
+
+#: class/class-mainwp-child-back-up-wordpress.php:533
+#: class/class-mainwp-child-back-up-wordpress.php:540
+#: class/class-mainwp-child-server-information.php:465
+msgid "Download"
+msgstr "Скачать"
+
+#: class/class-mainwp-child-back-up-wordpress.php:503
+msgid "calculating the size of your backup&hellip;"
+msgstr "расчет размера резервной копии&hellip;"
+
+#: class/class-mainwp-child-back-up-wordpress.php:503
+msgid "this shouldn't take long&hellip;"
+msgstr "это не займет много времени&hellip;"
+
+#: class/class-mainwp-child-back-up-wordpress.php:494
+#: class/class-mainwp-child-back-up-wordpress.php:499
+msgid "Backups will be compressed and should be smaller than this."
+msgstr "Резервные копии будут сжаты и должны быть меньше чем это."
+
+#: class/class-mainwp-child-back-up-wordpress.php:476
+msgid "This is where your backups will appear once you have some."
+msgstr "Где будут находится резервные копии после их создания."
+
+#: class/class-mainwp-child-back-up-wordpress.php:451
+#: class/class-mainwp-child-updraft-plus-backups.php:3108
+msgid "Actions"
+msgstr "Действия"
+
+#: class/class-mainwp-child-back-up-wordpress.php:450
+#: class/class-mainwp-child-back-up-wordpress.php:693
+msgid "Type"
+msgstr "Тип"
+
+#: class/class-mainwp-child-back-up-wordpress.php:449
+#: class/class-mainwp-child-back-up-wordpress.php:690
+msgid "Size"
+msgstr "Размер"
+
+#: class/class-mainwp-child.php:5797
+msgid "Missing action"
+msgstr "Отсутствует действие"
+
+#: class/class-mainwp-child.php:5794
+msgid "Invalid action"
+msgstr "Неверное действие"
+
+#: class/class-mainwp-child.php:5789
+msgid "Cannot destroy sessions"
+msgstr "Нельзя удалить сессии"
+
+#: class/class-mainwp-child.php:5779
+msgid "Cannot get user_id"
+msgstr "Не удается получить user_id"
+
+#: class/class-mainwp-child.php:5696
+msgid "PHP Version %s is unsupported."
+msgstr "PHP версия %s не поддерживается."
+
+#: class/class-mainwp-child.php:5115
+msgid "WordPress Filesystem error: "
+msgstr "Ошибка файловой системы: "
+
+#: class/class-mainwp-child.php:3067
+msgid "[%s] Your username and password"
+msgstr "[%s] Ваше имя пользователя и пароль"
+
+#: class/class-mainwp-child.php:3064
+msgid "Password: %s"
+msgstr "Пароль: %s"
+
+#: class/class-mainwp-child.php:3063
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+#: class/class-mainwp-child.php:3050
+msgid "Undefined error!"
+msgstr "Неопределенная ошибка!"
+
+#: class/class-mainwp-child.php:2415
+msgid "This child site is set to require a unique security ID. Please enter it before the connection can be established."
+msgstr "Для дочернего сайта нужно указать обязательный Уникальный идентификатор безопасности - пожалуйста, введите его, прежде чем будет установлено соединение."
+
+#: class/class-mainwp-clone.php:44 class/class-mainwp-child.php:1673
+#: class/class-mainwp-child.php:2086 class/class-mainwp-child.php:2111
+#: class/class-mainwp-child.php:2200 class/class-mainwp-child.php:2250
+#: class/class-mainwp-child.php:2257 class/class-mainwp-child.php:2401
+msgid "Invalid request!"
+msgstr "Неверный запрос!"
+
+#: class/class-mainwp-child.php:1119 class/class-mainwp-child.php:1123
+msgid "Authentication failed! Please deactivate and re-activate the MainWP Child plugin on this site."
+msgstr "Ошибка аутентификации! Пожалуйста, отключите и повторно активируйте плагин MainWP Child на этом сайте."
+
+#: class/class-mainwp-child.php:1044
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: class/class-mainwp-child.php:1036
+msgid "Your unique security ID is:"
+msgstr "Уникальный идентификатор безопасности:"
+
+#: class/class-mainwp-child.php:1032
+msgid "Require unique security ID"
+msgstr "Уникальный идентификатор безопасности"
+
+#: class/class-mainwp-child.php:1026
+msgid "The unique security ID adds additional protection between the child plugin and your Dashboard. The unique security ID will need to match when being added to the Dashboard. This is additional security and should not be needed in most situations."
+msgstr "Уникальный идентификатор безопасности добавляет дополнительную защиту между дочерним плагином и основным плагином. Уникальный идентификатор безопасности должен совпадать при добавлении в панель мониторинга. Это дополнительная безопасность и не требуется в большинстве ситуаций."
+
+#: class/class-mainwp-child.php:1023
+msgid "Connection settings"
+msgstr "Параметры подключения"

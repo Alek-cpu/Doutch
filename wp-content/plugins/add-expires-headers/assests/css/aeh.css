@@ -1,0 +1,136 @@
+.menu-collection {
+  padding: 15px !important;
+  border: none;
+}
+.menu-collection .collection-item {
+  margin: 15px 0px;
+  border: none;
+  border-radius: 25px;
+  background-color: transparent;
+  min-width: 170px;
+}
+.menu-collection .collection-item span{
+  color: #333333;
+  font-weight: 600;
+}
+.content-pad {
+  padding:20px;
+}
+.content-pad .main-content{
+  padding:20px;
+  border-radius: 5px;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color:transparent;
+  outline:none !important;
+}
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img{
+  box-shadow: unset;
+}
+.tabs .tab a{
+  color:#212121;
+  font-weight:600;
+  text-transform:capitalize;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+  color:#4DB6AC;
+  font-weight:600;
+  text-transform:capitalize;
+}
+.tabs .indicator {
+  background-color:#4DB6AC;
+}
+.small-plugin-image {
+  display: block;
+  width:100px;
+  margin:10px auto -20px;
+}
+.support-tab .divider {
+  margin:30px 0px 30px;
+}
+.promo i {
+    margin: 20px 0;
+    color: #F3A61D;
+    font-size: 4rem;
+    display: block;
+}
+.promo-caption {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.top-mar {
+  margin-top:20px;
+}
+.top-mar-10 {
+  margin-top:10px;
+}
+.right-mar-20{
+  margin-right: 20px;
+}
+.tb-pad-10 {
+  padding:10px 0px;
+}
+.top-mar-30 {
+  margin-top:30px;
+}
+.zero-mar {
+  margin:0px;
+}
+.font-p-med{
+  font-size:14px;
+}
+.text-color-free{
+  color: #dd7327 !important;
+}
+.aeh-badge {
+  background-color: #dd7327 !important;
+  min-width: 1.5rem !important;
+  border-radius: 50px !important;
+}
+.aeh-badge-ok {
+  background-color: #26A69A !important;
+  min-width: 1.5rem !important;
+  border-radius: 50px !important;
+}
+.aeh-badge.left, .aeh-badge-ok.left{
+  margin-right:15px !important;
+}
+.aeh-options .notice-info {
+    border-left-color: #DD7327 !important;
+}
+.aeh-options .progress{
+  display:none;
+}
+.aeh-options .clearfix{
+  clear:both;
+}
+.aeh-options .notice-info p {
+  font-size:15px;
+  text-align:center
+}
+.material-icons.info {
+  color: #DD7327 !important;
+}
+@media only screen and (max-width: 600px){
+  .aeh-options .right, .aeh-options .left{
+    float:none !important;
+  }
+  .aeh-options i.left {
+    float:left !important;
+  }
+  .aeh-options i.right {
+    float:right !important;
+  }
+  .aeh-options .col{
+    text-align:center;
+    margin:10px 0;
+  }
+  .aeh-options .valign-wrapper {
+    display:block !important;
+  }
+  .tabs .tab {
+    margin:0px;
+  }
+}

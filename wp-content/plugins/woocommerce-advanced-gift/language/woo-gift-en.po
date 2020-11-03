@@ -1,0 +1,946 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: language\n"
+"POT-Creation-Date: 2018-11-08 20:27+0330\n"
+"PO-Revision-Date: 2018-11-08 20:27+0330\n"
+"Last-Translator: \n"
+"Language-Team: proword\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/admin/add_edit_rule.php:13 core/admin/setting.php:18
+msgid "General Setting"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:18 core/admin/list_rule.php:26
+msgid "Status"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:25 core/admin/setting.php:615
+msgid "Active"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:27 core/admin/list_rule.php:93
+#: core/admin/report/rules.php:194
+msgid "Deactive"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:32 core/admin/list_rule.php:27
+msgid "Rule Name"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:33
+msgid "Enter Rule name"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:43 core/admin/report/rules.php:41
+msgid "Rule Description"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:60
+msgid "Only for Register Users"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:68 core/admin/add_edit_rule.php:228
+#: core/admin/add_edit_rule.php:248 core/admin/add_edit_rule.php:294
+#: core/admin/add_edit_rule.php:335 core/admin/add_edit_rule.php:386
+#: core/admin/add_edit_rule.php:439 core/admin/add_edit_rule.php:511
+#: core/admin/add_edit_rule.php:561 core/admin/add_edit_rule.php:604
+#: core/admin/add_edit_rule.php:739 core/admin/add_edit_rule.php:1183
+#: core/admin/setting.php:31 core/admin/setting.php:81
+#: core/admin/setting.php:93 core/admin/setting.php:148
+#: core/admin/setting.php:165 core/admin/setting.php:203
+#: core/admin/setting.php:425 core/admin/setting.php:439
+#: core/admin/setting.php:469
+msgid "Yes"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:70 core/admin/add_edit_rule.php:231
+#: core/admin/add_edit_rule.php:251 core/admin/add_edit_rule.php:297
+#: core/admin/add_edit_rule.php:338 core/admin/add_edit_rule.php:389
+#: core/admin/add_edit_rule.php:442 core/admin/add_edit_rule.php:513
+#: core/admin/add_edit_rule.php:563 core/admin/add_edit_rule.php:606
+#: core/admin/add_edit_rule.php:741 core/admin/add_edit_rule.php:1185
+#: core/admin/setting.php:34 core/admin/setting.php:82
+#: core/admin/setting.php:95 core/admin/setting.php:150
+#: core/admin/setting.php:168 core/admin/setting.php:205
+#: core/admin/setting.php:426 core/admin/setting.php:441
+#: core/admin/setting.php:470
+msgid "No"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:75
+msgid "Usage limit per Rule"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:77
+msgid "How many times this Gifts Rule can be used before it is void."
+msgstr ""
+
+#: core/admin/add_edit_rule.php:83 core/admin/add_edit_rule.php:129
+msgid "Unlimited usage"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:90
+msgid "(This rule is used in <span class=\"pw_limit_cunter_count\">"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:94 core/admin/add_edit_rule.php:95
+msgid "Reset"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:121
+msgid "Usage limit per user"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:123
+msgid ""
+"How many times this Gifts Rule can be used by an individual user.user ID for "
+"logged in users."
+msgstr ""
+
+#: core/admin/add_edit_rule.php:139
+msgid "Gifts"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:145
+msgid "Product"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:146
+msgid "Category"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:153
+msgid "Products"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:176 core/admin/add_edit_rule.php:344
+msgid "Selecte Category"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:181 core/admin/add_edit_rule.php:357
+msgid "Choose Category"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:206
+msgid "Number of gifts allowed"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:208
+msgid ""
+"number select gift in this rule! (if you selected multi product or category "
+"in above for gift)"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:215
+msgid "Please check \"User Can Add Multiple Gift In One Order\" In "
+msgstr ""
+
+#: core/admin/add_edit_rule.php:216 main.php:101
+msgid "Settings"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:222
+msgid "User Can choose a same gifts several times"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:238
+msgid "Rule Criteria"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:243
+msgid "Product Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:257
+msgid "Select Products"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:263 core/admin/add_edit_rule.php:353
+#: core/admin/add_edit_rule.php:453
+msgid "at least one of selected"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:264 core/admin/add_edit_rule.php:354
+#: core/admin/add_edit_rule.php:454
+msgid "all of selected"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:286
+msgid "exclude Product Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:288
+msgid "if At least one of the products assigned to cart , this Rule is exclude"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:303
+msgid "Select exclude Products"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:327
+msgid "Category Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:329
+msgid ""
+" At least one of the products assigned to category from list must be "
+"included in cart "
+msgstr ""
+
+#: core/admin/add_edit_rule.php:382
+msgid "Exclude Category Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:394
+msgid "Selecte Exclude Category"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:402
+msgid "Choose Exclude Category"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:430 core/admin/add_edit_rule.php:489
+msgid "Brands Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:432
+msgid ""
+" At least one of the products assigned to brand_depends from list must be "
+"included in cart "
+msgstr ""
+
+#: core/admin/add_edit_rule.php:447
+msgid "Selecte Brands"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:457
+msgid "Choose Brands"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:492
+msgid "Please BUY/activated woocommerce brand"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:503
+msgid "Users Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:505
+msgid "Which users can select gifts"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:519
+msgid "Users"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:553
+msgid "Roles Dependency"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:555
+msgid "Which roles can select gifts"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:568
+msgid "Roles"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:596
+msgid "Disable if any coupon is applied"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:598
+msgid "Disable this rule if any coupon is applied in cart"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:612
+msgid "Subtotal cart"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:614
+msgid ""
+"Subtotal cart to offer the gifts , if you set min/max please use `:` for "
+"example 10:30"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:622 core/admin/add_edit_rule.php:649
+#: core/admin/add_edit_rule.php:675
+msgid "is greater than"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:623 core/admin/add_edit_rule.php:650
+#: core/admin/add_edit_rule.php:676
+msgid "is less than"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:624 core/admin/add_edit_rule.php:651
+#: core/admin/add_edit_rule.php:677
+msgid "is equal to"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:625 core/admin/add_edit_rule.php:652
+msgid "From / To"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:630 core/admin/add_edit_rule.php:656
+#: core/admin/report/rules.php:47
+msgid "From"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:631 core/admin/add_edit_rule.php:657
+#: core/admin/report/rules.php:48
+msgid "To"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:639
+msgid "Sum of item quantities"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:641
+msgid "Enter Sum of item quantities products in cart"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:665
+msgid "Orders count completed"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:667
+msgid "Enter number of orders"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:686
+msgid "valid Rule Date from"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:699
+msgid "valid Rule Date to"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:713
+msgid "if any gift added to cart"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:715
+msgid "Disable Gifts if any gift was to cart"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:722
+msgid "Show all gifts this rule"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:723
+msgid "Disable Gifts this rule"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:724
+msgid "Hide Gifts this rule"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:731
+msgid "Auto Add Gifts To cart"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:733
+msgid "If activated, the gift will be added to cart Automatically"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:745
+msgid "Schedule Type"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:749
+msgid "All Of the Time"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:750
+msgid "Daily"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:751
+msgid "Weekly"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:754
+msgid "Day Of Month"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:772 core/admin/add_edit_rule.php:1146
+msgid "Monday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:780 core/admin/add_edit_rule.php:1149
+msgid "Tuesday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:787 core/admin/add_edit_rule.php:1153
+msgid "Wednesday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:794 core/admin/add_edit_rule.php:1156
+msgid "Thursday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:802 core/admin/add_edit_rule.php:1159
+msgid "Friday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:810 core/admin/add_edit_rule.php:1162
+msgid "Saturday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:817 core/admin/add_edit_rule.php:1165
+msgid "Sunday"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1110
+msgid "last"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1123
+msgid "Each"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1126
+msgid "First"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1129
+msgid "Second"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1132
+msgid "Third"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1135
+msgid "Fourth"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1138
+msgid "Last"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1168
+msgid "Of The Month"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1175
+msgid "Show Gifts in Single product page"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1177
+msgid "If activated, the gift will be displayed in the product page"
+msgstr ""
+
+#: core/admin/add_edit_rule.php:1194 core/admin/setting.php:573
+msgid "Save Changes"
+msgstr ""
+
+#: core/admin/list_product.php:16
+msgid "Days"
+msgstr ""
+
+#: core/admin/list_product.php:18
+msgid "Hours"
+msgstr ""
+
+#: core/admin/list_product.php:20 core/admin/setting.php:524
+msgid "Minutes"
+msgstr ""
+
+#: core/admin/list_product.php:22 core/admin/setting.php:533
+msgid "Seconds"
+msgstr ""
+
+#: core/admin/list_product.php:42
+msgid "S.No"
+msgstr ""
+
+#: core/admin/list_product.php:44
+msgid "Name"
+msgstr ""
+
+#: core/admin/list_product.php:45
+msgid "SKU"
+msgstr ""
+
+#: core/admin/list_product.php:46 core/discount_cart_old.php:1661
+msgid "Price"
+msgstr ""
+
+#: core/admin/list_product.php:47
+msgid "Categories"
+msgstr ""
+
+#: core/admin/list_product.php:48
+msgid "Tags"
+msgstr ""
+
+#: core/admin/list_product.php:49
+msgid "Featured"
+msgstr ""
+
+#: core/admin/list_product.php:50 core/admin/report/guest.php:29
+#: core/admin/report/rules.php:62
+msgid "Date"
+msgstr ""
+
+#: core/admin/list_rule.php:28
+msgid "From Date"
+msgstr ""
+
+#: core/admin/list_rule.php:29
+msgid "To Date"
+msgstr ""
+
+#: core/admin/list_rule.php:32
+msgid "Last Modified"
+msgstr ""
+
+#: core/admin/list_rule.php:34
+msgid "Actions"
+msgstr ""
+
+#: core/admin/report/customer.php:12
+msgid "List Register User"
+msgstr ""
+
+#: core/admin/report/customer.php:13
+msgid "THE GIFT'S USED BY Register User in SHOP"
+msgstr ""
+
+#: core/admin/report/customer.php:27
+msgid "User"
+msgstr ""
+
+#: core/admin/report/customer.php:29 core/admin/report/main.php:48
+#: core/discount_cart_old.php:1662
+msgid "Quantity"
+msgstr ""
+
+#: core/admin/report/customer.php:30
+msgid "Show Gifts"
+msgstr ""
+
+#: core/admin/report/customer.php:118
+msgid "Gift's Used By"
+msgstr ""
+
+#: core/admin/report/customer.php:123 core/admin/report/main.php:113
+msgid "Report Description"
+msgstr ""
+
+#: core/admin/report/customer.php:127
+msgid "Gifts Name"
+msgstr ""
+
+#: core/admin/report/customer.php:128
+msgid "quantity"
+msgstr ""
+
+#: core/admin/report/guest.php:11
+msgid "Used Guest Gift's"
+msgstr ""
+
+#: core/admin/report/guest.php:12
+msgid "The Gift's Used By Guest In Shop"
+msgstr ""
+
+#: core/admin/report/guest.php:26 core/admin/report/rules.php:63
+msgid "Gift Name"
+msgstr ""
+
+#: core/admin/report/guest.php:27
+msgid "Biling Name"
+msgstr ""
+
+#: core/admin/report/guest.php:28
+msgid "Biling Email"
+msgstr ""
+
+#: core/admin/report/guest.php:30 core/admin/report/rules.php:166
+msgid "Action"
+msgstr ""
+
+#: core/admin/report/guest.php:54 core/admin/report/rules.php:82
+#: core/admin/report/rules.php:94
+msgid "View Order"
+msgstr ""
+
+#: core/admin/report/guest.php:55
+msgid "Used Rule"
+msgstr ""
+
+#: core/admin/report/main.php:28
+msgid "Best Gifts Product"
+msgstr ""
+
+#: core/admin/report/main.php:29
+msgid "The Most Sold Gift's Product"
+msgstr ""
+
+#: core/admin/report/main.php:47
+msgid "Product Name"
+msgstr ""
+
+#: core/admin/report/main.php:112
+msgid "Count of used rules(Min / Max used rules)"
+msgstr ""
+
+#: core/admin/report/main.php:126 core/admin/report/rules.php:163
+msgid "Rule"
+msgstr ""
+
+#: core/admin/report/main.php:127
+msgid "Count Used"
+msgstr ""
+
+#: core/admin/report/rules.php:32
+msgid "Rule Id"
+msgstr ""
+
+#: core/admin/report/rules.php:37
+msgid "Rule name"
+msgstr ""
+
+#: core/admin/report/rules.php:45
+msgid "Valid Rule"
+msgstr ""
+
+#: core/admin/report/rules.php:55
+msgid "Users That Used This Rule"
+msgstr ""
+
+#: core/admin/report/rules.php:60
+msgid "Email/Billing email"
+msgstr ""
+
+#: core/admin/report/rules.php:61
+msgid "name"
+msgstr ""
+
+#: core/admin/report/rules.php:64
+msgid "order"
+msgstr ""
+
+#: core/admin/report/rules.php:88 main.php:179
+msgid "Guest"
+msgstr ""
+
+#: core/admin/report/rules.php:157
+msgid "Rule Usage Report"
+msgstr ""
+
+#: core/admin/report/rules.php:158
+msgid "The Usage Of Rules"
+msgstr ""
+
+#: core/admin/report/rules.php:164
+msgid "Usage By Customers"
+msgstr ""
+
+#: core/admin/report/rules.php:165
+msgid "Usage Limit Rule"
+msgstr ""
+
+#: core/admin/report/rules.php:201
+msgid "View List User Usage"
+msgstr ""
+
+#: core/admin/report/rules.php:202
+msgid "Edit Rule"
+msgstr ""
+
+#: core/admin/setting-tab.php:27
+msgid "Flash Sale"
+msgstr ""
+
+#: core/admin/setting-tab.php:34
+msgid "Product Brand base"
+msgstr ""
+
+#: core/admin/setting-tab.php:85
+msgid "a Page"
+msgstr ""
+
+#: core/admin/setting-tab.php:86
+msgid "Page contents: [pw_woocommerce_brands]"
+msgstr ""
+
+#: core/admin/setting-tab.php:120
+msgid "General Settings"
+msgstr ""
+
+#: core/admin/setting-tab.php:122
+msgid "Style Count Down"
+msgstr ""
+
+#: core/admin/setting-tab.php:123
+msgid "Choose Count Down"
+msgstr ""
+
+#: core/admin/setting-tab.php:129
+msgid "Style 1"
+msgstr ""
+
+#: core/admin/setting-tab.php:130
+msgid "Style 2"
+msgstr ""
+
+#: core/admin/setting-tab.php:131
+msgid "Style 3"
+msgstr ""
+
+#: core/admin/setting-tab.php:136
+msgid "Show Count Down Single"
+msgstr ""
+
+#: core/admin/setting-tab.php:137
+msgid "Show Count Down Single."
+msgstr ""
+
+#: core/admin/setting-tab.php:144 core/admin/setting-tab.php:145
+msgid "Show Count Down Archive"
+msgstr ""
+
+#: core/admin/setting-tab.php:152
+msgid "Colour"
+msgstr ""
+
+#: core/admin/setting-tab.php:153
+msgid "The base colour for Dark Skin Colour. Default<code>#414141</code>."
+msgstr ""
+
+#: core/admin/setting-tab.php:161
+msgid "Font Size"
+msgstr ""
+
+#: core/admin/setting-tab.php:162
+msgid "Font Size For CountDown"
+msgstr ""
+
+#: core/admin/setting-tab.php:168
+msgid "Small"
+msgstr ""
+
+#: core/admin/setting-tab.php:169
+msgid "Medium"
+msgstr ""
+
+#: core/admin/setting-tab.php:170
+msgid "Large"
+msgstr ""
+
+#: core/admin/setting.php:23
+msgid "user can add Multiple gift<br /> in one order"
+msgstr ""
+
+#: core/admin/setting.php:25
+msgid "If Checked yes, user can select multiple gifts."
+msgstr ""
+
+#: core/admin/setting.php:40
+msgid "Minimum cart amount for multiple"
+msgstr ""
+
+#: core/admin/setting.php:42
+msgid "Minimum cart amount to offer the gifts."
+msgstr ""
+
+#: core/admin/setting.php:57
+msgid "Number of product gifts"
+msgstr ""
+
+#: core/admin/setting.php:59
+msgid "please enter total number of multiple gifts that can be selected."
+msgstr ""
+
+#: core/admin/setting.php:72
+msgid "Popup Settings"
+msgstr ""
+
+#: core/admin/setting.php:77
+msgid "Show Popup in All Device"
+msgstr ""
+
+#: core/admin/setting.php:89
+msgid "Hide Popup in Mobie"
+msgstr ""
+
+#: core/admin/setting.php:103 core/admin/setting.php:380
+msgid "Item Per View"
+msgstr ""
+
+#: core/admin/setting.php:115 core/admin/setting.php:392
+msgid "Item Width"
+msgstr ""
+
+#: core/admin/setting.php:125 core/admin/setting.php:402
+msgid "Item margin"
+msgstr ""
+
+#: core/admin/setting.php:134 core/admin/setting.php:411
+msgid "Item Per Slide"
+msgstr ""
+
+#: core/admin/setting.php:144 core/admin/setting.php:421
+msgid "Show Controls"
+msgstr ""
+
+#: core/admin/setting.php:157 core/admin/setting.php:432
+msgid "Show Pagination"
+msgstr ""
+
+#: core/admin/setting.php:176 core/admin/setting.php:449
+msgid "Slide Speed"
+msgstr ""
+
+#: core/admin/setting.php:180 core/admin/setting.php:182
+#: core/admin/setting.php:184 core/admin/setting.php:186
+#: core/admin/setting.php:188 core/admin/setting.php:190
+#: core/admin/setting.php:192 core/admin/setting.php:453
+#: core/admin/setting.php:454 core/admin/setting.php:455
+#: core/admin/setting.php:456 core/admin/setting.php:457
+#: core/admin/setting.php:458 core/admin/setting.php:459
+msgid "sec"
+msgstr ""
+
+#: core/admin/setting.php:199 core/admin/setting.php:465
+msgid "Auto Play"
+msgstr ""
+
+#: core/admin/setting.php:214
+msgid "Cart Gift Settings"
+msgstr ""
+
+#: core/admin/setting.php:219
+msgid "Show Popup"
+msgstr ""
+
+#: core/admin/setting.php:248
+msgid "View Gifts in Cart"
+msgstr ""
+
+#: core/admin/setting.php:250
+msgid "How view Gifts in cart page."
+msgstr ""
+
+#: core/admin/setting.php:257
+msgid "Carousel"
+msgstr ""
+
+#: core/admin/setting.php:260
+msgid "Grid"
+msgstr ""
+
+#: core/admin/setting.php:264
+msgid "Desktop Columns"
+msgstr ""
+
+#: core/admin/setting.php:268 core/admin/setting.php:271
+#: core/admin/setting.php:274 core/admin/setting.php:277
+#: core/admin/setting.php:280 core/admin/setting.php:339
+#: core/admin/setting.php:342 core/admin/setting.php:345
+#: core/admin/setting.php:348 core/admin/setting.php:351
+#: core/admin/setting.php:361 core/admin/setting.php:364
+#: core/admin/setting.php:367 core/admin/setting.php:370
+#: core/admin/setting.php:373
+msgid "Columns"
+msgstr ""
+
+#: core/admin/setting.php:286
+msgid "Gift Number Per Page"
+msgstr ""
+
+#: core/admin/setting.php:335
+msgid "Tablet Columns"
+msgstr ""
+
+#: core/admin/setting.php:357
+msgid "Mobile Columns"
+msgstr ""
+
+#: core/admin/setting.php:476
+msgid "RTL Carousel"
+msgstr ""
+
+#: core/admin/setting.php:483
+msgid "False"
+msgstr ""
+
+#: core/admin/setting.php:484
+msgid "True"
+msgstr ""
+
+#: core/admin/setting.php:492
+msgid "Localization"
+msgstr ""
+
+#: core/admin/setting.php:497
+msgid "Popup Title"
+msgstr ""
+
+#: core/admin/setting.php:506
+msgid "Shopping cart Gift Title"
+msgstr ""
+
+#: core/admin/setting.php:515
+msgid "Hour"
+msgstr ""
+
+#: core/admin/setting.php:542
+msgid "Free"
+msgstr ""
+
+#: core/admin/setting.php:551 core/discount_cart_new.php:303
+msgid "ADD GIFT"
+msgstr ""
+
+#: core/admin/setting.php:560
+msgid "product gift(s)"
+msgstr ""
+
+#: core/admin/setting.php:621
+msgid "Selecte Product as a predifined gift"
+msgstr ""
+
+#: core/admin/setting.php:627
+msgid "Selecte Products"
+msgstr ""
+
+#: core/admin/setting.php:630
+msgid "Choose Product"
+msgstr ""
+
+#: core/discount_cart_old.php:1663
+msgid "Total"
+msgstr ""
+
+#: main.php:111 main.php:112
+msgid "Woo Advanced Gift"
+msgstr ""
+
+#: main.php:173
+msgid "Dashboard"
+msgstr ""
+
+#: main.php:175
+msgid "Rules"
+msgstr ""
+
+#: main.php:177
+msgid "Customer"
+msgstr ""
+
+#: main.php:266
+msgid "Rule is Deleted"
+msgstr ""

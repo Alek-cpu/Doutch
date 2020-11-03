@@ -1,0 +1,1464 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+/**, *::after, *::before {
+  box-sizing: border-box;
+}*/
+
+
+
+/*
+section {
+  !* used just to separate different styles *!
+  border-bottom: 1px solid #e6e6e6;
+  padding: 4em 0;
+}
+section h2 {
+  width: 90%;
+  margin: 0 auto 2em;
+  color: #2c3f4c;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+*/
+/*@media only screen and (min-width: 1170px) {
+  section {
+    padding: 6em 0;
+  }
+  section h2 {
+    margin: 0 auto 3em;
+  }
+}*/
+
+/* --------------------------------
+
+Basic Style
+
+-------------------------------- */
+.cd-breadcrumb, .cd-multi-steps {
+    width: 90%;
+    /*max-width: 768px;*/
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    background-color: #edeff0;
+    border-radius: .25em;
+}
+.cd-breadcrumb:after, .cd-multi-steps:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cd-breadcrumb li, .cd-multi-steps li {
+    display: inline-block;
+    float: left;
+    margin: 0.5em 0;
+}
+.cd-breadcrumb li::after, .cd-multi-steps li::after {
+    /* this is the separator between items */
+    display: inline-block;
+    content: '\00bb';
+    margin: 0 .6em;
+    color: #959fa5;
+}
+.cd-breadcrumb li:last-of-type::after, .cd-multi-steps li:last-of-type::after {
+    /* hide separator after the last item */
+    display: none;
+}
+.cd-breadcrumb li > *, .cd-multi-steps li > * {
+    /* single step */
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #2c3f4c;
+}
+.cd-breadcrumb li.current > *, .cd-multi-steps li.current > * {
+    /* selected step */
+    color: #96c03d;
+}
+.no-touch .cd-breadcrumb a:hover, .no-touch .cd-multi-steps a:hover {
+    /* steps already visited */
+    color: #fff;
+}
+.cd-breadcrumb.custom-separator li::after, .cd-multi-steps.custom-separator li::after {
+    /* replace the default arrow separator with a custom icon */
+    content: '';
+    height: 16px;
+    width: 16px;
+    background: url(../img/cd-custom-separator.svg) no-repeat center center;
+    vertical-align: middle;
+}
+.cd-breadcrumb.custom-icons li > *::before, .cd-multi-steps.custom-icons li > *::before {
+    /* add a custom icon before each item */
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: .4em;
+    margin-top: -2px;
+    background: url(../img/cd-custom-icons-01.svg) no-repeat 0 0;
+    vertical-align: middle;
+}
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(2) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(2) > *::before {
+    /* change custom icon using image sprites */
+    background-position: -20px 0;
+}
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(3) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(3) > *::before {
+    background-position: -40px 0;
+}
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(4) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(4) > *::before {
+    background-position: -60px 0;
+}
+.cd-breadcrumb.custom-icons li.current:first-of-type > *::before, .cd-multi-steps.custom-icons li.current:first-of-type > *::before {
+    /* change custom icon for the current item */
+    background-position: 0 -20px;
+}
+.cd-breadcrumb.custom-icons li.current:nth-of-type(2) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(2) > *::before {
+    background-position: -20px -20px;
+}
+.cd-breadcrumb.custom-icons li.current:nth-of-type(3) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(3) > *::before {
+    background-position: -40px -20px;
+}
+.cd-breadcrumb.custom-icons li.current:nth-of-type(4) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(4) > *::before {
+    background-position: -60px -20px;
+}
+@media only screen and (min-width: 768px) {
+    .cd-breadcrumb, .cd-multi-steps {
+        padding: 0 1.2em;
+    }
+    .cd-breadcrumb li, .cd-multi-steps li {
+        margin: 1.2em 0;
+    }
+    .cd-breadcrumb li::after, .cd-multi-steps li::after {
+        margin: 0 1em;
+    }
+    .cd-breadcrumb li > *, .cd-multi-steps li > * {
+        font-size: 1.6rem;
+    }
+}
+
+
+/* --------------------------------
+
+Triangle breadcrumb
+
+-------------------------------- */
+@media only screen and (min-width: 768px) {
+    .cd-breadcrumb.triangle {
+        /* reset basic style */
+        background-color: transparent;
+        padding: 0;
+    }
+    .cd-breadcrumb.triangle li {
+        position: relative;
+        padding: 0;
+        margin: 4px 4px 4px 0;
+    }
+    .cd-breadcrumb.triangle li:last-of-type {
+        margin-right: 0;
+    }
+    .cd-breadcrumb.triangle li > * {
+        position: relative;
+        padding: 1em .8em 1em 2.5em;
+        color: #2c3f4c;
+        background-color: #edeff0;
+        /* the border color is used to style its ::after pseudo-element */
+        border-color: #edeff0;
+    }
+    .cd-breadcrumb.triangle li.current > * {
+        /* selected step */
+        color: #ffffff;
+        background-color: #96c03d;
+        border-color: #96c03d;
+    }
+    .cd-breadcrumb.triangle li:first-of-type > * {
+        padding-left: 1.6em;
+        border-radius: .25em 0 0 .25em;
+    }
+    .cd-breadcrumb.triangle li:last-of-type > * {
+        padding-right: 1.6em;
+        border-radius: 0 .25em .25em 0;
+    }
+    .no-touch .cd-breadcrumb.triangle a:hover {
+        /* steps already visited */
+        color: #ffffff;
+        background-color: #2c3f4c;
+        border-color: #2c3f4c;
+    }
+    .cd-breadcrumb.triangle li::after, .cd-breadcrumb.triangle li > *::after {
+        /*
+            li > *::after is the colored triangle after each item
+            li::after is the white separator between two items
+        */
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 100%;
+        content: '';
+        height: 0;
+        width: 0;
+        /* 48px is the height of the <a> element */
+        border: 24px solid transparent;
+        border-right-width: 0;
+        border-left-width: 20px;
+    }
+    .cd-breadcrumb.triangle li::after {
+        /* this is the white separator between two items */
+        z-index: 1;
+        -webkit-transform: translateX(4px);
+        -moz-transform: translateX(4px);
+        -ms-transform: translateX(4px);
+        -o-transform: translateX(4px);
+        transform: translateX(4px);
+        border-left-color: #ffffff;
+        /* reset style */
+        margin: 0;
+    }
+    .cd-breadcrumb.triangle li > *::after {
+        /* this is the colored triangle after each element */
+        z-index: 2;
+        border-left-color: inherit;
+    }
+    .cd-breadcrumb.triangle li:last-of-type::after, .cd-breadcrumb.triangle li:last-of-type > *::after {
+        /* hide the triangle after the last step */
+        display: none;
+    }
+    .cd-breadcrumb.triangle.custom-separator li::after {
+        /* reset style */
+        background-image: none;
+    }
+    .cd-breadcrumb.triangle.custom-icons li::after, .cd-breadcrumb.triangle.custom-icons li > *::after {
+        /* 50px is the height of the <a> element */
+        border-top-width: 25px;
+        border-bottom-width: 25px;
+    }
+
+    @-moz-document url-prefix() {
+        .cd-breadcrumb.triangle li::after,
+        .cd-breadcrumb.triangle li > *::after {
+            /* fix a bug on Firefix - tooth edge on css triangle */
+            border-left-style: dashed;
+        }
+    }
+}
+/* --------------------------------
+
+Custom icons hover effects - breadcrumb and multi-steps
+
+-------------------------------- */
+@media only screen and (min-width: 768px) {
+    .no-touch .cd-breadcrumb.triangle.custom-icons li:first-of-type a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:first-of-type em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:first-of-type a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:first-of-type em::before {
+        /* change custom icon using image sprites - hover effect or current item */
+        background-position: 0 -40px;
+    }
+    .no-touch .cd-breadcrumb.triangle.custom-icons li:nth-of-type(2) a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:nth-of-type(2) em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:nth-of-type(2) a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:nth-of-type(2) em::before {
+        background-position: -20px -40px;
+    }
+    .no-touch .cd-breadcrumb.triangle.custom-icons li:nth-of-type(3) a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:nth-of-type(3) em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:nth-of-type(3) a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:nth-of-type(3) em::before {
+        background-position: -40px -40px;
+    }
+    .no-touch .cd-breadcrumb.triangle.custom-icons li:nth-of-type(4) a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:nth-of-type(4) em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:nth-of-type(4) a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:nth-of-type(4) em::before {
+        background-position: -60px -40px;
+    }
+}
+/* --------------------------------
+
+Multi steps indicator
+
+-------------------------------- */
+@media only screen and (min-width: 768px) {
+    .cd-multi-steps {
+        /* reset style */
+        background-color: transparent;
+        padding: 0;
+        /*text-align: center;*/
+    }
+
+    .cd-multi-steps li {
+        position: relative;
+        float: none;
+        margin: 0.4em 33px 0.4em 0;
+    }
+    .cd-multi-steps li:last-of-type {
+        margin-right: 0;
+    }
+    .cd-multi-steps li::after {
+        /* this is the line connecting 2 adjacent items */
+        position: absolute;
+        content: '';
+        height: 4px;
+        background: #DDE;
+        /* reset style */
+        margin: 0;
+    }
+    .cd-multi-steps li.visited::after {
+        background-color: #96c03d;
+    }
+    .cd-multi-steps li > *, .cd-multi-steps li.current > * {
+        position: relative;
+        color: #2c3f4c;
+    }
+
+    .cd-multi-steps.custom-separator li::after {
+        /* reset style */
+        height: 4px;
+        background: #edeff0;
+    }
+
+    .cd-multi-steps.text-center li::after {
+        position:absolute;
+        background-color:transparent;
+        width: 0;
+        height: 0;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 12px solid #2c3f4c;
+        right:-12px;
+        top:50%;
+        -webkit-transform: translateY(-50%) translateX(-1px);
+        -moz-transform: translateY(-50%) translateX(-1px);
+        -ms-transform: translateY(-50%) translateX(-1px);
+        -o-transform: translateY(-50%) translateX(-1px);
+        transform: translateY(-50%) translateX(-1px);
+        /*width: 100%;
+        top: 50%;
+        left: 60%;
+        -webkit-transform: translateY(-50%) translateX(-1px);
+        -moz-transform: translateY(-50%) translateX(-1px);
+        -ms-transform: translateY(-50%) translateX(-1px);
+        -o-transform: translateY(-50%) translateX(-1px);
+        transform: translateY(-50%) translateX(-1px);*/
+    }
+    .cd-multi-steps.text-center li > * {
+        z-index: 1;
+        padding: .6em 1.6em;
+        border-radius: .25em;
+        /*background-color: #CCCCCC;*/
+        background-color: #2c3f4c;
+        color:#fff;
+    }
+    .no-touch .cd-multi-steps.text-center a:hover {
+        /*background-color: #2c3f4c;*/
+    }
+    .cd-multi-steps.text-center li.current > *{
+        color: #ffffff;
+        background-color: #2c3f4c;
+    }
+    .cd-multi-steps.text-center li.visited > * {
+        color: #ffffff;
+        background-color: #96c03d;
+    }
+    .cd-multi-steps.text-center li.visited > a:hover{
+        cursor:default;
+    }
+    .cd-multi-steps.text-center.custom-icons li.visited a::before {
+        /* change the custom icon for the visited item - check icon */
+        background-position: 0 -60px;
+    }
+
+    .cd-multi-steps.text-top li, .cd-multi-steps.text-bottom li {
+
+        text-align: center;
+    }
+    .cd-multi-steps.text-top li::after, .cd-multi-steps.text-bottom li::after {
+        /* this is the line connecting 2 adjacent items */
+        position: absolute;
+        left: 50%;
+        /* 40px is the <li> right margin value */
+        width: calc(100% + 40px);
+    }
+    .cd-multi-steps.text-top li > *::before, .cd-multi-steps.text-bottom li > *::before {
+        /* this is the spot indicator */
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: #DBC;
+    }
+    .cd-multi-steps.text-center li.visited::after{
+        border-left-color: #96c03d;
+    }
+
+    .cd-multi-steps.text-top li.visited > *::before,
+    .cd-multi-steps.text-top li.current > *::before, .cd-multi-steps.text-bottom li.visited > *::before,
+    .cd-multi-steps.text-bottom li.current > *::before {
+        background-color: #96c03d;
+    }
+    .no-touch .cd-multi-steps.text-top a:hover, .no-touch .cd-multi-steps.text-bottom a:hover {
+        color: #96c03d;
+    }
+    .no-touch .cd-multi-steps.text-top a:hover::before, .no-touch .cd-multi-steps.text-bottom a:hover::before {
+        box-shadow: 0 0 0 3px rgba(150, 192, 61, 0.3);
+    }
+
+    .cd-multi-steps.text-top li::after {
+        /* this is the line connecting 2 adjacent items */
+        bottom: 4px;
+    }
+    .cd-multi-steps.text-top li > * {
+        padding-bottom: 20px;
+    }
+    .cd-multi-steps.text-top li > *::before {
+        /* this is the spot indicator */
+        bottom: 0;
+    }
+
+    .cd-multi-steps.text-bottom li::after {
+        /* this is the line connecting 2 adjacent items */
+        top: 3px;
+    }
+    .cd-multi-steps.text-bottom li > * {
+        padding-top: 20px;
+    }
+    .cd-multi-steps.text-bottom li > *::before {
+        /* this is the spot indicator */
+        top: 0;
+    }
+}
+/* --------------------------------
+
+Add a counter to the multi-steps indicator
+
+-------------------------------- */
+.cd-multi-steps.count li {
+    counter-increment: steps;
+}
+
+.cd-multi-steps.count li > *::before {
+    content: counter(steps) " - ";
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-multi-steps.text-top.count li > *::before,
+    .cd-multi-steps.text-bottom.count li > *::before {
+        /* this is the spot indicator */
+        content: counter(steps);
+        height: 26px;
+        width: 26px;
+        line-height: 26px;
+        font-size: 1.4rem;
+        color: #ffffff;
+    }
+
+    .cd-multi-steps.text-top.count li:not(.current) em::before,
+    .cd-multi-steps.text-bottom.count li:not(.current) em::before {
+        /* steps not visited yet - counter color */
+        color: #2c3f4c;
+    }
+
+    .cd-multi-steps.text-top.count li::after {
+        bottom: 11px;
+    }
+
+    .cd-multi-steps.text-top.count li > * {
+        padding-bottom: 34px;
+    }
+
+    .cd-multi-steps.text-bottom.count li::after {
+        top: 11px;
+    }
+
+    .cd-multi-steps.text-bottom.count li > * {
+        padding-top: 34px;
+    }
+}
+ol.cd-multi-steps>li>a{
+    color: #96c03d;
+    text-decoration: none;
+    font-size: 1em;
+}
+.settings-error p {
+    line-height: 40px;
+}
+span.dashicons.dashicons-yes {
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+label.text_label {
+    margin-right: 10px !important;
+}
+.feed-left {
+    width: 45%;
+}
+
+/*order page css*/
+#search-keyword, #searchbystatus{
+    width: 20%;
+    height: 28px;
+    margin-right: 2%
+}
+#amwscpf-order-filter{
+    margin-bottom: 0px;
+}
+#amwscpf-order-filter .fixed{
+    margin-top: 20px;
+}
+.tablenav.top, .tablenav.bottom{
+    display: none;
+}
+#postbox-container-2{
+    clear: both;
+}
+#poststuff #post-body.columns-2{
+    margin: 0px;
+    clear: both;
+}
+/*order page info*/
+.order-info{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+.order-info h3{
+    font-size: 14px;
+    margin: 0;
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    line-height: 1.5;
+}
+#search-order{
+    padding: 16px 12px;
+
+    font-size: 15px;
+    margin-bottom: 5px
+}
+/* end*/
+.info h5{
+    font-size: 14px;
+    margin: 15px auto;
+
+}
+.info ul{
+    line-height: 1.5;
+    padding-left: 40px;
+    list-style: none;
+}
+.info li{
+    font-size: 14px;
+}
+div.updated{
+    margin: 20px 0px;
+    width: 96%;
+}
+.export-target .feed-right .label{
+    display: inline-block;
+    width: 180px;
+}
+.un_collapse_label{
+    color: #0073aa;
+}
+
+                /*progress bar*/
+.progress-bar-horizonatal {
+  display:table;
+  width:100%;
+  margin:0 auto;
+}
+.progress-bar-horizonatal .step {
+  display:table-cell;
+  position:relative;
+  padding:24px;
+}
+.progress-bar-horizonatal .step:first-child:active {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.progress-bar-horizonatal .step:last-child:active {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/*.progress-bar-horizonatal .step:hover .step-circle {
+  background-color:#757575;
+}*/
+.progress-bar-horizonatal .step:first-child .step-bar-left,
+.progress-bar-horizonatal .step:last-child .step-bar-right {
+  display:none;
+}
+.step-circle.list {
+  display: inline-block;
+  width:15px;
+  height:15px;
+  margin:0 auto;
+  background-color:#999999;
+  border-radius: 50%;
+  text-align: center;
+  line-height:30px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#FFFFFF;
+  vertical-align: text-bottom;
+  background-color:#F96302;
+}
+div.step-circle.list{
+    margin-right: 8px;
+}
+.progress-bar-horizonatal .step .step-circle {
+  width:30px;
+  height:30px;
+  margin:0 auto;
+  background-color:#999999;
+  border-radius: 50%;
+  text-align: center;
+  line-height:30px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#FFFFFF;
+}
+.progress-bar-horizonatal.green .step{
+    width: 30%;
+}
+.progress-bar-horizonatal.green .step.active .step-circle {
+  background-color:#96c03d;
+}
+.progress-bar-horizonatal .step.active .step-circle {
+  background-color: rgb(33,150,243);
+}
+.progress-bar-horizonatal .step.done .step-circle:before {
+  font-family:'FontAwesome';
+  font-weight:100;
+  content: "\f00c";
+}
+.progress-bar-horizonatal .step.done .step-circle *,
+.progress-bar-horizonatal .step.editable .step-circle * {
+  display:none;
+}
+.progress-bar-horizonatal .step.editable .step-circle {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.progress-bar-horizonatal .step.editable .step-circle:before {
+  font-family:'FontAwesome';
+  font-weight:100;
+  content: "\f040";
+}
+.progress-bar-horizonatal .step .step-title {
+  margin-top:16px;
+  font-size:16px;
+  font-weight:600;
+}
+.progress-bar-horizonatal .step .step-title {
+  text-align: center;
+  color:rgba(0,0,0,.26);
+}
+.progress-bar-horizonatal .step.active .step-title {
+  font-weight: 600;
+  color:rgba(0,0,0,.87);
+}
+.progress-bar-horizonatal .step.active.done .step-title,
+.progress-bar-horizonatal .step.active.editable .step-title {
+  font-weight:600;
+}
+.progress-bar-horizonatal .step .step-optional {
+  font-size:12px;
+}
+.progress-bar-horizonatal .step .step-bar-left,
+.progress-bar-horizonatal .step .step-bar-right {
+  position:absolute;
+  top:36px;
+  height:1px;
+  border-top:1px solid #DDDDDD;
+}
+.progress-bar-horizonatal .step .step-bar-right {
+  right:0;
+  left:50%;
+  margin-left:20px;
+}
+.progress-bar-horizonatal .step .step-bar-left {
+  left:0;
+  right:50%;
+  margin-right:20px;
+}
+/*------------End of progress bar CSS-----------------*/
+.dashicons-arrow-right-alt2{
+    font-size: 17px;
+    text-align: left;
+}
+.logo-am{
+    text-align: center;
+}
+/*feed category selection CSS*/
+.modal-content ul li{
+    line-height: 1.5;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+.select-category{
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.category-main-div{
+    border: 2px solid #0073aa;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+[id^="div-"]{
+    border-right:2px solid #0073aa;
+}
+[id^="div-"]::-webkit-scrollbar {
+    width: 20px;
+}
+[id^="div-"]::-webkit-scrollbar-track-piece {
+background-color: #E1E1E1;
+}
+[id^="div-"]::-webkit-scrollbar-thumb {
+
+    background: #C6C6C6;
+}
+[id^="div-"]::-webkit-scrollbar-button {
+    width: 20px;
+    height: 25px;
+}
+[id^="div-"]::-webkit-scrollbar-button:vertical:decrement{
+    background-image: url(../images/caret-up.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: #E1E1E1;
+}
+[id^="div-"]::-webkit-scrollbar-button:vertical:increment{
+    background-image: url(../images/caret-down.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: #E1E1E1;
+}
+#select-button button{
+    width: 120px;
+    cursor: pointer;
+}
+.cancel-button, .select-button{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    vertical-align: top!important;
+    outline: none;
+    background-color: #e92000;
+}
+.close-button{
+    text-align: center;
+}
+.close-button .button-primary{
+    width: 120px;
+    text-align: center;
+    background: #E50601;
+    border-color: #E50601;
+    box-shadow: 0 1px 0 #E50601;
+    text-shadow: none;
+}
+.close-button .button-primary:hover{
+    border-color: #E50601;
+    background: #E50601;
+    box-shadow: 0 1px 0  #E50601;
+    color: #fff;
+    text-decoration: none;
+}
+#category_icon_left {
+    background-color: #0073aa;
+    display:inline-block;
+    width: 25px;
+    height: 315px;
+    position: absolute;
+    left: -24px;
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+#category_icon_right {
+    background-color: #0073aa;
+    display: inline-block;
+    width: 25px;
+    height: 315px;
+    position: absolute;
+    right: -24px;
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+.icon-arrow-left {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+}
+.icon-arrow-right {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+}
+.category-main-div ul li{
+    padding: 0 20px;
+}
+
+.category-main-div ul li:after{
+    content: '';
+    float: right;
+}
+.display-text{
+    color: #0073aa;
+    font-size: 16px;
+    font-weight: 600;
+}
+li:not(#final-category) .list-icon-arrow-right:before {
+    content: url(../images/rightbar.png);
+    float: right;
+    margin-top: 3px;
+}
+.category-select-body{
+    position: relative;
+}
+/*template page css*/
+table.dataTable{
+    margin: 0;
+}
+#post-body.columns-2 #postbox-container-1{
+    margin-right: 0;
+    width: 25%;
+    display: inline-block;
+    float: right;
+
+}
+#etcpf-uploaded-product-filter{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    margin-top:25px;
+}
+#poststuff #post-body.columns-2 #side-sortables{
+    width: 100%;
+}
+#poststuff .postbox-container.template-data{
+    width: 100%;
+}
+table.fixed.dataTable{
+    table-layout: auto;
+}
+.postbox#submitdiv{
+    min-width: 25%;
+}
+.wrap div.updated{
+    width: 96%;
+    margin: 14px 0% 17px;
+}
+/*New Design Amazon plugin*/
+#feed-type-value-input, #local_category_display{
+    cursor: pointer;
+}
+#amazon-default-categories label, #select-feed-type label{
+    cursor: auto;
+}
+#categoryDisplayText{
+    margin-left: 4px;
+}
+.postbox .inside{
+    font-size: 14px;
+}
+.createfeed#poststuff{
+    background-color:#0085ba;
+}
+.input-boxes{
+    display: inline-block;
+    vertical-align: top;
+}
+.desc{
+    margin-top: 5px;
+    display: block;
+}
+.feed-right-row.cs-option{
+    margin-bottom: 20px;
+}
+.field-name{
+    padding: 4px 0;
+    display: block;
+}
+.attribute-selection{
+    margin: 25px 0;
+}
+.attribute-selection a{
+    cursor: pointer;
+}
+.cs-option .label{
+    font-weight: 600;
+    margin-top: 5px;
+}
+.feed-create{
+    display: none;
+}
+.required-attr, .additional-attr{
+    display: inline-block;
+    padding: 0 0px 0px 15px;
+    border:2px solid #cde3ff;
+}
+.mapping-container{
+    width: 100%;
+}
+.additional-attr{
+    margin-left: 30px;
+}
+.required-attr{
+    padding-bottom: 4px;
+}
+.required-attr, .additional-attr{
+    width:45%;
+}
+.required-attributes, .optional-attributes{
+    height: 300px;
+    overflow: auto;
+}
+.field-name.label{
+    font-weight: 600;
+}
+#feed_product_type_box .label{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.attr-desc{
+    font-weight: 600;
+}
+.mapping-container{
+    text-align: center;
+}
+#required-attributes table tr td:first-child, #optional-attributes table tr td:first-child{
+    width: 40%;
+}
+
+#required-attributes table tr:first-child td:first-child{
+    font-weight: 600;
+    padding-bottom: 20px
+}
+#required-attributes table tr:first-child td:last-child{
+    font-weight: 600;
+    padding-bottom: 20px
+}
+#optional-attributes table tr:first-child td:first-child{
+    font-weight: 600;
+    padding-bottom: 20px
+}
+#optional-attributes table tr:first-child td:last-child{
+    font-weight: 600;
+    padding-bottom: 20px
+}
+#advance-section{
+    margin-top: 15px;
+}
+.nav-tab{
+    cursor: pointer;
+}
+#cpf-custom-feed{
+    display: none;
+}
+.amazon-feed_page_amwscpf-feed-tutorials #wpfooter{
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    color: #555d66;
+}
+/*report page table*/
+.widefat.amwscpf_reports tr th{
+    display: table-cell;
+}
+/*create feed*/
+.license-key-info{
+    margin-left: 20px;
+}
+.logo-am{
+    vertical-align: middle;
+}
+/*Upsell link CSS*/
+.plugin-link{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0085ba;
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 12px;
+}
+.logo{
+    box-shadow: 1px 1px #f2f2f2;
+    text-align: center;
+     padding:10px 0px;
+     border: 1px solid #e5e5e5;
+     border-radius: 5px;
+     vertical-align: top;
+     width: 190px;
+}
+.amazon img{
+    margin-top: 9px;
+}
+.plugin-desc{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 10px;
+    display: inline-block;
+    margin-top: 6px;
+}
+.logo.amazon, .logo.ebay{
+    margin-right: 20px;
+}
+.upsell-section{
+    height: auto;
+}
+
+.wrap div.updated p{
+    margin:.5em 5px;
+}
+.wrap.template-page{
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+}
+.wrap.template-page#poststuff {
+    width: 100%;
+    padding-top: 10px;
+    min-width: 763px;
+}
+.wrap.template div.updated{
+    box-sizing: border-box;
+}
+/*managefeed page*/
+.update-interval{
+    margin-left: 20px;
+    display: inline-block;
+}
+.upd-txt{
+    font-size: 14px;
+    font-weight: 600;
+}
+.postbox .inside.export-target{
+    padding-bottom: 0px;
+}
+.postbox table.form-table.update-table  {
+    width: 50%;
+    display: inline-block;
+}
+.manual-update{
+    display: inline-block;
+}
+#post-body.columns-2 #postbox-container-1.desc-update{
+    width: 40%;
+}
+.postbox.description{
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.widefat.manage-feed tr th:nth-child(4), .widefat.manage-feed tr td:nth-child(4){
+    display: none;
+}
+#spoststuff .label, .js .postbox .hndle{
+    cursor: default;
+}
+.widefat.manage-feed tr td:first-child{
+    vertical-align: middle;
+}
+/*report page*/
+.postbox.report h3.hndle{
+    padding: 8px 12px;
+    margin: 0;
+    font-size: 16px;
+}
+.postbox.report{
+    margin-top: 15px;
+}
+/*Create feed css*/
+.select-merchant{
+    width: 30%;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.logo-am a:focus , .exf-logo-link a:focus{
+    display: none;
+}
+.cpf_google_merchant_tutorials h2{
+    padding: 8px 12px;
+    margin: 0;
+}
+/*Variation listing CSS*/
+.sub-table{
+     border: 2px solid #ccc;
+    width: 100%
+}.select-variation{
+    padding: 15px 0;
+}
+.select-variation span{
+    font-weight: 600;
+    margin-right: 20px;
+}
+.postbox .inside.variation{
+    margin-top: 0;
+}
+#select-variation{
+    padding: 20px;
+    border: 2px solid #ccc;
+}
+.variation-select select{
+    width: 50%;
+}
+#table_color tr td, #table_size tr td{
+    padding: 5px 15px;
+}
+#table_color tr td:nth-child(2),#table_color tr td:nth-child(3), #table_size tr td:nth-child(2), #table_size tr td:nth-child(3){
+    width: 125px;
+}
+#table_color tr td:first-child, #table_size tr td:first-child{
+    width: 70px;
+}
+#table_color tr td, #table_size tr td{
+    font-weight: 600
+}
+#table_color tr td select, #table_size tr td select{
+    width: 100%;
+    opacity: 0.75;
+}
+#done_button{
+    margin-top: 20px;
+}
+.color-table, .size-table{
+    display: none;
+}
+/*-----------------------*/
+    /*Amazon order page*/
+/*-----------------------*/
+/*#order_data .order_data_column a.edit_address {
+    width: 14px;
+    height: 0;
+    padding: 14px 0 0;
+    margin: 0 0 0 6px;
+    overflow: hidden;
+    position: relative;
+    color: #999;
+    border: 0;
+    float: right;
+}*/
+/*#order_data .order_data_column a.edit_address::after {
+    font-family: Dashicons;
+    content: '\f464'
+}*/
+#order_data .order_data_column {
+    width: 31%;
+    padding: 0 2% 0 0;
+    float: left;
+}
+#order_data .order_data_column .form-field{
+    float: left;
+    clear: left;
+    width: 48%;
+    padding: 0;
+    margin: 9px 0 0;
+}
+#order_data .order_data_column ._billing_address_2_field, #order_data .order_data_column ._billing_last_name_field, #order_data .order_data_column ._billing_phone_field, #order_data .order_data_column ._billing_postcode_field, #order_data .order_data_column ._billing_state_field, #order_data .order_data_column ._shipping_address_2_field, #order_data .order_data_column ._shipping_last_name_field, #order_data .order_data_column ._shipping_postcode_field, #order_data .order_data_column ._shipping_state_field, #order_data .order_data_column .form-field.last {
+    float: right;
+    clear: right;
+    margin: 9px 0 0;
+}
+#order_data .order_data_column .form-field label {
+    display: block;
+    padding: 0 0 3px;
+}
+#order_data .order_data_column .form-field input, #order_data .order_data_column .form-field textarea {
+    width: 100%;
+}
+#order_data .order_data_column ._billing_company_field .wc-category-search, #order_data .order_data_column ._billing_company_field .wc-customer-search, #order_data .order_data_column ._billing_company_field .wc-enhanced-select, #order_data .order_data_column ._billing_company_field input, #order_data .order_data_column ._billing_company_field select, #order_data .order_data_column ._billing_company_field textarea, #order_data .order_data_column ._shipping_company_field .wc-category-search, #order_data .order_data_column ._shipping_company_field .wc-customer-search, #order_data .order_data_column ._shipping_company_field .wc-enhanced-select, #order_data .order_data_column ._shipping_company_field input, #order_data .order_data_column ._shipping_company_field select, #order_data .order_data_column ._shipping_company_field textarea, #order_data .order_data_column ._transaction_id_field .wc-category-search, #order_data .order_data_column ._transaction_id_field .wc-customer-search, #order_data .order_data_column ._transaction_id_field .wc-enhanced-select, #order_data .order_data_column ._transaction_id_field input, #order_data .order_data_column ._transaction_id_field select, #order_data .order_data_column ._transaction_id_field textarea, #order_data .order_data_column .form-field-wide .wc-category-search, #order_data .order_data_column .form-field-wide .wc-customer-search, #order_data .order_data_column .form-field-wide .wc-enhanced-select, #order_data .order_data_column .form-field-wide input, #order_data .order_data_column .form-field-wide select, #order_data .order_data_column .form-field-wide textarea {
+    width: 100%;
+}
+#order_data .order_data_column ._billing_company_field, #order_data .order_data_column ._shipping_company_field, #order_data .order_data_column ._transaction_id_field, #order_data .order_data_column .form-field-wide {
+    width: 100%;
+    clear: both;
+}
+#order_data .order_data_column .form-field .date-picker {
+    width: 50%;
+}
+#order_data .order_data_column .form-field .hour, #order_data .order_data_column .form-field .minute {
+    width: 3.5em;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: 32px;
+    padding-right: 24px;
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.panel-wrap.amazon-order, #amwscpf-order-filter{
+    clear: both
+}
+h2.amazon-order-data__heading{
+    padding:0px!important;
+}
+#order_data{
+    padding: 20px 23px 0 23px;
+    border-bottom: 1px solid #eee;
+}
+#postbox-container-4{
+    margin: 20px 0px;
+    background: #fff;
+    padding-bottom: 20px;
+    /*padding: 8px 12px;*/
+}
+#amazon-order-items .am-order-totals {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#amazon-order-items{
+    clear: both;
+}
+#amazon-order-items .inside {
+    display: block!important;
+}
+
+#amazon-order-items .inside {
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+}
+#amazon-order-items .handlediv, #amazon-order-items .hndle {
+    display: none;
+}
+#amazon-order-items .amazon_order_items_wrapper {
+    margin: 0;
+    overflow-x: auto;
+}
+#amazon-order-items .amazon_order_items_wrapper table.amazon_order_items {
+    width: 100%;
+    background: #fff;
+}
+#amazon-order-items .amazon_order_items_wrapper table.amazon_order_items thead th:first-child {
+    padding-left: 2em;
+}
+#amazon-order-items .amazon_order_items_wrapper table.amazon_order_items thead th.sortable {
+    cursor: pointer;
+}
+#amazon-order-items .amazon_order_items_wrapper table.amazon_order_items .item {
+    min-width: 200px;
+}
+#amazon-order-items .amazon_order_items_wrapper table.amazon_order_items thead th {
+    text-align: left;
+    padding: 1em;
+    font-weight: 400;
+    color: #999;
+    background: #f8f8f8;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#amazon-order-items .am-order-data-row {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0.5em 1em;
+    background: #f8f8f8;
+    line-height: 2em;
+    text-align: right;
+}
+#amazon-order-items .add-items .button {
+    float: left;
+    margin-right: .25em;
+}
+#amazon-order-items .add-items .button-primary {
+    float: none;
+    margin-right: 0;
+}
+.edit_bill, .save_bill, .edit_shp{
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+select#_billing_state,select#_billing_country{
+    width: 100%;
+}
+.amazon-order-data__heading{
+    font-size: 17px;
+}
+.amazon_meta.order_number{
+    font-size: 14px;
+}
+#order_data .order_data_column .form-field.form-field-wide.wc-order-status{
+    width: 48%;
+    float: left;
+    clear: left;
+}
+#order_data .order_data_column .form-field.form-field-wide.wc-customer-user{
+    width: 48%;
+    float: right;
+    clear: right;
+}
+/* Amazon orders => buyers table styles */
+.tableOptions p{
+    margin: 0 !important;
+}
+
+.tableOptions {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.tableSort span{
+    color: #316ab8;
+    padding: 0 10px;
+    font-weight: 600;
+    cursor: pointer;
+    vertical-align: text-top;
+}
+
+.tableSort .active{
+    color: #000;
+    font-weight: 700;
+}
+
+.searchTable {
+    float: right;
+}
+
+.tableOptions .submit{
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    padding: 0 12px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #56565b;
+    cursor: pointer;
+}
+
+.tableOptions select{
+    margin-bottom: 5px;
+}
+
+.amazon_buyer_list{
+    width: 100%;
+}
+
+.amazon_buyer_list {
+    border: 1px solid #e5e5e5;
+}
+
+.amazon_buyer_list thead,
+.amazon_buyer_list tfoot{
+    border: 1px solid #e5e5e5;
+    line-height: 35px;
+}
+
+.amazon_buyer_list tbody tr:nth-child(odd){
+    background-color: #f9f9f9;
+}
+
+.amazon_buyer_list tr{
+    text-align: left;
+}
+
+.amazon_buyer_list tbody tr{
+    height: 90px;
+}
+
+.amazon_buyer_list tr th:nth-child(1),
+.amazon_buyer_list tr td:nth-child(1){
+    width: 30px;
+    text-align: center;
+}
+
+.amazon_buyer_list tbody tr td{
+    vertical-align: top;
+    padding:10px;
+}
+
+#poststuff .amazon_buyer_list tbody tr td p{
+    margin: 0px;
+}
+.amazon_buyer_list a{
+    cursor: pointer;
+}
+
+.amazon_buyer_list .subText{
+    color: #868686;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.amazon_buyer_list .orderName{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.amazon_buyer_list .shipped{
+    color: #0f9637;
+}
+
+.showOnHover{
+    visibility: hidden;
+}
+
+.amazon_buyer_list tbody tr td:nth-child(3):hover .showOnHover{
+    visibility: visible;
+}
+
+
+.export-target-order-status table tr{
+    border-bottom: 1px solid #f3f0f0;
+}
+.export-target-order-status table tr::first-child{
+    border-bottom: none;
+}
+
+.export-target-order-status table tr td h2{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.export-target-order-status h3.hndle{
+    font-size: 18px !important;
+}
+.export-target-order-status table tr td h3{
+    font-weight: normal !important;
+    font-size: 16px;
+    margin: 10px !important;
+}
+
+.export-target-order-status table tr td{
+}
+.export-target-order-status table tr td select{
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+    margin: 7px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.export-target-order-status table tr td select option{
+    border-bottom: 1px solid #f3f0f0;
+}
+

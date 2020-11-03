@@ -1,0 +1,21 @@
+2020-11-02 03:45:42 u99005793 zRDAww-1kZ8rv31nt-000Oqp |< REMOTE=66.249.64.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i
+2020-11-02 03:45:42 u99005793 zRDAww-1kZ8rv31nt-000Oqp <= S=wordpress@almernaluxury.de SZ=62158 D=0 SID=803806219
+2020-11-02 03:45:42 u99005793 zRDAww-1kZ8rv31nt-000Oqp => almernaluxury@gmail.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MirfI-1juqIc3FA4-00erqZ
+2020-11-02 03:45:42 u99005793 zRDAww-1kZ8rv3TyT-000Oqv |< REMOTE=66.249.64.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i
+2020-11-02 03:45:42 u99005793 zRDAww-1kZ8rv3TyT-000Oqv <= S=wordpress@almernaluxury.de SZ=62155 D=0 SID=803806219
+2020-11-02 03:45:42 u99005793 zRDAww-1kZ8rv3TyT-000Oqv => info@almernaluxury.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1N95mR-1kKJNZ3eMR-016C7X
+2020-11-02 03:45:42 u99005793 zRv05v-1k97WY3rKC-00iDyx |< REMOTE=66.249.64.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i
+2020-11-02 03:45:42 u99005793 zRv05v-1k97WY3rKC-00iDyx <= S=wordpress@almernaluxury.de SZ=62155 D=0 SID=803806219
+2020-11-02 03:45:42 u99005793 zRv05v-1k97WY3rKC-00iDyx => saha990399@gmail.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1Mgek8-1jseRW40a4-00h3bX
+2020-11-02 05:33:47 u99005793 zRHFQN-1kdtVr3lIm-00DPMn |< REMOTE=112.133.244.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i
+2020-11-02 05:33:47 u99005793 zRHFQN-1kdtVr3lIm-00DPMn <= S=wordpress@almernaluxury.de SZ=7733 D=0 SID=803806219
+2020-11-02 05:33:50 u99005793 zRHFQN-1kdtVr3lIm-00DPMn => info@almernaluxury.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1My3Ad-1k9G9B02O7-00zYIx
+2020-11-02 19:11:50 u99005793 zRpXVT-1k3srK22VI-00ckdF |< REMOTE=82.165.87.0 SCRIPT=/wp-cron.php -- /usr/sbin/sendmail -t -i
+2020-11-02 19:11:50 u99005793 zRpXVT-1k3srK22VI-00ckdF <= S=info@almernaluxury.de SZ=17581 D=0 SID=803806219
+2020-11-02 19:11:50 u99005793 zRpXVT-1k3srK22VI-00ckdF => info@almernaluxury.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MhUQ7-1k5pKv2HtD-00ee38
+2020-11-02 22:30:36 u99005793 zQzRQK-1knbLj3zhj-00VOi4 |< REMOTE=185.189.114.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i
+2020-11-02 22:30:36 u99005793 zQzRQK-1knbLj3zhj-00VOi4 <= S=wordpress@almernaluxury.de SZ=1643 D=0 SID=803806219
+2020-11-02 22:30:37 u99005793 zQzRQK-1knbLj3zhj-00VOi4 => info@almernaluxury.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1N5mWp-1kGjVG037z-017B6T
+2020-11-03 01:09:00 u99005793 zR91g9-1kflUI3YuM-006GbG |< REMOTE=82.165.87.0 SCRIPT=/wp-cron.php -- /usr/sbin/sendmail -t -i
+2020-11-03 01:09:00 u99005793 zR91g9-1kflUI3YuM-006GbG <= S=wordpress@almernaluxury.de SZ=1267 D=0 SID=803806219
+2020-11-03 01:09:00 u99005793 zR91g9-1kflUI3YuM-006GbG => info@almernaluxury.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1Mq33i-1jwZJe3sjC-00nAs9

@@ -1,0 +1,6 @@
+US Postal Service,us-standard,2,52,item-count,1,*,x,4.99,0,0,yes
+US Postal Service,us-standard,2,47,item-count,1,*,x,3.99,0,0,yes
+US Fedex Express,us-express,2,52,item-count,1,*,x,7.99,0,0,no
+US Fedex Express,us-express,2,47,item-count,1,*,x,5.99,0,0,no
+Florida (Small),florida,1,*,price,0,49.99,x,2.99,2,1,yes
+Florida (Large),florida,1,*,price,50,*,$,15,0,0,no
